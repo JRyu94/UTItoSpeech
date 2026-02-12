@@ -1,0 +1,33 @@
+from .tal_dataset import (
+    PROMPT_TAGS,
+    TAL1_NAME,
+    TAL80_NAME,
+    Tal80Speaker,
+    TalSpontaneousSegment,
+    TalUtterance,
+    TalUtteranceId,
+    discover_tal_utterances,
+    filter_by_prompt_tags,
+    parse_spontaneous_lab,
+    parse_tal80_speaker_id,
+    parse_utterance_id,
+    prompt_disjoint_split,
+    speaker_disjoint_split,
+)
+
+__all__ = [
+    "PROMPT_TAGS",
+    "TAL1_NAME",
+    "TAL80_NAME",
+    "Tal80Speaker",
+    "TalSpontaneousSegment",
+    "TalUtterance",
+    "TalUtteranceId",
+    "discover_tal_utterances",
+    "filter_by_prompt_tags",
+    "parse_spontaneous_lab",
+    "parse_tal80_speaker_id",
+    "parse_utterance_id",
+    "prompt_disjoint_split",
+    "speaker_disjoint_split",
+]

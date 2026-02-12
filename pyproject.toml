@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "utitospeech"
+version = "0.1.0"
+description = "Research skeleton for multimodal diffusion-based articulatory-to-speech."
+requires-python = ">=3.10"
+dependencies = [
+  "torch>=2.1",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
