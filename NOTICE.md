@@ -8,3 +8,5 @@ The MIT license applies to the authors' release code. It does not relicense TaL 
 - Kaldi and SRILM are external dependencies of the optional recognition recipes. The corpus bigram uses SRILM Witten–Bell estimation; it is distinct from the provided training-only absolute-discount estimator.
 
 The prediction/reference records are supplied for verification of this study. Obtain recordings and dictionary resources through their original distribution channels for new training or decoding.
+
+`data/lexical_relations.json.gz` contains word labels and opaque equality-class IDs derived from the executed lexicons. It does not redistribute pronunciation strings. Source lexicon SHA-256 digests identify the two executed resources; the release verifies their class counts and reference-token coverage. This verification does not reconstruct the external source dictionary.

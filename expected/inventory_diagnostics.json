@@ -1,0 +1,1286 @@
+{
+  "method": {
+    "speakers": 81,
+    "draws": 5000,
+    "seed": 20261021,
+    "scope": "Exploratory fixed-model, fixed-text paired speaker analysis; LM condition includes smoothing and first-pass fMLLR hypotheses.",
+    "word_alignment_tie_policy": "Traceback prioritizes exact match, substitution, deletion, insertion. Word-error categories are descriptive and may depend on the optimal-path tie policy."
+  },
+  "conditions": [
+    {
+      "protocol": "shared",
+      "run": 1,
+      "jobs": 8,
+      "mode": "test_modal",
+      "lm": "corpus",
+      "subsets": {
+        "all": {
+          "errors32": 1879,
+          "errors40": 1961,
+          "words": 13614,
+          "utterances": 1209,
+          "wer32": 13.801968561774643,
+          "wer40": 14.404289701777582,
+          "delta_errors": -82,
+          "delta_pp": -0.6023211400029381,
+          "ci95": [
+            -1.349005442930517,
+            0.13963837867937184
+          ]
+        },
+        "repeated": {
+          "errors32": 481,
+          "errors40": 462,
+          "words": 7828,
+          "utterances": 484,
+          "wer32": 6.14460909555442,
+          "wer40": 5.901890648952478,
+          "delta_errors": 19,
+          "delta_pp": 0.24271844660194175,
+          "ci95": [
+            -0.5226925038245793,
+            1.087662393502589
+          ]
+        },
+        "specific": {
+          "errors32": 1398,
+          "errors40": 1499,
+          "words": 5786,
+          "utterances": 725,
+          "wer32": 24.161769789146216,
+          "wer40": 25.90736259937781,
+          "delta_errors": -101,
+          "delta_pp": -1.7455928102315934,
+          "ci95": [
+            -3.020889929394632,
+            -0.4983433803450921
+          ]
+        }
+      },
+      "interaction": {
+        "delta_pp": -1.9883112568335353,
+        "ci95": [
+          -3.41157089358741,
+          -0.5858996800419399
+        ]
+      }
+    },
+    {
+      "protocol": "shared",
+      "run": 1,
+      "jobs": 8,
+      "mode": "test_modal",
+      "lm": "training_only",
+      "subsets": {
+        "all": {
+          "errors32": 8731,
+          "errors40": 8563,
+          "words": 13614,
+          "utterances": 1209,
+          "wer32": 64.13251065080064,
+          "wer40": 62.89848685177024,
+          "delta_errors": 168,
+          "delta_pp": 1.23402379903041,
+          "ci95": [
+            0.4493157180654838,
+            2.00175995071348
+          ]
+        },
+        "repeated": {
+          "errors32": 4748,
+          "errors40": 4685,
+          "words": 7828,
+          "utterances": 484,
+          "wer32": 60.65406234031681,
+          "wer40": 59.84925907000511,
+          "delta_errors": 63,
+          "delta_pp": 0.8048032703117016,
+          "ci95": [
+            -0.24282160320241325,
+            1.883736552521385
+          ]
+        },
+        "specific": {
+          "errors32": 3983,
+          "errors40": 3878,
+          "words": 5786,
+          "utterances": 725,
+          "wer32": 68.83857587279641,
+          "wer40": 67.02385067404079,
+          "delta_errors": 105,
+          "delta_pp": 1.814725198755617,
+          "ci95": [
+            0.5343906223064989,
+            3.051737294182707
+          ]
+        }
+      },
+      "interaction": {
+        "delta_pp": 1.0099219284439154,
+        "ci95": [
+          -0.6760019990032373,
+          2.6528381175025317
+        ]
+      }
+    },
+    {
+      "protocol": "shared",
+      "run": 1,
+      "jobs": 8,
+      "mode": "test_silent",
+      "lm": "corpus",
+      "subsets": {
+        "all": {
+          "errors32": 3743,
+          "errors40": 3835,
+          "words": 13614,
+          "utterances": 1209,
+          "wer32": 27.493756427207288,
+          "wer40": 28.169531364771558,
+          "delta_errors": -92,
+          "delta_pp": -0.6757749375642721,
+          "ci95": [
+            -1.5295308904853404,
+            0.20476821600502504
+          ]
+        },
+        "repeated": {
+          "errors32": 1212,
+          "errors40": 1171,
+          "words": 7828,
+          "utterances": 484,
+          "wer32": 15.48288196218702,
+          "wer40": 14.9591211037302,
+          "delta_errors": 41,
+          "delta_pp": 0.5237608584568216,
+          "ci95": [
+            -0.32003073574816965,
+            1.4278565947466475
+          ]
+        },
+        "specific": {
+          "errors32": 2531,
+          "errors40": 2664,
+          "words": 5786,
+          "utterances": 725,
+          "wer32": 43.74351883857587,
+          "wer40": 46.04217075699965,
+          "delta_errors": -133,
+          "delta_pp": -2.2986519184237815,
+          "ci95": [
+            -3.920757138746574,
+            -0.7274995143632957
+          ]
+        }
+      },
+      "interaction": {
+        "delta_pp": -2.8224127768806033,
+        "ci95": [
+          -4.625697174748371,
+          -1.0603809976212237
+        ]
+      }
+    },
+    {
+      "protocol": "shared",
+      "run": 1,
+      "jobs": 8,
+      "mode": "test_silent",
+      "lm": "training_only",
+      "subsets": {
+        "all": {
+          "errors32": 10390,
+          "errors40": 10573,
+          "words": 13614,
+          "utterances": 1209,
+          "wer32": 76.31849566622594,
+          "wer40": 77.66270016159835,
+          "delta_errors": -183,
+          "delta_pp": -1.3442044953724108,
+          "ci95": [
+            -2.241131903654472,
+            -0.46201208404062116
+          ]
+        },
+        "repeated": {
+          "errors32": 5701,
+          "errors40": 5828,
+          "words": 7828,
+          "utterances": 484,
+          "wer32": 72.82830863566684,
+          "wer40": 74.45068983137455,
+          "delta_errors": -127,
+          "delta_pp": -1.6223811957077159,
+          "ci95": [
+            -2.800982773423668,
+            -0.4581901489117984
+          ]
+        },
+        "specific": {
+          "errors32": 4689,
+          "errors40": 4745,
+          "words": 5786,
+          "utterances": 725,
+          "wer32": 81.04044244728655,
+          "wer40": 82.00829588662289,
+          "delta_errors": -56,
+          "delta_pp": -0.9678534393363291,
+          "ci95": [
+            -2.3780896458315364,
+            0.4684430188033093
+          ]
+        }
+      },
+      "interaction": {
+        "delta_pp": 0.6545277563713868,
+        "ci95": [
+          -1.201935522803321,
+          2.5152362423644874
+        ]
+      }
+    },
+    {
+      "protocol": "shared",
+      "run": 2,
+      "jobs": 6,
+      "mode": "test_modal",
+      "lm": "corpus",
+      "subsets": {
+        "all": {
+          "errors32": 2009,
+          "errors40": 2116,
+          "words": 13614,
+          "utterances": 1209,
+          "wer32": 14.756867930071985,
+          "wer40": 15.542823563978258,
+          "delta_errors": -107,
+          "delta_pp": -0.785955633906273,
+          "ci95": [
+            -1.4639145073927682,
+            -0.10999204673161456
+          ]
+        },
+        "repeated": {
+          "errors32": 574,
+          "errors40": 591,
+          "words": 7828,
+          "utterances": 484,
+          "wer32": 7.332652018395503,
+          "wer40": 7.54982115482882,
+          "delta_errors": -17,
+          "delta_pp": -0.2171691364333163,
+          "ci95": [
+            -0.7789703655864318,
+            0.3698507843387323
+          ]
+        },
+        "specific": {
+          "errors32": 1435,
+          "errors40": 1525,
+          "words": 5786,
+          "utterances": 725,
+          "wer32": 24.80124438299343,
+          "wer40": 26.35672312478396,
+          "delta_errors": -90,
+          "delta_pp": -1.555478741790529,
+          "ci95": [
+            -2.8775108325637677,
+            -0.27638267088753776
+          ]
+        }
+      },
+      "interaction": {
+        "delta_pp": -1.3383096053572126,
+        "ci95": [
+          -2.73010737062069,
+          0.011693177895424626
+        ]
+      }
+    },
+    {
+      "protocol": "shared",
+      "run": 2,
+      "jobs": 6,
+      "mode": "test_modal",
+      "lm": "training_only",
+      "subsets": {
+        "all": {
+          "errors32": 8649,
+          "errors40": 8560,
+          "words": 13614,
+          "utterances": 1209,
+          "wer32": 63.53018951079771,
+          "wer40": 62.876450712501835,
+          "delta_errors": 89,
+          "delta_pp": 0.6537387982958719,
+          "ci95": [
+            -0.1319280563400776,
+            1.4498300068109995
+          ]
+        },
+        "repeated": {
+          "errors32": 4709,
+          "errors40": 4630,
+          "words": 7828,
+          "utterances": 484,
+          "wer32": 60.155850792028616,
+          "wer40": 59.14665304036791,
+          "delta_errors": 79,
+          "delta_pp": 1.0091977516607051,
+          "ci95": [
+            -0.06389776357827476,
+            2.087420998365553
+          ]
+        },
+        "specific": {
+          "errors32": 3940,
+          "errors40": 3930,
+          "words": 5786,
+          "utterances": 725,
+          "wer32": 68.09540269616315,
+          "wer40": 67.9225717248531,
+          "delta_errors": 10,
+          "delta_pp": 0.17283097131005876,
+          "ci95": [
+            -1.1176933432436267,
+            1.443557839046925
+          ]
+        }
+      },
+      "interaction": {
+        "delta_pp": -0.8363667803506464,
+        "ci95": [
+          -2.61038013991482,
+          0.9512602581328966
+        ]
+      }
+    },
+    {
+      "protocol": "shared",
+      "run": 2,
+      "jobs": 6,
+      "mode": "test_silent",
+      "lm": "corpus",
+      "subsets": {
+        "all": {
+          "errors32": 4098,
+          "errors40": 4149,
+          "words": 13614,
+          "utterances": 1209,
+          "wer32": 30.10136624063464,
+          "wer40": 30.475980608197442,
+          "delta_errors": -51,
+          "delta_pp": -0.374614367562803,
+          "ci95": [
+            -1.3254356069830102,
+            0.5191415512635095
+          ]
+        },
+        "repeated": {
+          "errors32": 1399,
+          "errors40": 1389,
+          "words": 7828,
+          "utterances": 484,
+          "wer32": 17.8717424629535,
+          "wer40": 17.743995912110375,
+          "delta_errors": 10,
+          "delta_pp": 0.12774655084312725,
+          "ci95": [
+            -0.8331544752393204,
+            1.088232029438656
+          ]
+        },
+        "specific": {
+          "errors32": 2699,
+          "errors40": 2760,
+          "words": 5786,
+          "utterances": 725,
+          "wer32": 46.64707915658486,
+          "wer40": 47.70134808157622,
+          "delta_errors": -61,
+          "delta_pp": -1.0542689249913584,
+          "ci95": [
+            -2.5803758112958373,
+            0.4431000271594747
+          ]
+        }
+      },
+      "interaction": {
+        "delta_pp": -1.1820154758344856,
+        "ci95": [
+          -2.7610299194817944,
+          0.4487758179672563
+        ]
+      }
+    },
+    {
+      "protocol": "shared",
+      "run": 2,
+      "jobs": 6,
+      "mode": "test_silent",
+      "lm": "training_only",
+      "subsets": {
+        "all": {
+          "errors32": 10453,
+          "errors40": 10470,
+          "words": 13614,
+          "utterances": 1209,
+          "wer32": 76.78125459086235,
+          "wer40": 76.90612604671662,
+          "delta_errors": -17,
+          "delta_pp": -0.12487145585426766,
+          "ci95": [
+            -0.989685631925559,
+            0.716136110709295
+          ]
+        },
+        "repeated": {
+          "errors32": 5758,
+          "errors40": 5771,
+          "words": 7828,
+          "utterances": 484,
+          "wer32": 73.55646397547267,
+          "wer40": 73.72253449156872,
+          "delta_errors": -13,
+          "delta_pp": -0.1660705160960654,
+          "ci95": [
+            -1.2458378465134694,
+            0.8814512008175779
+          ]
+        },
+        "specific": {
+          "errors32": 4695,
+          "errors40": 4699,
+          "words": 5786,
+          "utterances": 725,
+          "wer32": 81.14414103007259,
+          "wer40": 81.21327341859661,
+          "delta_errors": -4,
+          "delta_pp": -0.06913238852402351,
+          "ci95": [
+            -1.4824003922305982,
+            1.3709588306424623
+          ]
+        }
+      },
+      "interaction": {
+        "delta_pp": 0.0969381275720419,
+        "ci95": [
+          -1.732190213501411,
+          1.952655679394914
+        ]
+      }
+    },
+    {
+      "protocol": "shared",
+      "run": 3,
+      "jobs": 6,
+      "mode": "test_modal",
+      "lm": "corpus",
+      "subsets": {
+        "all": {
+          "errors32": 1974,
+          "errors40": 2019,
+          "words": 13614,
+          "utterances": 1209,
+          "wer32": 14.499779638607317,
+          "wer40": 14.830321727633319,
+          "delta_errors": -45,
+          "delta_pp": -0.33054208902600263,
+          "ci95": [
+            -1.008795918328051,
+            0.3664816367444189
+          ]
+        },
+        "repeated": {
+          "errors32": 529,
+          "errors40": 514,
+          "words": 7828,
+          "utterances": 484,
+          "wer32": 6.7577925396014304,
+          "wer40": 6.56617271333674,
+          "delta_errors": 15,
+          "delta_pp": 0.19161982626469085,
+          "ci95": [
+            -0.3840282658612625,
+            0.7521672616012238
+          ]
+        },
+        "specific": {
+          "errors32": 1445,
+          "errors40": 1505,
+          "words": 5786,
+          "utterances": 725,
+          "wer32": 24.97407535430349,
+          "wer40": 26.011061182163843,
+          "delta_errors": -60,
+          "delta_pp": -1.0369858278603525,
+          "ci95": [
+            -2.4378772331715046,
+            0.3300946437952365
+          ]
+        }
+      },
+      "interaction": {
+        "delta_pp": -1.2286056541250434,
+        "ci95": [
+          -2.7081874711867604,
+          0.20138689569545787
+        ]
+      }
+    },
+    {
+      "protocol": "shared",
+      "run": 3,
+      "jobs": 6,
+      "mode": "test_modal",
+      "lm": "training_only",
+      "subsets": {
+        "all": {
+          "errors32": 8706,
+          "errors40": 8691,
+          "words": 13614,
+          "utterances": 1209,
+          "wer32": 63.94887615689731,
+          "wer40": 63.83869546055531,
+          "delta_errors": 15,
+          "delta_pp": 0.11018069634200088,
+          "ci95": [
+            -0.6690220106009079,
+            0.8986067726541205
+          ]
+        },
+        "repeated": {
+          "errors32": 4772,
+          "errors40": 4726,
+          "words": 7828,
+          "utterances": 484,
+          "wer32": 60.96065406234032,
+          "wer40": 60.37301992846193,
+          "delta_errors": 46,
+          "delta_pp": 0.5876341338783853,
+          "ci95": [
+            -0.39539061822369626,
+            1.5075494296761032
+          ]
+        },
+        "specific": {
+          "errors32": 3934,
+          "errors40": 3965,
+          "words": 5786,
+          "utterances": 725,
+          "wer32": 67.99170411337711,
+          "wer40": 68.5274801244383,
+          "delta_errors": -31,
+          "delta_pp": -0.5357760110611821,
+          "ci95": [
+            -1.8691963307701795,
+            0.8015314827522326
+          ]
+        }
+      },
+      "interaction": {
+        "delta_pp": -1.1234101449395673,
+        "ci95": [
+          -2.7673859580764653,
+          0.5522613489937697
+        ]
+      }
+    },
+    {
+      "protocol": "shared",
+      "run": 3,
+      "jobs": 6,
+      "mode": "test_silent",
+      "lm": "corpus",
+      "subsets": {
+        "all": {
+          "errors32": 3874,
+          "errors40": 4072,
+          "words": 13614,
+          "utterances": 1209,
+          "wer32": 28.45600117526076,
+          "wer40": 29.91038636697517,
+          "delta_errors": -198,
+          "delta_pp": -1.4543851917144117,
+          "ci95": [
+            -2.4145812102491484,
+            -0.490305122183077
+          ]
+        },
+        "repeated": {
+          "errors32": 1307,
+          "errors40": 1377,
+          "words": 7828,
+          "utterances": 484,
+          "wer32": 16.69647419519673,
+          "wer40": 17.59070005109862,
+          "delta_errors": -70,
+          "delta_pp": -0.8942258559018906,
+          "ci95": [
+            -1.9259164109364852,
+            0.15335953836625307
+          ]
+        },
+        "specific": {
+          "errors32": 2567,
+          "errors40": 2695,
+          "words": 5786,
+          "utterances": 725,
+          "wer32": 44.365710335292086,
+          "wer40": 46.57794676806083,
+          "delta_errors": -128,
+          "delta_pp": -2.2122364327687523,
+          "ci95": [
+            -3.9959003363149557,
+            -0.4026939339986641
+          ]
+        }
+      },
+      "interaction": {
+        "delta_pp": -1.3180105768668615,
+        "ci95": [
+          -3.4379171795393932,
+          0.8459436864602056
+        ]
+      }
+    },
+    {
+      "protocol": "shared",
+      "run": 3,
+      "jobs": 6,
+      "mode": "test_silent",
+      "lm": "training_only",
+      "subsets": {
+        "all": {
+          "errors32": 10316,
+          "errors40": 10485,
+          "words": 13614,
+          "utterances": 1209,
+          "wer32": 75.77493756427208,
+          "wer40": 77.01630674305862,
+          "delta_errors": -169,
+          "delta_pp": -1.2413691787865433,
+          "ci95": [
+            -1.9298422014817667,
+            -0.5441826850079621
+          ]
+        },
+        "repeated": {
+          "errors32": 5696,
+          "errors40": 5758,
+          "words": 7828,
+          "utterances": 484,
+          "wer32": 72.76443536024527,
+          "wer40": 73.55646397547267,
+          "delta_errors": -62,
+          "delta_pp": -0.7920286152273889,
+          "ci95": [
+            -1.7622439302362563,
+            0.12822156686754713
+          ]
+        },
+        "specific": {
+          "errors32": 4620,
+          "errors40": 4727,
+          "words": 5786,
+          "utterances": 725,
+          "wer32": 79.84790874524715,
+          "wer40": 81.69720013826478,
+          "delta_errors": -107,
+          "delta_pp": -1.8492913930176287,
+          "ci95": [
+            -2.939193312179644,
+            -0.7176584432174303
+          ]
+        }
+      },
+      "interaction": {
+        "delta_pp": -1.05726277779024,
+        "ci95": [
+          -2.609703402455799,
+          0.5201589304688214
+        ]
+      }
+    },
+    {
+      "protocol": "disjoint",
+      "run": 1,
+      "jobs": 8,
+      "mode": "test_modal",
+      "lm": "corpus",
+      "subsets": {
+        "all": {
+          "errors32": 2009,
+          "errors40": 2074,
+          "words": 13614,
+          "utterances": 1209,
+          "wer32": 14.756867930071985,
+          "wer40": 15.234317614220656,
+          "delta_errors": -65,
+          "delta_pp": -0.4774496841486705,
+          "ci95": [
+            -1.1511150057907726,
+            0.19826009569506334
+          ]
+        },
+        "repeated": {
+          "errors32": 441,
+          "errors40": 442,
+          "words": 7828,
+          "utterances": 484,
+          "wer32": 5.633622892181911,
+          "wer40": 5.646397547266224,
+          "delta_errors": -1,
+          "delta_pp": -0.012774655084312723,
+          "ci95": [
+            -0.5481896991330953,
+            0.47383202020323445
+          ]
+        },
+        "specific": {
+          "errors32": 1568,
+          "errors40": 1632,
+          "words": 5786,
+          "utterances": 725,
+          "wer32": 27.099896301417214,
+          "wer40": 28.20601451780159,
+          "delta_errors": -64,
+          "delta_pp": -1.1061182163843761,
+          "ci95": [
+            -2.4937123817712807,
+            0.314130947487816
+          ]
+        }
+      },
+      "interaction": {
+        "delta_pp": -1.0933435613000635,
+        "ci95": [
+          -2.575355016250652,
+          0.43611918328063853
+        ]
+      }
+    },
+    {
+      "protocol": "disjoint",
+      "run": 1,
+      "jobs": 8,
+      "mode": "test_modal",
+      "lm": "training_only",
+      "subsets": {
+        "all": {
+          "errors32": 8992,
+          "errors40": 8979,
+          "words": 13614,
+          "utterances": 1209,
+          "wer32": 66.04965476715147,
+          "wer40": 65.95416483032173,
+          "delta_errors": 13,
+          "delta_pp": 0.0954899368297341,
+          "ci95": [
+            -0.730952148066998,
+            0.8834133550404506
+          ]
+        },
+        "repeated": {
+          "errors32": 4923,
+          "errors40": 4900,
+          "words": 7828,
+          "utterances": 484,
+          "wer32": 62.88962698007154,
+          "wer40": 62.59580991313234,
+          "delta_errors": 23,
+          "delta_pp": 0.29381706693919263,
+          "ci95": [
+            -0.6656489941595217,
+            1.2600229095074456
+          ]
+        },
+        "specific": {
+          "errors32": 4069,
+          "errors40": 4079,
+          "words": 5786,
+          "utterances": 725,
+          "wer32": 70.32492222606291,
+          "wer40": 70.49775319737297,
+          "delta_errors": -10,
+          "delta_pp": -0.17283097131005876,
+          "ci95": [
+            -1.440001987125387,
+            1.0928786132661659
+          ]
+        }
+      },
+      "interaction": {
+        "delta_pp": -0.4666480382492514,
+        "ci95": [
+          -1.9825465926878783,
+          1.0740853472805478
+        ]
+      }
+    },
+    {
+      "protocol": "disjoint",
+      "run": 1,
+      "jobs": 8,
+      "mode": "test_silent",
+      "lm": "corpus",
+      "subsets": {
+        "all": {
+          "errors32": 3674,
+          "errors40": 3690,
+          "words": 13614,
+          "utterances": 1209,
+          "wer32": 26.98692522403408,
+          "wer40": 27.104451300132215,
+          "delta_errors": -16,
+          "delta_pp": -0.11752607609813427,
+          "ci95": [
+            -1.0696860858034487,
+            0.9049590749949397
+          ]
+        },
+        "repeated": {
+          "errors32": 1167,
+          "errors40": 1044,
+          "words": 7828,
+          "utterances": 484,
+          "wer32": 14.908022483392948,
+          "wer40": 13.336739908022484,
+          "delta_errors": 123,
+          "delta_pp": 1.571282575370465,
+          "ci95": [
+            0.49899418213708585,
+            2.6728866096207065
+          ]
+        },
+        "specific": {
+          "errors32": 2507,
+          "errors40": 2646,
+          "words": 5786,
+          "utterances": 725,
+          "wer32": 43.32872450743173,
+          "wer40": 45.73107500864155,
+          "delta_errors": -139,
+          "delta_pp": -2.402350501209817,
+          "ci95": [
+            -4.012747379259562,
+            -0.8101911800231659
+          ]
+        }
+      },
+      "interaction": {
+        "delta_pp": -3.973633076580282,
+        "ci95": [
+          -5.785328976664532,
+          -2.2105261102084097
+        ]
+      }
+    },
+    {
+      "protocol": "disjoint",
+      "run": 1,
+      "jobs": 8,
+      "mode": "test_silent",
+      "lm": "training_only",
+      "subsets": {
+        "all": {
+          "errors32": 10710,
+          "errors40": 10732,
+          "words": 13614,
+          "utterances": 1209,
+          "wer32": 78.66901718818863,
+          "wer40": 78.83061554282357,
+          "delta_errors": -22,
+          "delta_pp": -0.16159835463493463,
+          "ci95": [
+            -0.9341344460722407,
+            0.6252850617043597
+          ]
+        },
+        "repeated": {
+          "errors32": 5868,
+          "errors40": 5897,
+          "words": 7828,
+          "utterances": 484,
+          "wer32": 74.96167603474706,
+          "wer40": 75.33214103219213,
+          "delta_errors": -29,
+          "delta_pp": -0.370464997445069,
+          "ci95": [
+            -1.450995588079813,
+            0.7394257365652283
+          ]
+        },
+        "specific": {
+          "errors32": 4842,
+          "errors40": 4835,
+          "words": 5786,
+          "utterances": 725,
+          "wer32": 83.68475630833045,
+          "wer40": 83.56377462841341,
+          "delta_errors": 7,
+          "delta_pp": 0.12098167991704113,
+          "ci95": [
+            -1.1327313957582419,
+            1.3451408708591746
+          ]
+        }
+      },
+      "interaction": {
+        "delta_pp": 0.4914466773621101,
+        "ci95": [
+          -1.2928615327348438,
+          2.218522684587259
+        ]
+      }
+    }
+  ],
+  "lm_interaction_changes": [
+    {
+      "protocol": "shared",
+      "run": 1,
+      "jobs": 8,
+      "mode": "test_modal",
+      "direction": "corpus condition minus training-only condition",
+      "delta_pp": -2.9982331852774506,
+      "ci95": [
+        -5.212173174104742,
+        -0.7055170300733804
+      ]
+    },
+    {
+      "protocol": "shared",
+      "run": 1,
+      "jobs": 8,
+      "mode": "test_silent",
+      "direction": "corpus condition minus training-only condition",
+      "delta_pp": -3.47694053325199,
+      "ci95": [
+        -5.7400714318391355,
+        -1.156807759563016
+      ]
+    },
+    {
+      "protocol": "shared",
+      "run": 2,
+      "jobs": 6,
+      "mode": "test_modal",
+      "direction": "corpus condition minus training-only condition",
+      "delta_pp": -0.5019428250065662,
+      "ci95": [
+        -2.743470201286012,
+        1.7044826236893427
+      ]
+    },
+    {
+      "protocol": "shared",
+      "run": 2,
+      "jobs": 6,
+      "mode": "test_silent",
+      "direction": "corpus condition minus training-only condition",
+      "delta_pp": -1.2789536034065274,
+      "ci95": [
+        -3.2706949908942615,
+        0.7486703652543729
+      ]
+    },
+    {
+      "protocol": "shared",
+      "run": 3,
+      "jobs": 6,
+      "mode": "test_modal",
+      "direction": "corpus condition minus training-only condition",
+      "delta_pp": -0.10519550918547615,
+      "ci95": [
+        -1.9079290772560245,
+        1.6769326038280072
+      ]
+    },
+    {
+      "protocol": "shared",
+      "run": 3,
+      "jobs": 6,
+      "mode": "test_silent",
+      "direction": "corpus condition minus training-only condition",
+      "delta_pp": -0.2607477990766216,
+      "ci95": [
+        -2.817022028771997,
+        2.3155476561338
+      ]
+    },
+    {
+      "protocol": "disjoint",
+      "run": 1,
+      "jobs": 8,
+      "mode": "test_modal",
+      "direction": "corpus condition minus training-only condition",
+      "delta_pp": -0.6266955230508121,
+      "ci95": [
+        -2.693643636642624,
+        1.3341948248985842
+      ]
+    },
+    {
+      "protocol": "disjoint",
+      "run": 1,
+      "jobs": 8,
+      "mode": "test_silent",
+      "direction": "corpus condition minus training-only condition",
+      "delta_pp": -4.465079753942392,
+      "ci95": [
+        -6.937901219320404,
+        -1.9513832842781553
+      ]
+    }
+  ],
+  "lexical": {
+    "lexicon_entries": 9902,
+    "lexical_words": 9900,
+    "homophone_classes_40": 209,
+    "homophone_classes_32": 460,
+    "previously_unique_entries_becoming_homophonous": 569,
+    "entries_with_expanded_competitor_sets": 659,
+    "already_homophonous_entries_with_added_competitors": 90,
+    "all": {
+      "reference_tokens": 13614,
+      "newly_ambiguous_reference_tokens": 1752,
+      "coverage_percent": 12.869105332745702,
+      "utterances": 1209,
+      "distinct_texts": 731
+    },
+    "repeated": {
+      "reference_tokens": 7828,
+      "newly_ambiguous_reference_tokens": 886,
+      "coverage_percent": 11.318344404701072,
+      "utterances": 484,
+      "distinct_texts": 6
+    },
+    "specific": {
+      "reference_tokens": 5786,
+      "newly_ambiguous_reference_tokens": 866,
+      "coverage_percent": 14.967162115451089,
+      "utterances": 725,
+      "distinct_texts": 725
+    }
+  },
+  "word_error_diagnostics": [
+    {
+      "protocol": "shared",
+      "subset": "all",
+      "utterances": 1209,
+      "words": 13614,
+      "40": {
+        "substitutions": 2527,
+        "deletions": 1093,
+        "insertions": 215,
+        "new_homophone_substitutions": 14,
+        "errors": 3835,
+        "other_substitutions": 2513
+      },
+      "32": {
+        "substitutions": 2409,
+        "deletions": 1100,
+        "insertions": 234,
+        "new_homophone_substitutions": 9,
+        "errors": 3743,
+        "other_substitutions": 2400
+      },
+      "delta32minus40": {
+        "substitutions": -118,
+        "deletions": 7,
+        "insertions": 19,
+        "new_homophone_substitutions": -5,
+        "errors": -92,
+        "other_substitutions": -113
+      }
+    },
+    {
+      "protocol": "shared",
+      "subset": "repeated",
+      "utterances": 484,
+      "words": 7828,
+      "40": {
+        "substitutions": 679,
+        "deletions": 417,
+        "insertions": 75,
+        "new_homophone_substitutions": 0,
+        "errors": 1171,
+        "other_substitutions": 679
+      },
+      "32": {
+        "substitutions": 684,
+        "deletions": 450,
+        "insertions": 78,
+        "new_homophone_substitutions": 1,
+        "errors": 1212,
+        "other_substitutions": 683
+      },
+      "delta32minus40": {
+        "substitutions": 5,
+        "deletions": 33,
+        "insertions": 3,
+        "new_homophone_substitutions": 1,
+        "errors": 41,
+        "other_substitutions": 4
+      }
+    },
+    {
+      "protocol": "shared",
+      "subset": "specific",
+      "utterances": 725,
+      "words": 5786,
+      "40": {
+        "substitutions": 1848,
+        "deletions": 676,
+        "insertions": 140,
+        "new_homophone_substitutions": 14,
+        "errors": 2664,
+        "other_substitutions": 1834
+      },
+      "32": {
+        "substitutions": 1725,
+        "deletions": 650,
+        "insertions": 156,
+        "new_homophone_substitutions": 8,
+        "errors": 2531,
+        "other_substitutions": 1717
+      },
+      "delta32minus40": {
+        "substitutions": -123,
+        "deletions": -26,
+        "insertions": 16,
+        "new_homophone_substitutions": -6,
+        "errors": -133,
+        "other_substitutions": -117
+      }
+    },
+    {
+      "protocol": "disjoint",
+      "subset": "all",
+      "utterances": 1209,
+      "words": 13614,
+      "40": {
+        "substitutions": 2330,
+        "deletions": 1155,
+        "insertions": 205,
+        "new_homophone_substitutions": 10,
+        "errors": 3690,
+        "other_substitutions": 2320
+      },
+      "32": {
+        "substitutions": 2319,
+        "deletions": 1141,
+        "insertions": 214,
+        "new_homophone_substitutions": 7,
+        "errors": 3674,
+        "other_substitutions": 2312
+      },
+      "delta32minus40": {
+        "substitutions": -11,
+        "deletions": -14,
+        "insertions": 9,
+        "new_homophone_substitutions": -3,
+        "errors": -16,
+        "other_substitutions": -8
+      }
+    },
+    {
+      "protocol": "disjoint",
+      "subset": "repeated",
+      "utterances": 484,
+      "words": 7828,
+      "40": {
+        "substitutions": 581,
+        "deletions": 388,
+        "insertions": 75,
+        "new_homophone_substitutions": 1,
+        "errors": 1044,
+        "other_substitutions": 580
+      },
+      "32": {
+        "substitutions": 643,
+        "deletions": 450,
+        "insertions": 74,
+        "new_homophone_substitutions": 0,
+        "errors": 1167,
+        "other_substitutions": 643
+      },
+      "delta32minus40": {
+        "substitutions": 62,
+        "deletions": 62,
+        "insertions": -1,
+        "new_homophone_substitutions": -1,
+        "errors": 123,
+        "other_substitutions": 63
+      }
+    },
+    {
+      "protocol": "disjoint",
+      "subset": "specific",
+      "utterances": 725,
+      "words": 5786,
+      "40": {
+        "substitutions": 1749,
+        "deletions": 767,
+        "insertions": 130,
+        "new_homophone_substitutions": 9,
+        "errors": 2646,
+        "other_substitutions": 1740
+      },
+      "32": {
+        "substitutions": 1676,
+        "deletions": 691,
+        "insertions": 140,
+        "new_homophone_substitutions": 7,
+        "errors": 2507,
+        "other_substitutions": 1669
+      },
+      "delta32minus40": {
+        "substitutions": -73,
+        "deletions": -76,
+        "insertions": 10,
+        "new_homophone_substitutions": -2,
+        "errors": -139,
+        "other_substitutions": -71
+      }
+    }
+  ],
+  "examples": [
+    {
+      "utt": "13fs_029_xsil",
+      "reference": "when sunlight strikes raindrops in the air they act like a prism and form a rainbow",
+      "hyp40": "when sunlight strikes raindrops in the air they act like a prism and form a rainbow",
+      "hyp32": "when sunlight strikes raindrops in here the actor kept informed rainbow",
+      "words": 16,
+      "subset": "repeated",
+      "errors40": 0,
+      "errors32": 10,
+      "delta_errors": 10,
+      "new_homophone40": 0,
+      "new_homophone32": 0
+    },
+    {
+      "utt": "38me_040_sil",
+      "reference": "women form less than half of the group",
+      "hyp40": "we farmland then have no room",
+      "hyp32": "women form less than half of the group",
+      "words": 8,
+      "subset": "specific",
+      "errors40": 8,
+      "errors32": 0,
+      "delta_errors": -8,
+      "new_homophone40": 0,
+      "new_homophone32": 0
+    }
+  ],
+  "example_selection": "Disjoint corpus-LM silent run 1: largest repeated-sentence error increase with an added newly homophonous substitution if available; largest specific-sentence error decrease among references of at most 12 words; utterance ID breaks ties. Illustrative selection, not a separate test.",
+  "validation": {
+    "paired_references_match": true,
+    "word_alignments_checked": 4836,
+    "lexicon_source_sha256": {
+      "40": "827b4aca42c2dfd3857bde1f427b1c1e1db23f4d2e9ec8a990dbcd7c5e32cc9a",
+      "32": "7ba5b220cd43d4aabf6b5122686586aec0dd84a3cfd3d3522b937de456edee87"
+    }
+  }
+}

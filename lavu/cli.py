@@ -30,6 +30,13 @@ def export_tables(out):
     tables['training_only_lm']=[['protocol','mode','units','train_only_WER','corpus_WER','difference_pp','CI_low','CI_high']]+[[e['protocol'],e['mode'],units,x['a_wer'],x['b_wer'],x['delta_pp'],*x['ci95']] for e in ext['lm_comparisons'] for units in ['32','40'] for x in [e[units]]]
     for group in ['unit_replicates','factor_replicates']:
         tables[group]=[['run','jobs','variant','mode','subset','A_WER','B_WER','delta_pp','CI_low','CI_high']]+[[e['seed'],e['jobs'],e.get('variant','inventory'),e['mode'],s,x['a_wer'],x['b_wer'],x['delta_pp'],*x['ci95']] for e in sub[group] for s,x in e['subsets'].items()]
+    diag=load_json(out/'inventory_diagnostics.json')
+    tables['lm_subset_inventory']=[['protocol','run','jobs','mode','lm','subset','errors32','errors40','words','WER32','WER40','delta_pp','CI_low','CI_high']]+[[e['protocol'],e['run'],e['jobs'],e['mode'],e['lm'],s,x['errors32'],x['errors40'],x['words'],x['wer32'],x['wer40'],x['delta_pp'],*x['ci95']] for e in diag['conditions'] for s,x in e['subsets'].items()]
+    tables['subset_interactions']=[['protocol','run','jobs','mode','lm','specific_minus_repeated','CI_low','CI_high']]+[[e['protocol'],e['run'],e['jobs'],e['mode'],e['lm'],e['interaction']['delta_pp'],*e['interaction']['ci95']] for e in diag['conditions']]
+    tables['lm_condition_interaction_changes']=[['protocol','run','jobs','mode','corpus_minus_training_only_interaction','CI_low','CI_high']]+[[e['protocol'],e['run'],e['jobs'],e['mode'],e['delta_pp'],*e['ci95']] for e in diag['lm_interaction_changes']]
+    tables['lexical_ambiguity']=[['subset','newly_ambiguous_reference_tokens','reference_tokens','coverage_percent','utterances','distinct_texts']]+[[s,*[diag['lexical'][s][k] for k in ['newly_ambiguous_reference_tokens','reference_tokens','coverage_percent','utterances','distinct_texts']]] for s in ['all','repeated','specific']]
+    tables['error_decomposition']=[['protocol','subset','units','words','substitutions','deletions','insertions','new_homophone_substitutions','errors']]+[[e['protocol'],e['subset'],u,e['words'],*[e[u][k] for k in ['substitutions','deletions','insertions','new_homophone_substitutions','errors']]] for e in diag['word_error_diagnostics'] for u in ['40','32']]
+    tables['paired_examples']=[['utterance','subset','reference','hyp40','hyp32','errors40','errors32','delta_errors']]+[[e[k] for k in ['utt','subset','reference','hyp40','hyp32','errors40','errors32','delta_errors']] for e in diag['examples']]
     for name,rows in tables.items():
         with (dest/(name+'.csv')).open('w',newline='',encoding='utf8') as f:csv.writer(f).writerows(rows)
     # The full machine-readable analyses also retain sign tests, subset interactions,
@@ -51,12 +58,16 @@ def reproduce(config,no_figures=False):
         (out/(module.rsplit('.',1)[-1]+'.log')).write_text(log.getvalue(),encoding='utf8')
     from .filter_analysis import analyse
     contrasts,checked=analyse(filters);dump(out/'filter_analysis.json',contrasts)
+    from .inventory_diagnostics import analyse as diagnose
+    relations=Path(cfg.get('lexical_relations','data/lexical_relations.json.gz'))
+    relations=relations if relations.is_absolute() else ROOT/relations
+    dump(out/'inventory_diagnostics.json',diagnose(bundle,relations))
     expected=Path(cfg['expected']);expected=expected if expected.is_absolute() else ROOT/expected
-    for name in ['subset_analysis.json','extended_analysis.json','filter_analysis.json']:equal(load_json(expected/name),load_json(out/name),name)
+    for name in ['subset_analysis.json','extended_analysis.json','filter_analysis.json','inventory_diagnostics.json']:equal(load_json(expected/name),load_json(out/name),name)
     export_tables(out)
     if not no_figures:runpy.run_module('lavu.analysis.make_figures',run_name='__main__')
     count=load_json(out/'subset_analysis.json')['validation']['independently_recomputed_utterance_errors']
-    report={'status':'passed','stored_prediction_row_checks':count,'filter_prediction_row_checks':checked,'numeric_outputs_match_reference':True,'figures_regenerated':not no_figures,'numpy_version':__import__('numpy').__version__}
+    report={'status':'passed','stored_prediction_row_checks':count,'filter_prediction_row_checks':checked,'word_alignment_checks':load_json(out/'inventory_diagnostics.json')['validation']['word_alignments_checked'],'numeric_outputs_match_reference':True,'figures_regenerated':not no_figures,'numpy_version':__import__('numpy').__version__}
     dump(out/'verification.json',report);print(json.dumps(report,indent=2))
 
 def main():

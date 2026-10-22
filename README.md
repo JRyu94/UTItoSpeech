@@ -2,7 +2,7 @@
 
 Companion code and verification data for **Sentence Composition and Evaluation Conditions in Articulatory Landmark-Based Silent Speech Recognition**, by Donguk Ryu and Boreom Lee.
 
-This release quantifies word-recognition effects of merging eight voicing pairs into a 32-unit inventory. It reports the pooled contrasts, opposing effects in the observed sentence subsets, sentence influence, LM/adaptation conditions, and the completed three-run matched filtering control. All six matched filtering intervals include zero; the release does not establish preprocessing superiority or equivalence.
+This release quantifies word-recognition effects of merging eight voicing pairs into a 32-unit inventory. It reports the pooled contrasts, condition-dependent effects in the observed sentence subsets, sentence influence, LM/adaptation conditions, and the completed three-run matched filtering control. All six matched filtering intervals include zero; the release does not establish preprocessing superiority or equivalence.
 
 ## Reproduce the statistical results
 
@@ -18,7 +18,7 @@ python -m unittest discover -s tests -v
 python -m lavu reproduce
 ```
 
-The final command recomputes the speaker-bootstrap analyses, word edit distances, quantitative CSVs, and the data underlying manuscript Figures 4–6. It writes `generated/verification.json`, `generated/tables/`, and `generated/figures/`. Expected statistical outputs are checked numerically rather than merely copied. The script checks 99,138 stored prediction rows and 14,508 paired-filter prediction rows (rows repeat utterance IDs across conditions). These are not counts of distinct recordings.
+The final command recomputes the speaker-bootstrap analyses, word edit distances, quantitative CSVs, and the data underlying manuscript Figures 4–6. It writes `generated/verification.json`, `generated/tables/`, and `generated/figures/`. Expected statistical outputs are checked numerically rather than merely copied. The same command also regenerates `inventory_diagnostics.json` and six additional CSVs for LM-by-subset effects, subset interactions, direct differences between LM conditions, lexical ambiguity, word-error categories, and paired output examples. The script checks 99,138 stored prediction rows and 14,508 paired-filter prediction rows (rows repeat utterance IDs across conditions). These are not counts of distinct recordings.
 
 The input predictions and references are included as compressed JSON. Corpus recordings, DLC image models, fitted recognizers, and decoding lattices are not included. Recomputing word recognition from raw recordings requires these external inputs. Do not interpret stored-prediction verification as an independently reproduced training run.
 
@@ -59,8 +59,12 @@ These records describe the original runs; historical `archived-runs/` values are
 - Matched filtering uses 40 phones in both arms and paired seed/job settings 1/8, 2/6, 3/6. SAT alignment succeeds for 11,616 primary and 11,615 public-filter training utterances. This is a recipe comparison including feature-specific alignment support.
 - Historical auxiliary diagnostics cited in the manuscript are retained as explicitly marked frozen records in `data/historical_auxiliary.json.gz`; they are outside the corrected statistical verification. Unrelated experiments are excluded.
 
+## Inventory diagnostics
+
+See [the inventory analysis](docs/INVENTORY_DIAGNOSTICS.md) for exact definitions and the limits of the error decomposition. In the primary disjoint corpus condition, the repeated/specific error changes are +123/−139. Under the training-only condition their point directions reverse and both subset intervals include zero. Shared-run subset interactions have the same point direction under the corpus condition, but runs 2–3 include zero. These are conditional, exploratory results.
+
 ## Citation and release
 
-Version: **1.0.0**, 2026-10-22. Repository: <https://github.com/JRyu94/UTItoSpeech>. Cite the exact commit or version archive used. `CITATION.cff` describes this software release. No journal acceptance status or DOI is implied.
+Version: **1.1.0**, 2026-10-22. Repository: <https://github.com/JRyu94/UTItoSpeech>. Cite the exact commit or version archive used. `CITATION.cff` describes this software release. No journal acceptance status or DOI is implied.
 
 Original release code is provided under the MIT license. External software and data retain their own terms; see `NOTICE.md`. Checkpoints and source recordings must be obtained from their respective providers.
