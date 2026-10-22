@@ -1,0 +1,1251 @@
+{
+  "lm_comparisons": [
+    {
+      "protocol": "shared",
+      "mode": "test_modal",
+      "inventory_effect": {
+        "a_wer": 64.13251065080064,
+        "b_wer": 62.89848685177024,
+        "errors_a": 8731,
+        "errors_b": 8563,
+        "words": 13614,
+        "utterances": 1209,
+        "delta_pp": 1.23402379903041,
+        "ci95": [
+          0.4493157180654838,
+          2.00175995071348
+        ],
+        "negative_speakers": 29,
+        "positive_speakers": 50,
+        "ties": 2,
+        "sign_p": 0.023819792858001267,
+        "speaker_loo_range": [
+          1.137631050635735,
+          1.3311519297984682
+        ]
+      },
+      "32": {
+        "a_wer": 64.13251065080064,
+        "b_wer": 13.801968561774643,
+        "errors_a": 8731,
+        "errors_b": 1879,
+        "words": 13614,
+        "utterances": 1209,
+        "delta_pp": 50.330542089026004,
+        "ci95": [
+          48.94802568237474,
+          51.72363628419231
+        ],
+        "negative_speakers": 0,
+        "positive_speakers": 81,
+        "ties": 0,
+        "sign_p": 8.271806125530277e-25,
+        "speaker_loo_range": [
+          50.13014055179595,
+          50.54291239030195
+        ]
+      },
+      "40": {
+        "a_wer": 62.89848685177024,
+        "b_wer": 14.404289701777582,
+        "errors_a": 8563,
+        "errors_b": 1961,
+        "words": 13614,
+        "utterances": 1209,
+        "delta_pp": 48.49419714999266,
+        "ci95": [
+          47.335274582394796,
+          49.66658951043308
+        ],
+        "negative_speakers": 0,
+        "positive_speakers": 81,
+        "ties": 0,
+        "sign_p": 8.271806125530277e-25,
+        "speaker_loo_range": [
+          48.35205713860576,
+          48.65387475829243
+        ]
+      }
+    },
+    {
+      "protocol": "shared",
+      "mode": "test_silent",
+      "inventory_effect": {
+        "a_wer": 76.31849566622594,
+        "b_wer": 77.66270016159835,
+        "errors_a": 10390,
+        "errors_b": 10573,
+        "words": 13614,
+        "utterances": 1209,
+        "delta_pp": -1.3442044953724108,
+        "ci95": [
+          -2.241131903654472,
+          -0.46201208404062116
+        ],
+        "negative_speakers": 51,
+        "positive_speakers": 25,
+        "ties": 5,
+        "sign_p": 0.0038362357516146246,
+        "speaker_loo_range": [
+          -1.486988847583643,
+          -1.2200565392054754
+        ]
+      },
+      "32": {
+        "a_wer": 76.31849566622594,
+        "b_wer": 27.493756427207288,
+        "errors_a": 10390,
+        "errors_b": 3743,
+        "words": 13614,
+        "utterances": 1209,
+        "delta_pp": 48.824739239018655,
+        "ci95": [
+          46.43685242550255,
+          50.98775406590698
+        ],
+        "negative_speakers": 0,
+        "positive_speakers": 81,
+        "ties": 0,
+        "sign_p": 8.271806125530277e-25,
+        "speaker_loo_range": [
+          48.582694739974706,
+          49.3340278294516
+        ]
+      },
+      "40": {
+        "a_wer": 77.66270016159835,
+        "b_wer": 28.169531364771558,
+        "errors_a": 10573,
+        "errors_b": 3835,
+        "words": 13614,
+        "utterances": 1209,
+        "delta_pp": 49.493168796826794,
+        "ci95": [
+          47.05925760576658,
+          51.72885753965353
+        ],
+        "negative_speakers": 0,
+        "positive_speakers": 81,
+        "ties": 0,
+        "sign_p": 8.271806125530277e-25,
+        "speaker_loo_range": [
+          49.207648240458305,
+          49.98883845524221
+        ]
+      }
+    },
+    {
+      "protocol": "disjoint",
+      "mode": "test_modal",
+      "inventory_effect": {
+        "a_wer": 66.04965476715147,
+        "b_wer": 65.95416483032173,
+        "errors_a": 8992,
+        "errors_b": 8979,
+        "words": 13614,
+        "utterances": 1209,
+        "delta_pp": 0.0954899368297341,
+        "ci95": [
+          -0.730952148066998,
+          0.8834133550404506
+        ],
+        "negative_speakers": 38,
+        "positive_speakers": 38,
+        "ties": 5,
+        "sign_p": 1.0,
+        "speaker_loo_range": [
+          -0.022314787265694733,
+          0.24542614904060686
+        ]
+      },
+      "32": {
+        "a_wer": 66.04965476715147,
+        "b_wer": 14.756867930071985,
+        "errors_a": 8992,
+        "errors_b": 2009,
+        "words": 13614,
+        "utterances": 1209,
+        "delta_pp": 51.292786837079476,
+        "ci95": [
+          50.007366107152215,
+          52.60692592902185
+        ],
+        "negative_speakers": 0,
+        "positive_speakers": 81,
+        "ties": 0,
+        "sign_p": 8.271806125530277e-25,
+        "speaker_loo_range": [
+          51.111772142485314,
+          51.46960339310961
+        ]
+      },
+      "40": {
+        "a_wer": 65.95416483032173,
+        "b_wer": 15.234317614220656,
+        "errors_a": 8979,
+        "errors_b": 2074,
+        "words": 13614,
+        "utterances": 1209,
+        "delta_pp": 50.71984721610107,
+        "ci95": [
+          49.424773648546804,
+          52.02792939622901
+        ],
+        "negative_speakers": 0,
+        "positive_speakers": 81,
+        "ties": 0,
+        "sign_p": 8.271806125530277e-25,
+        "speaker_loo_range": [
+          50.54683431292315,
+          50.95195597203629
+        ]
+      }
+    },
+    {
+      "protocol": "disjoint",
+      "mode": "test_silent",
+      "inventory_effect": {
+        "a_wer": 78.66901718818863,
+        "b_wer": 78.83061554282357,
+        "errors_a": 10710,
+        "errors_b": 10732,
+        "words": 13614,
+        "utterances": 1209,
+        "delta_pp": -0.16159835463493463,
+        "ci95": [
+          -0.9341344460722407,
+          0.6252850617043597
+        ],
+        "negative_speakers": 38,
+        "positive_speakers": 33,
+        "ties": 10,
+        "sign_p": 0.6353076420876662,
+        "speaker_loo_range": [
+          -0.2749498402318496,
+          -0.044626255113425065
+        ]
+      },
+      "32": {
+        "a_wer": 78.66901718818863,
+        "b_wer": 26.98692522403408,
+        "errors_a": 10710,
+        "errors_b": 3674,
+        "words": 13614,
+        "utterances": 1209,
+        "delta_pp": 51.682091964154544,
+        "ci95": [
+          49.275765177402995,
+          53.92658959249896
+        ],
+        "negative_speakers": 0,
+        "positive_speakers": 81,
+        "ties": 0,
+        "sign_p": 8.271806125530277e-25,
+        "speaker_loo_range": [
+          51.45450487314932,
+          52.22114740680111
+        ]
+      },
+      "40": {
+        "a_wer": 78.83061554282357,
+        "b_wer": 27.104451300132215,
+        "errors_a": 10732,
+        "errors_b": 3690,
+        "words": 13614,
+        "utterances": 1209,
+        "delta_pp": 51.72616424269135,
+        "ci95": [
+          49.34976429401752,
+          53.90673007294185
+        ],
+        "negative_speakers": 0,
+        "positive_speakers": 81,
+        "ties": 0,
+        "sign_p": 8.271806125530277e-25,
+        "speaker_loo_range": [
+          51.46938471839893,
+          52.33276285437904
+        ]
+      }
+    }
+  ],
+  "sentence_robustness": {
+    "shared": {
+      "all": {
+        "a_wer": 27.493756427207288,
+        "b_wer": 28.169531364771558,
+        "errors_a": 3743,
+        "errors_b": 3835,
+        "words": 13614,
+        "utterances": 1209,
+        "delta_pp": -0.6757749375642721,
+        "ci95": [
+          -1.5295308904853404,
+          0.20476821600502504
+        ],
+        "negative_speakers": 44,
+        "positive_speakers": 31,
+        "ties": 6,
+        "sign_p": 0.1654279417242567,
+        "speaker_loo_range": [
+          -0.8179046769276527,
+          -0.5723204994797086
+        ]
+      },
+      "repeated": {
+        "a_wer": 15.48288196218702,
+        "b_wer": 14.9591211037302,
+        "errors_a": 1212,
+        "errors_b": 1171,
+        "words": 7828,
+        "utterances": 484,
+        "delta_pp": 0.5237608584568216,
+        "ci95": [
+          -0.32003073574816965,
+          1.4278565947466475
+        ],
+        "negative_speakers": 34,
+        "positive_speakers": 37,
+        "ties": 10,
+        "sign_p": 0.8125886494061618,
+        "speaker_loo_range": [
+          0.3751131807010736,
+          0.6596818005432673
+        ]
+      },
+      "specific": {
+        "a_wer": 43.74351883857587,
+        "b_wer": 46.04217075699965,
+        "errors_a": 2531,
+        "errors_b": 2664,
+        "words": 5786,
+        "utterances": 725,
+        "delta_pp": -2.2986519184237815,
+        "ci95": [
+          -3.920757138746574,
+          -0.7274995143632957
+        ],
+        "negative_speakers": 51,
+        "positive_speakers": 25,
+        "ties": 5,
+        "sign_p": 0.0038362357516146246,
+        "speaker_loo_range": [
+          -2.4859943977591037,
+          -2.044382316966626
+        ]
+      },
+      "sentences": [
+        {
+          "text": "the rainbow is a division of white light into many beautiful colours",
+          "errors32": 85,
+          "errors40": 89,
+          "delta_errors": -4,
+          "words": 972,
+          "delta_pp": -0.411522633744856,
+          "other_five": {
+            "a_wer": 16.438156359393233,
+            "b_wer": 15.781796966161027,
+            "errors_a": 1127,
+            "errors_b": 1082,
+            "words": 6856,
+            "utterances": 403,
+            "delta_pp": 0.6563593932322054,
+            "ci95": [
+              -0.31953522149600583,
+              1.6734575087310826
+            ],
+            "negative_speakers": 32,
+            "positive_speakers": 38,
+            "ties": 11,
+            "sign_p": 0.5504125118224712,
+            "speaker_loo_range": [
+              0.48737261852015945,
+              0.8122876975335992
+            ]
+          },
+          "specific_minus_other_five": {
+            "delta_pp": -2.955011311655987,
+            "ci95": [
+              -4.796331796032787,
+              -1.1714727883192577
+            ]
+          }
+        },
+        {
+          "text": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "errors32": 303,
+          "errors40": 293,
+          "delta_errors": 10,
+          "words": 1782,
+          "delta_pp": 0.5611672278338945,
+          "other_five": {
+            "a_wer": 15.034733708236852,
+            "b_wer": 14.521998015216672,
+            "errors_a": 909,
+            "errors_b": 878,
+            "words": 6046,
+            "utterances": 403,
+            "delta_pp": 0.5127356930201786,
+            "ci95": [
+              -0.533753638043957,
+              1.6079572638553778
+            ],
+            "negative_speakers": 32,
+            "positive_speakers": 34,
+            "ties": 15,
+            "sign_p": 0.9021585000966993,
+            "speaker_loo_range": [
+              0.36844749623178696,
+              0.6699045386032491
+            ]
+          },
+          "specific_minus_other_five": {
+            "delta_pp": -2.81138761144396,
+            "ci95": [
+              -4.7288175741131235,
+              -0.9133761889532962
+            ]
+          }
+        },
+        {
+          "text": "people look but no one ever finds it",
+          "errors32": 48,
+          "errors40": 57,
+          "delta_errors": -9,
+          "words": 648,
+          "delta_pp": -1.3888888888888888,
+          "other_five": {
+            "a_wer": 16.211699164345404,
+            "b_wer": 15.515320334261839,
+            "errors_a": 1164,
+            "errors_b": 1114,
+            "words": 7180,
+            "utterances": 403,
+            "delta_pp": 0.6963788300835655,
+            "ci95": [
+              -0.22324543044509557,
+              1.6852367688022285
+            ],
+            "negative_speakers": 34,
+            "positive_speakers": 37,
+            "ties": 10,
+            "sign_p": 0.8125886494061618,
+            "speaker_loo_range": [
+              0.5358905655055705,
+              0.8320406148639121
+            ]
+          },
+          "specific_minus_other_five": {
+            "delta_pp": -2.995030748507347,
+            "ci95": [
+              -4.879717248464333,
+              -1.169720018440047
+            ]
+          }
+        },
+        {
+          "text": "when a man looks for something beyond his reach his friends say he is looking for the pot of gold at the end of the rainbow",
+          "errors32": 331,
+          "errors40": 342,
+          "delta_errors": -11,
+          "words": 2106,
+          "delta_pp": -0.5223171889838556,
+          "other_five": {
+            "a_wer": 15.39671443551206,
+            "b_wer": 14.487941279272981,
+            "errors_a": 881,
+            "errors_b": 829,
+            "words": 5722,
+            "utterances": 403,
+            "delta_pp": 0.9087731562390773,
+            "ci95": [
+              -0.10456741836114215,
+              1.9738249978249882
+            ],
+            "negative_speakers": 32,
+            "positive_speakers": 37,
+            "ties": 12,
+            "sign_p": 0.630456491786798,
+            "speaker_loo_range": [
+              0.7255353034861086,
+              1.0617589807113785
+            ]
+          },
+          "specific_minus_other_five": {
+            "delta_pp": -3.2074250746628588,
+            "ci95": [
+              -5.009753068377689,
+              -1.353947773181918
+            ]
+          }
+        },
+        {
+          "text": "when sunlight strikes raindrops in the air they act like a prism and form a rainbow",
+          "errors32": 280,
+          "errors40": 244,
+          "delta_errors": 36,
+          "words": 1280,
+          "delta_pp": 2.8125,
+          "other_five": {
+            "a_wer": 14.233353695784972,
+            "b_wer": 14.156994502138057,
+            "errors_a": 932,
+            "errors_b": 927,
+            "words": 6548,
+            "utterances": 404,
+            "delta_pp": 0.07635919364691508,
+            "ci95": [
+              -0.7807168836463454,
+              0.9602194787379973
+            ],
+            "negative_speakers": 37,
+            "positive_speakers": 32,
+            "ties": 12,
+            "sign_p": 0.630456491786798,
+            "speaker_loo_range": [
+              -0.10824184320395856,
+              0.20102056595020876
+            ]
+          },
+          "specific_minus_other_five": {
+            "delta_pp": -2.3750111120706965,
+            "ci95": [
+              -4.215945150750276,
+              -0.5742560717454797
+            ]
+          }
+        },
+        {
+          "text": "there is according to legend a boiling pot of gold at one end",
+          "errors32": 165,
+          "errors40": 146,
+          "delta_errors": 19,
+          "words": 1040,
+          "delta_pp": 1.8269230769230769,
+          "other_five": {
+            "a_wer": 15.424278137890395,
+            "b_wer": 15.100176782557455,
+            "errors_a": 1047,
+            "errors_b": 1025,
+            "words": 6788,
+            "utterances": 404,
+            "delta_pp": 0.3241013553329405,
+            "ci95": [
+              -0.5906674542232723,
+              1.281673541543901
+            ],
+            "negative_speakers": 33,
+            "positive_speakers": 31,
+            "ties": 17,
+            "sign_p": 0.9006532462520331,
+            "speaker_loo_range": [
+              0.16408114558472553,
+              0.4922434367541766
+            ]
+          },
+          "specific_minus_other_five": {
+            "delta_pp": -2.622753273756722,
+            "ci95": [
+              -4.44568834707397,
+              -0.8715683762606947
+            ]
+          }
+        }
+      ]
+    },
+    "disjoint": {
+      "all": {
+        "a_wer": 26.98692522403408,
+        "b_wer": 27.104451300132215,
+        "errors_a": 3674,
+        "errors_b": 3690,
+        "words": 13614,
+        "utterances": 1209,
+        "delta_pp": -0.11752607609813427,
+        "ci95": [
+          -1.0696860858034487,
+          0.9049590749949397
+        ],
+        "negative_speakers": 39,
+        "positive_speakers": 39,
+        "ties": 3,
+        "sign_p": 1.0,
+        "speaker_loo_range": [
+          -0.31236055332440876,
+          0.029757476565987203
+        ]
+      },
+      "repeated": {
+        "a_wer": 14.908022483392948,
+        "b_wer": 13.336739908022484,
+        "errors_a": 1167,
+        "errors_b": 1044,
+        "words": 7828,
+        "utterances": 484,
+        "delta_pp": 1.571282575370465,
+        "ci95": [
+          0.49899418213708585,
+          2.6728866096207065
+        ],
+        "negative_speakers": 24,
+        "positive_speakers": 40,
+        "ties": 17,
+        "sign_p": 0.05994118956699923,
+        "speaker_loo_range": [
+          1.3969732246798603,
+          1.681541844522054
+        ]
+      },
+      "specific": {
+        "a_wer": 43.32872450743173,
+        "b_wer": 45.73107500864155,
+        "errors_a": 2507,
+        "errors_b": 2646,
+        "words": 5786,
+        "utterances": 725,
+        "delta_pp": -2.402350501209817,
+        "ci95": [
+          -4.012747379259562,
+          -0.8101911800231659
+        ],
+        "negative_speakers": 47,
+        "positive_speakers": 28,
+        "ties": 6,
+        "sign_p": 0.03695490402736831,
+        "speaker_loo_range": [
+          -2.677165354330709,
+          -2.136228331290492
+        ]
+      },
+      "sentences": [
+        {
+          "text": "the rainbow is a division of white light into many beautiful colours",
+          "errors32": 92,
+          "errors40": 86,
+          "delta_errors": 6,
+          "words": 972,
+          "delta_pp": 0.6172839506172839,
+          "other_five": {
+            "a_wer": 15.679696616102683,
+            "b_wer": 13.97316219369895,
+            "errors_a": 1075,
+            "errors_b": 958,
+            "words": 6856,
+            "utterances": 403,
+            "delta_pp": 1.706534422403734,
+            "ci95": [
+              0.5263100209972542,
+              2.9450357194926373
+            ],
+            "negative_speakers": 26,
+            "positive_speakers": 40,
+            "ties": 15,
+            "sign_p": 0.1088569644097161,
+            "speaker_loo_range": [
+              1.5064244572441292,
+              1.831339536257569
+            ]
+          },
+          "specific_minus_other_five": {
+            "delta_pp": -4.108884923613551,
+            "ci95": [
+              -5.958381320000412,
+              -2.2728763639212293
+            ]
+          }
+        },
+        {
+          "text": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "errors32": 269,
+          "errors40": 249,
+          "delta_errors": 20,
+          "words": 1782,
+          "delta_pp": 1.122334455667789,
+          "other_five": {
+            "a_wer": 14.852795236520013,
+            "b_wer": 13.149189546807806,
+            "errors_a": 898,
+            "errors_b": 795,
+            "words": 6046,
+            "utterances": 403,
+            "delta_pp": 1.7036056897122065,
+            "ci95": [
+              0.44679240555706484,
+              3.0583567531823443
+            ],
+            "negative_speakers": 29,
+            "positive_speakers": 38,
+            "ties": 14,
+            "sign_p": 0.3284320626971899,
+            "speaker_loo_range": [
+              1.490537598392229,
+              1.842237481158935
+            ]
+          },
+          "specific_minus_other_five": {
+            "delta_pp": -4.105956190922024,
+            "ci95": [
+              -5.979583611756288,
+              -2.280343931233726
+            ]
+          }
+        },
+        {
+          "text": "people look but no one ever finds it",
+          "errors32": 38,
+          "errors40": 37,
+          "delta_errors": 1,
+          "words": 648,
+          "delta_pp": 0.15432098765432098,
+          "other_five": {
+            "a_wer": 15.724233983286908,
+            "b_wer": 14.025069637883009,
+            "errors_a": 1129,
+            "errors_b": 1007,
+            "words": 7180,
+            "utterances": 403,
+            "delta_pp": 1.6991643454038998,
+            "ci95": [
+              0.5443829128901098,
+              2.9301790547144297
+            ],
+            "negative_speakers": 23,
+            "positive_speakers": 43,
+            "ties": 15,
+            "sign_p": 0.018657260354021005,
+            "speaker_loo_range": [
+              1.494852630094486,
+              1.833309829361162
+            ]
+          },
+          "specific_minus_other_five": {
+            "delta_pp": -4.101514846613717,
+            "ci95": [
+              -5.935227759133648,
+              -2.2919468944166477
+            ]
+          }
+        },
+        {
+          "text": "when a man looks for something beyond his reach his friends say he is looking for the pot of gold at the end of the rainbow",
+          "errors32": 318,
+          "errors40": 316,
+          "delta_errors": 2,
+          "words": 2106,
+          "delta_pp": 0.0949667616334283,
+          "other_five": {
+            "a_wer": 14.83746941628801,
+            "b_wer": 12.722824187347081,
+            "errors_a": 849,
+            "errors_b": 728,
+            "words": 5722,
+            "utterances": 403,
+            "delta_pp": 2.1146452289409297,
+            "ci95": [
+              0.873324373817401,
+              3.4544572423357582
+            ],
+            "negative_speakers": 23,
+            "positive_speakers": 39,
+            "ties": 19,
+            "sign_p": 0.05589722669971113,
+            "speaker_loo_range": [
+              1.8757741992567685,
+              2.2650858255176076
+            ]
+          },
+          "specific_minus_other_five": {
+            "delta_pp": -4.516995730150747,
+            "ci95": [
+              -6.434328711727306,
+              -2.679544255934189
+            ]
+          }
+        },
+        {
+          "text": "when sunlight strikes raindrops in the air they act like a prism and form a rainbow",
+          "errors32": 298,
+          "errors40": 207,
+          "delta_errors": 91,
+          "words": 1280,
+          "delta_pp": 7.109375,
+          "other_five": {
+            "a_wer": 13.271227855833843,
+            "b_wer": 12.782529016493585,
+            "errors_a": 869,
+            "errors_b": 837,
+            "words": 6548,
+            "utterances": 404,
+            "delta_pp": 0.48869883934025654,
+            "ci95": [
+              -0.5039957416458252,
+              1.4785065454528177
+            ],
+            "negative_speakers": 27,
+            "positive_speakers": 39,
+            "ties": 15,
+            "sign_p": 0.1752857944430353,
+            "speaker_loo_range": [
+              0.3247255296118757,
+              0.633987938766043
+            ]
+          },
+          "specific_minus_other_five": {
+            "delta_pp": -2.8910493405500737,
+            "ci95": [
+              -4.74295120774968,
+              -1.0657955068012572
+            ]
+          }
+        },
+        {
+          "text": "there is according to legend a boiling pot of gold at one end",
+          "errors32": 152,
+          "errors40": 149,
+          "delta_errors": 3,
+          "words": 1040,
+          "delta_pp": 0.28846153846153844,
+          "other_five": {
+            "a_wer": 14.952857984678845,
+            "b_wer": 13.185032410135534,
+            "errors_a": 1015,
+            "errors_b": 895,
+            "words": 6788,
+            "utterances": 404,
+            "delta_pp": 1.7678255745433118,
+            "ci95": [
+              0.6497341996455995,
+              2.983539094650206
+            ],
+            "negative_speakers": 22,
+            "positive_speakers": 39,
+            "ties": 20,
+            "sign_p": 0.03961701489849968,
+            "speaker_loo_range": [
+              1.5662291169451072,
+              1.8943914081145585
+            ]
+          },
+          "specific_minus_other_five": {
+            "delta_pp": -4.170176075753129,
+            "ci95": [
+              -5.997146367675498,
+              -2.4271915847874497
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "shared_vs_disjoint": {
+    "test_modal": {
+      "a_wer": 14.756867930071985,
+      "b_wer": 13.801968561774643,
+      "errors_a": 2009,
+      "errors_b": 1879,
+      "words": 13614,
+      "utterances": 1209,
+      "delta_pp": 0.954899368297341,
+      "ci95": [
+        0.21911690469915474,
+        1.6687528519477355
+      ],
+      "negative_speakers": 29,
+      "positive_speakers": 43,
+      "ties": 9,
+      "sign_p": 0.12491820036864003,
+      "speaker_loo_range": [
+        0.8616847422374089,
+        1.1083011008628385
+      ]
+    },
+    "test_silent": {
+      "a_wer": 26.98692522403408,
+      "b_wer": 27.493756427207288,
+      "errors_a": 3674,
+      "errors_b": 3743,
+      "words": 13614,
+      "utterances": 1209,
+      "delta_pp": -0.5068312031732041,
+      "ci95": [
+        -1.4375890487599483,
+        0.3579655426884006
+      ],
+      "negative_speakers": 40,
+      "positive_speakers": 35,
+      "ties": 6,
+      "sign_p": 0.644463913894226,
+      "speaker_loo_range": [
+        -0.632158262680351,
+        -0.3569038590229757
+      ]
+    }
+  },
+  "repair_vs_smoothing": [
+    {
+      "seed": 1,
+      "test_modal": {
+        "a_wer": 15.41795210812399,
+        "b_wer": 14.87439400617012,
+        "errors_a": 2099,
+        "errors_b": 2025,
+        "words": 13614,
+        "utterances": 1209,
+        "delta_pp": 0.543558101953871,
+        "ci95": [
+          -0.1972927288080876,
+          1.2663327979894141
+        ],
+        "negative_speakers": 28,
+        "positive_speakers": 47,
+        "ties": 6,
+        "sign_p": 0.03695490402736831,
+        "speaker_loo_range": [
+          0.4463621484898081,
+          0.6620053555489437
+        ]
+      },
+      "test_silent": {
+        "a_wer": 30.29234611429411,
+        "b_wer": 28.896723960628766,
+        "errors_a": 4124,
+        "errors_b": 3934,
+        "words": 13614,
+        "utterances": 1209,
+        "delta_pp": 1.3956221536653446,
+        "ci95": [
+          0.30250156725970423,
+          2.491379655638754
+        ],
+        "negative_speakers": 29,
+        "positive_speakers": 50,
+        "ties": 2,
+        "sign_p": 0.023819792858001267,
+        "speaker_loo_range": [
+          1.2348434129286618,
+          1.5988696363501154
+        ]
+      }
+    },
+    {
+      "seed": 2,
+      "test_modal": {
+        "a_wer": 16.6079036286176,
+        "b_wer": 16.402232995445864,
+        "errors_a": 2261,
+        "errors_b": 2233,
+        "words": 13614,
+        "utterances": 1209,
+        "delta_pp": 0.20567063317173498,
+        "ci95": [
+          -0.706092623543355,
+          1.1313048586727394
+        ],
+        "negative_speakers": 36,
+        "positive_speakers": 37,
+        "ties": 8,
+        "sign_p": 1.0,
+        "speaker_loo_range": [
+          0.04461961775860787,
+          0.3497284024108937
+        ]
+      },
+      "test_silent": {
+        "a_wer": 33.80343763772587,
+        "b_wer": 31.717349786983988,
+        "errors_a": 4602,
+        "errors_b": 4318,
+        "words": 13614,
+        "utterances": 1209,
+        "delta_pp": 2.086087850741883,
+        "ci95": [
+          0.9356172877229972,
+          3.2599139872751914
+        ],
+        "negative_speakers": 27,
+        "positive_speakers": 53,
+        "ties": 1,
+        "sign_p": 0.004868154149559423,
+        "speaker_loo_range": [
+          1.9408090422367636,
+          2.253793513835168
+        ]
+      }
+    },
+    {
+      "seed": 3,
+      "test_modal": {
+        "a_wer": 16.578522109593067,
+        "b_wer": 16.490377552519465,
+        "errors_a": 2257,
+        "errors_b": 2245,
+        "words": 13614,
+        "utterances": 1209,
+        "delta_pp": 0.08814455707360071,
+        "ci95": [
+          -0.668557289534222,
+          0.8427645759158514
+        ],
+        "negative_speakers": 39,
+        "positive_speakers": 37,
+        "ties": 5,
+        "sign_p": 0.9087769252754921,
+        "speaker_loo_range": [
+          -0.0892458723784025,
+          0.17847847103443149
+        ]
+      },
+      "test_silent": {
+        "a_wer": 32.87057440869693,
+        "b_wer": 33.1276627001616,
+        "errors_a": 4475,
+        "errors_b": 4510,
+        "words": 13614,
+        "utterances": 1209,
+        "delta_pp": -0.2570882914646687,
+        "ci95": [
+          -1.253337958749301,
+          0.671450236839739
+        ],
+        "negative_speakers": 40,
+        "positive_speakers": 34,
+        "ties": 7,
+        "sign_p": 0.5613807442989819,
+        "speaker_loo_range": [
+          -0.4016960499888418,
+          -0.12631891811561896
+        ]
+      }
+    }
+  ],
+  "repair_primary": {
+    "GMM+fMLLR": {
+      "test_modal": {
+        "a_wer": 17.695019832525343,
+        "b_wer": 17.592184515939476,
+        "errors_a": 2409,
+        "errors_b": 2395,
+        "words": 13614,
+        "utterances": 1209,
+        "delta_pp": 0.10283531658586749,
+        "ci95": [
+          -0.5903491542315668,
+          0.8212408085916002
+        ],
+        "negative_speakers": 39,
+        "positive_speakers": 34,
+        "ties": 8,
+        "sign_p": 0.6399729317539424,
+        "speaker_loo_range": [
+          -0.007439369141496801,
+          0.2157096102350491
+        ]
+      },
+      "test_silent": {
+        "a_wer": 30.079330101366242,
+        "b_wer": 29.572498898193036,
+        "errors_a": 4095,
+        "errors_b": 4026,
+        "words": 13614,
+        "utterances": 1209,
+        "delta_pp": 0.5068312031732041,
+        "ci95": [
+          -0.5657293023077479,
+          1.5000967831077812
+        ],
+        "negative_speakers": 36,
+        "positive_speakers": 40,
+        "ties": 5,
+        "sign_p": 0.7310088822226052,
+        "speaker_loo_range": [
+          0.3049007213504871,
+          0.6390251151731312
+        ]
+      }
+    },
+    "DNN+fMLLR": {
+      "test_modal": {
+        "a_wer": 15.41795210812399,
+        "b_wer": 14.87439400617012,
+        "errors_a": 2099,
+        "errors_b": 2025,
+        "words": 13614,
+        "utterances": 1209,
+        "delta_pp": 0.543558101953871,
+        "ci95": [
+          -0.1972927288080876,
+          1.2663327979894141
+        ],
+        "negative_speakers": 28,
+        "positive_speakers": 47,
+        "ties": 6,
+        "sign_p": 0.03695490402736831,
+        "speaker_loo_range": [
+          0.4463621484898081,
+          0.6620053555489437
+        ]
+      },
+      "test_silent": {
+        "a_wer": 30.29234611429411,
+        "b_wer": 28.896723960628766,
+        "errors_a": 4124,
+        "errors_b": 3934,
+        "words": 13614,
+        "utterances": 1209,
+        "delta_pp": 1.3956221536653446,
+        "ci95": [
+          0.30250156725970423,
+          2.491379655638754
+        ],
+        "negative_speakers": 29,
+        "positive_speakers": 50,
+        "ties": 2,
+        "sign_p": 0.023819792858001267,
+        "speaker_loo_range": [
+          1.2348434129286618,
+          1.5988696363501154
+        ]
+      }
+    }
+  },
+  "trainlm_replicates": [
+    {
+      "seed": 1,
+      "jobs": 8,
+      "test_modal": {
+        "a_wer": 64.13251065080064,
+        "b_wer": 62.89848685177024,
+        "errors_a": 8731,
+        "errors_b": 8563,
+        "words": 13614,
+        "utterances": 1209,
+        "delta_pp": 1.23402379903041,
+        "ci95": [
+          0.4493157180654838,
+          2.00175995071348
+        ],
+        "negative_speakers": 29,
+        "positive_speakers": 50,
+        "ties": 2,
+        "sign_p": 0.023819792858001267,
+        "speaker_loo_range": [
+          1.137631050635735,
+          1.3311519297984682
+        ]
+      },
+      "test_silent": {
+        "a_wer": 76.31849566622594,
+        "b_wer": 77.66270016159835,
+        "errors_a": 10390,
+        "errors_b": 10573,
+        "words": 13614,
+        "utterances": 1209,
+        "delta_pp": -1.3442044953724108,
+        "ci95": [
+          -2.241131903654472,
+          -0.46201208404062116
+        ],
+        "negative_speakers": 51,
+        "positive_speakers": 25,
+        "ties": 5,
+        "sign_p": 0.0038362357516146246,
+        "speaker_loo_range": [
+          -1.486988847583643,
+          -1.2200565392054754
+        ]
+      }
+    },
+    {
+      "seed": 2,
+      "jobs": 6,
+      "test_modal": {
+        "a_wer": 63.53018951079771,
+        "b_wer": 62.876450712501835,
+        "errors_a": 8649,
+        "errors_b": 8560,
+        "words": 13614,
+        "utterances": 1209,
+        "delta_pp": 0.6537387982958719,
+        "ci95": [
+          -0.1319280563400776,
+          1.4498300068109995
+        ],
+        "negative_speakers": 32,
+        "positive_speakers": 45,
+        "ties": 4,
+        "sign_p": 0.17106097355391156,
+        "speaker_loo_range": [
+          0.5355548943766736,
+          0.7586463369282261
+        ]
+      },
+      "test_silent": {
+        "a_wer": 76.78125459086235,
+        "b_wer": 76.90612604671662,
+        "errors_a": 10453,
+        "errors_b": 10470,
+        "words": 13614,
+        "utterances": 1209,
+        "delta_pp": -0.12487145585426766,
+        "ci95": [
+          -0.989685631925559,
+          0.716136110709295
+        ],
+        "negative_speakers": 43,
+        "positive_speakers": 32,
+        "ties": 6,
+        "sign_p": 0.24804574189252795,
+        "speaker_loo_range": [
+          -0.23067192499441921,
+          -0.007436602959767977
+        ]
+      }
+    },
+    {
+      "seed": 3,
+      "jobs": 6,
+      "test_modal": {
+        "a_wer": 63.94887615689731,
+        "b_wer": 63.83869546055531,
+        "errors_a": 8706,
+        "errors_b": 8691,
+        "words": 13614,
+        "utterances": 1209,
+        "delta_pp": 0.11018069634200088,
+        "ci95": [
+          -0.6690220106009079,
+          0.8986067726541205
+        ],
+        "negative_speakers": 36,
+        "positive_speakers": 40,
+        "ties": 5,
+        "sign_p": 0.7310088822226052,
+        "speaker_loo_range": [
+          0.0,
+          0.21575775611933634
+        ]
+      },
+      "test_silent": {
+        "a_wer": 75.77493756427208,
+        "b_wer": 77.01630674305862,
+        "errors_a": 10316,
+        "errors_b": 10485,
+        "words": 13614,
+        "utterances": 1209,
+        "delta_pp": -1.2413691787865433,
+        "ci95": [
+          -1.9298422014817667,
+          -0.5441826850079621
+        ],
+        "negative_speakers": 57,
+        "positive_speakers": 21,
+        "ties": 3,
+        "sign_p": 5.571116486469109e-05,
+        "speaker_loo_range": [
+          -1.339086445469424,
+          -1.1307841095075137
+        ]
+      }
+    }
+  ]
+}

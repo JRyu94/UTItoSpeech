@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lavu-verification"
+version = "1.0.0"
+description = "LaVU word-recognition analysis and configurable recipe components"
+requires-python = ">=3.11"
+dependencies = ["numpy==2.3.5", "scipy==1.16.3", "matplotlib==3.11.2"]
+license = "MIT"
+
+[tool.setuptools.packages.find]
+include = ["lavu*"]
+
+[project.scripts]
+lavu = "lavu.cli:main"

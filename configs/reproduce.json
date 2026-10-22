@@ -1,0 +1,9 @@
+{
+  "predictions": "data/predictions.json.gz",
+  "filter_predictions": "data/filter_predictions.json.gz",
+  "expected": "expected",
+  "output": "generated",
+  "seed": 20261021,
+  "speaker_draws": 5000,
+  "scope": "Stored-prediction verification and configurable recipe components; raw-data training requires TaL, DLC outputs, pronunciation resources, and Kaldi."
+}

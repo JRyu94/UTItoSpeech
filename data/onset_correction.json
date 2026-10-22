@@ -1,0 +1,4741 @@
+[
+  {
+    "key": "shared_32_GMM+fMLLR",
+    "source": "archived-runs/syvu_lexfix_20260921/bfeat_group",
+    "model_sha256": "484e5a2296e5833f466079e1825aba591ba7c8fcad6fc01918386b19911688eb",
+    "lmwt": 15,
+    "before_speaker_errors": 105,
+    "after_speaker_errors": 79,
+    "changed_rows": [
+      {
+        "utt": "67fe_029_xsil",
+        "before": {
+          "utt": "67fe_029_xsil",
+          "ref": "when sunlight strikes raindrops in the air they act like a prism and form a rainbow",
+          "hyp": "when sunlight strikes raindrops in italy him some the former rainbow",
+          "errors": 10,
+          "words": 16
+        },
+        "after": {
+          "utt": "67fe_029_xsil",
+          "ref": "when sunlight strikes raindrops in the air they act like a prism and form a rainbow",
+          "hyp": "when sunlight strikes raindrops in italy a prism and form a rainbow",
+          "errors": 5,
+          "words": 16
+        }
+      },
+      {
+        "utt": "67fe_031_xsil",
+        "before": {
+          "utt": "67fe_031_xsil",
+          "ref": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "hyp": "i am for novelty the permanent it was a very human it was up and",
+          "errors": 21,
+          "words": 22
+        },
+        "after": {
+          "utt": "67fe_031_xsil",
+          "ref": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "hyp": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the rise",
+          "errors": 1,
+          "words": 22
+        }
+      },
+      {
+        "utt": "67fe_034_xsil",
+        "before": {
+          "utt": "67fe_034_xsil",
+          "ref": "when a man looks for something beyond his reach his friends say he is looking for the pot of gold at the end of the rainbow",
+          "hyp": "i'm pleased for to be musicians every single confirmed the following in europe",
+          "errors": 24,
+          "words": 26
+        },
+        "after": {
+          "utt": "67fe_034_xsil",
+          "ref": "when a man looks for something beyond his reach his friends say he is looking for the pot of gold at the end of the rainbow",
+          "hyp": "and perplexed for the be musicians every single confirmed thankfully in europe",
+          "errors": 24,
+          "words": 26
+        }
+      },
+      {
+        "utt": "67fe_040_sil",
+        "before": {
+          "utt": "67fe_040_sil",
+          "ref": "a stiff cord will do to fasten your shoe",
+          "hyp": "a stiff cord will to fasten your shoe",
+          "errors": 1,
+          "words": 9
+        },
+        "after": {
+          "utt": "67fe_040_sil",
+          "ref": "a stiff cord will do to fasten your shoe",
+          "hyp": "a stiff cord will do to fasten your shoe",
+          "errors": 0,
+          "words": 9
+        }
+      },
+      {
+        "utt": "67fe_042_sil",
+        "before": {
+          "utt": "67fe_042_sil",
+          "ref": "choose between the high road and the low",
+          "hyp": "she was we never know",
+          "errors": 8,
+          "words": 8
+        },
+        "after": {
+          "utt": "67fe_042_sil",
+          "ref": "choose between the high road and the low",
+          "hyp": "she would be that rode low",
+          "errors": 7,
+          "words": 8
+        }
+      },
+      {
+        "utt": "67fe_044_sil",
+        "before": {
+          "utt": "67fe_044_sil",
+          "ref": "he lent his coat to the tall gaunt stranger",
+          "hyp": "it's good tall gaunt stranger",
+          "errors": 6,
+          "words": 9
+        },
+        "after": {
+          "utt": "67fe_044_sil",
+          "ref": "he lent his coat to the tall gaunt stranger",
+          "hyp": "in and scoundrel gaunt stranger",
+          "errors": 7,
+          "words": 9
+        }
+      }
+    ]
+  },
+  {
+    "key": "shared_32_DNN+fMLLR",
+    "source": "archived-runs/syvu_lexfix_20260921/bfeat_group",
+    "model_sha256": "18a71da981abf60cde6e68cd30a61091d6f34f75e175c4d5f26fbcf301851a91",
+    "lmwt": 16,
+    "before_speaker_errors": 94,
+    "after_speaker_errors": 76,
+    "changed_rows": [
+      {
+        "utt": "67fe_031_xsil",
+        "before": {
+          "utt": "67fe_031_xsil",
+          "ref": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "hyp": "like a separate of our permanent it was a very you are was rainbow",
+          "errors": 21,
+          "words": 22
+        },
+        "after": {
+          "utt": "67fe_031_xsil",
+          "ref": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "hyp": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the rise",
+          "errors": 1,
+          "words": 22
+        }
+      },
+      {
+        "utt": "67fe_038_sil",
+        "before": {
+          "utt": "67fe_038_sil",
+          "ref": "set the piece here and say nothing",
+          "hyp": "ask me to reside nothing",
+          "errors": 6,
+          "words": 7
+        },
+        "after": {
+          "utt": "67fe_038_sil",
+          "ref": "set the piece here and say nothing",
+          "hyp": "ask me to reside thing",
+          "errors": 7,
+          "words": 7
+        }
+      },
+      {
+        "utt": "67fe_041_sil",
+        "before": {
+          "utt": "67fe_041_sil",
+          "ref": "get the trust fund to the bank early",
+          "hyp": "against the first the back today",
+          "errors": 6,
+          "words": 8
+        },
+        "after": {
+          "utt": "67fe_041_sil",
+          "ref": "get the trust fund to the bank early",
+          "hyp": "again to the first the back today",
+          "errors": 7,
+          "words": 8
+        }
+      },
+      {
+        "utt": "67fe_043_sil",
+        "before": {
+          "utt": "67fe_043_sil",
+          "ref": "a plea for funds seems to come again",
+          "hyp": "believe it seems come again",
+          "errors": 5,
+          "words": 8
+        },
+        "after": {
+          "utt": "67fe_043_sil",
+          "ref": "a plea for funds seems to come again",
+          "hyp": "believe of a seems come again",
+          "errors": 5,
+          "words": 8
+        }
+      }
+    ]
+  },
+  {
+    "key": "shared_32_DNN_transform_withheld",
+    "source": "archived-runs/syvu_lexfix_20260921/bfeat_group",
+    "model_sha256": "18a71da981abf60cde6e68cd30a61091d6f34f75e175c4d5f26fbcf301851a91",
+    "lmwt": 17,
+    "before_speaker_errors": 105,
+    "after_speaker_errors": 84,
+    "changed_rows": [
+      {
+        "utt": "67fe_031_xsil",
+        "before": {
+          "utt": "67fe_031_xsil",
+          "ref": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "hyp": "lack a number of the farmer to their value opened up for us",
+          "errors": 21,
+          "words": 22
+        },
+        "after": {
+          "utt": "67fe_031_xsil",
+          "ref": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "hyp": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "errors": 0,
+          "words": 22
+        }
+      }
+    ]
+  },
+  {
+    "key": "shared_32_DNN_s2",
+    "source": "archived-runs/syvu_lexfix_20260921/bfeat_group",
+    "model_sha256": "1a243ad73003d3285cc7344a54ed9995b63ebf84b93537c31ac9f0560e9066e8",
+    "lmwt": 17,
+    "before_speaker_errors": 103,
+    "after_speaker_errors": 70,
+    "changed_rows": [
+      {
+        "utt": "67fe_029_xsil",
+        "before": {
+          "utt": "67fe_029_xsil",
+          "ref": "when sunlight strikes raindrops in the air they act like a prism and form a rainbow",
+          "hyp": "when sunlight strikes raindrops in their like him some the former rainbow",
+          "errors": 9,
+          "words": 16
+        },
+        "after": {
+          "utt": "67fe_029_xsil",
+          "ref": "when sunlight strikes raindrops in the air they act like a prism and form a rainbow",
+          "hyp": "when sunlight strikes raindrops in their like a prism and form a rainbow",
+          "errors": 4,
+          "words": 16
+        }
+      },
+      {
+        "utt": "67fe_031_xsil",
+        "before": {
+          "utt": "67fe_031_xsil",
+          "ref": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "hyp": "a lack had above and of our permanent it was a very human rubbish up and",
+          "errors": 21,
+          "words": 22
+        },
+        "after": {
+          "utt": "67fe_031_xsil",
+          "ref": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "hyp": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the rise",
+          "errors": 1,
+          "words": 22
+        }
+      },
+      {
+        "utt": "67fe_034_xsil",
+        "before": {
+          "utt": "67fe_034_xsil",
+          "ref": "when a man looks for something beyond his reach his friends say he is looking for the pot of gold at the end of the rainbow",
+          "hyp": "perplexed for the be musicians have seized confirmed of only the rainbow",
+          "errors": 22,
+          "words": 26
+        },
+        "after": {
+          "utt": "67fe_034_xsil",
+          "ref": "when a man looks for something beyond his reach his friends say he is looking for the pot of gold at the end of the rainbow",
+          "hyp": "when a man looks for the be musicians have seized confirmed of fallen in the rainbow",
+          "errors": 18,
+          "words": 26
+        }
+      },
+      {
+        "utt": "67fe_038_sil",
+        "before": {
+          "utt": "67fe_038_sil",
+          "ref": "set the piece here and say nothing",
+          "hyp": "the me to reside nothing",
+          "errors": 5,
+          "words": 7
+        },
+        "after": {
+          "utt": "67fe_038_sil",
+          "ref": "set the piece here and say nothing",
+          "hyp": "that me to reside nothing",
+          "errors": 6,
+          "words": 7
+        }
+      },
+      {
+        "utt": "67fe_039_sil",
+        "before": {
+          "utt": "67fe_039_sil",
+          "ref": "dull stories make her laugh",
+          "hyp": "dull stories make enough",
+          "errors": 2,
+          "words": 5
+        },
+        "after": {
+          "utt": "67fe_039_sil",
+          "ref": "dull stories make her laugh",
+          "hyp": "dull stories make enough and",
+          "errors": 2,
+          "words": 5
+        }
+      },
+      {
+        "utt": "67fe_041_sil",
+        "before": {
+          "utt": "67fe_041_sil",
+          "ref": "get the trust fund to the bank early",
+          "hyp": "it gets the first the back today",
+          "errors": 7,
+          "words": 8
+        },
+        "after": {
+          "utt": "67fe_041_sil",
+          "ref": "get the trust fund to the bank early",
+          "hyp": "again the first the back there",
+          "errors": 6,
+          "words": 8
+        }
+      },
+      {
+        "utt": "67fe_042_sil",
+        "before": {
+          "utt": "67fe_042_sil",
+          "ref": "choose between the high road and the low",
+          "hyp": "she was we that rode low",
+          "errors": 7,
+          "words": 8
+        },
+        "after": {
+          "utt": "67fe_042_sil",
+          "ref": "choose between the high road and the low",
+          "hyp": "she would be that road in the low",
+          "errors": 5,
+          "words": 8
+        }
+      },
+      {
+        "utt": "67fe_044_sil",
+        "before": {
+          "utt": "67fe_044_sil",
+          "ref": "he lent his coat to the tall gaunt stranger",
+          "hyp": "it is good the tall gaunt stranger",
+          "errors": 5,
+          "words": 9
+        },
+        "after": {
+          "utt": "67fe_044_sil",
+          "ref": "he lent his coat to the tall gaunt stranger",
+          "hyp": "it is going to the tall gaunt stranger",
+          "errors": 4,
+          "words": 9
+        }
+      },
+      {
+        "utt": "67fe_045_sil",
+        "before": {
+          "utt": "67fe_045_sil",
+          "ref": "there is a strong chance it will happen once more",
+          "hyp": "if the newcastle happen once more",
+          "errors": 7,
+          "words": 10
+        },
+        "after": {
+          "utt": "67fe_045_sil",
+          "ref": "there is a strong chance it will happen once more",
+          "hyp": "if the junk yard will happen once more",
+          "errors": 6,
+          "words": 10
+        }
+      }
+    ]
+  },
+  {
+    "key": "shared_32_DNN_s3",
+    "source": "archived-runs/syvu_lexfix_20260921/bfeat_group",
+    "model_sha256": "995ff6cc4bb86e0e6700776053b109d60100fa731dbed529ab38c7c8a6b17dfa",
+    "lmwt": 17,
+    "before_speaker_errors": 99,
+    "after_speaker_errors": 78,
+    "changed_rows": [
+      {
+        "utt": "67fe_031_xsil",
+        "before": {
+          "utt": "67fe_031_xsil",
+          "ref": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "hyp": "like a preferred of vaudeville permanent it was a very you are was slip it",
+          "errors": 21,
+          "words": 22
+        },
+        "after": {
+          "utt": "67fe_031_xsil",
+          "ref": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "hyp": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the rise",
+          "errors": 1,
+          "words": 22
+        }
+      },
+      {
+        "utt": "67fe_032_xsil",
+        "before": {
+          "utt": "67fe_032_xsil",
+          "ref": "there is according to legend a boiling pot of gold at one end",
+          "hyp": "there is going to legend a boiling pot of the but it",
+          "errors": 5,
+          "words": 13
+        },
+        "after": {
+          "utt": "67fe_032_xsil",
+          "ref": "there is according to legend a boiling pot of gold at one end",
+          "hyp": "there is going to legend a boiling pot of gold at one it",
+          "errors": 2,
+          "words": 13
+        }
+      },
+      {
+        "utt": "67fe_034_xsil",
+        "before": {
+          "utt": "67fe_034_xsil",
+          "ref": "when a man looks for something beyond his reach his friends say he is looking for the pot of gold at the end of the rainbow",
+          "hyp": "man looks for the beam to save deserves he is confirmed log float in the rainbow",
+          "errors": 19,
+          "words": 26
+        },
+        "after": {
+          "utt": "67fe_034_xsil",
+          "ref": "when a man looks for something beyond his reach his friends say he is looking for the pot of gold at the end of the rainbow",
+          "hyp": "perplexed for the beam to save deserves he is confirmed log float in the rainbow",
+          "errors": 21,
+          "words": 26
+        }
+      },
+      {
+        "utt": "67fe_038_sil",
+        "before": {
+          "utt": "67fe_038_sil",
+          "ref": "set the piece here and say nothing",
+          "hyp": "some easy right thing",
+          "errors": 7,
+          "words": 7
+        },
+        "after": {
+          "utt": "67fe_038_sil",
+          "ref": "set the piece here and say nothing",
+          "hyp": "let me to reside thing",
+          "errors": 7,
+          "words": 7
+        }
+      },
+      {
+        "utt": "67fe_042_sil",
+        "before": {
+          "utt": "67fe_042_sil",
+          "ref": "choose between the high road and the low",
+          "hyp": "choose between are rode low",
+          "errors": 5,
+          "words": 8
+        },
+        "after": {
+          "utt": "67fe_042_sil",
+          "ref": "choose between the high road and the low",
+          "hyp": "choose between i rode low",
+          "errors": 5,
+          "words": 8
+        }
+      },
+      {
+        "utt": "67fe_045_sil",
+        "before": {
+          "utt": "67fe_045_sil",
+          "ref": "there is a strong chance it will happen once more",
+          "hyp": "if so just will happen once more",
+          "errors": 6,
+          "words": 10
+        },
+        "after": {
+          "utt": "67fe_045_sil",
+          "ref": "there is a strong chance it will happen once more",
+          "hyp": "if the junk yard will happen once more",
+          "errors": 6,
+          "words": 10
+        }
+      }
+    ]
+  },
+  {
+    "key": "disjoint_32_GMM_transform_withheld_fold1",
+    "source": "archived-runs/syvu_lexfix_20260921/xspk/fold1",
+    "model_sha256": "128f85b22c9bd64b4b9a548273599f908b005d458b9ae5f36931215e6cd35d77",
+    "lmwt": 16,
+    "before_speaker_errors": 124,
+    "after_speaker_errors": 104,
+    "changed_rows": [
+      {
+        "utt": "67fe_031_xsil",
+        "before": {
+          "utt": "67fe_031_xsil",
+          "ref": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "hyp": "it high above and form a bridge a miracle without a prism and",
+          "errors": 20,
+          "words": 22
+        },
+        "after": {
+          "utt": "67fe_031_xsil",
+          "ref": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "hyp": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "errors": 0,
+          "words": 22
+        }
+      }
+    ]
+  },
+  {
+    "key": "disjoint_32_GMM+fMLLR_fold1",
+    "source": "archived-runs/syvu_lexfix_20260921/xspk/fold1",
+    "model_sha256": "128f85b22c9bd64b4b9a548273599f908b005d458b9ae5f36931215e6cd35d77",
+    "lmwt": 14,
+    "before_speaker_errors": 107,
+    "after_speaker_errors": 83,
+    "changed_rows": [
+      {
+        "utt": "67fe_031_xsil",
+        "before": {
+          "utt": "67fe_031_xsil",
+          "ref": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "hyp": "it's like a number of the first the department it was afraid you'll there was a number of it",
+          "errors": 21,
+          "words": 22
+        },
+        "after": {
+          "utt": "67fe_031_xsil",
+          "ref": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "hyp": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the rise",
+          "errors": 1,
+          "words": 22
+        }
+      },
+      {
+        "utt": "67fe_032_xsil",
+        "before": {
+          "utt": "67fe_032_xsil",
+          "ref": "there is according to legend a boiling pot of gold at one end",
+          "hyp": "there is going to legend a boiling pot of the but it",
+          "errors": 5,
+          "words": 13
+        },
+        "after": {
+          "utt": "67fe_032_xsil",
+          "ref": "there is according to legend a boiling pot of gold at one end",
+          "hyp": "there is going to legend a boiling pot of gold at one end",
+          "errors": 1,
+          "words": 13
+        }
+      },
+      {
+        "utt": "67fe_034_xsil",
+        "before": {
+          "utt": "67fe_034_xsil",
+          "ref": "when a man looks for something beyond his reach his friends say he is looking for the pot of gold at the end of the rainbow",
+          "hyp": "i'm pleased to be musicians have days confirmed over the in the rainbow",
+          "errors": 23,
+          "words": 26
+        },
+        "after": {
+          "utt": "67fe_034_xsil",
+          "ref": "when a man looks for something beyond his reach his friends say he is looking for the pot of gold at the end of the rainbow",
+          "hyp": "i'm pleased to be musicians have tasty confirmed over the in the rainbow",
+          "errors": 23,
+          "words": 26
+        }
+      },
+      {
+        "utt": "67fe_039_sil",
+        "before": {
+          "utt": "67fe_039_sil",
+          "ref": "dull stories make her laugh",
+          "hyp": "for expected of a",
+          "errors": 5,
+          "words": 5
+        },
+        "after": {
+          "utt": "67fe_039_sil",
+          "ref": "dull stories make her laugh",
+          "hyp": "lori's begin of a",
+          "errors": 5,
+          "words": 5
+        }
+      }
+    ]
+  },
+  {
+    "key": "disjoint_32_DNN_transform_withheld_fold1",
+    "source": "archived-runs/syvu_lexfix_20260921/xspk/fold1",
+    "model_sha256": "0821e0e060eb79a219b84ddcc2dcef3f907cf78c6218ea6d8657ff4f314ae2f1",
+    "lmwt": 17,
+    "before_speaker_errors": 118,
+    "after_speaker_errors": 97,
+    "changed_rows": [
+      {
+        "utt": "67fe_031_xsil",
+        "before": {
+          "utt": "67fe_031_xsil",
+          "ref": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "hyp": "it's like a number of the for them she had been very human about that",
+          "errors": 21,
+          "words": 22
+        },
+        "after": {
+          "utt": "67fe_031_xsil",
+          "ref": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "hyp": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "errors": 0,
+          "words": 22
+        }
+      }
+    ]
+  },
+  {
+    "key": "disjoint_32_DNN+fMLLR_fold1",
+    "source": "archived-runs/syvu_lexfix_20260921/xspk/fold1",
+    "model_sha256": "0821e0e060eb79a219b84ddcc2dcef3f907cf78c6218ea6d8657ff4f314ae2f1",
+    "lmwt": 12,
+    "before_speaker_errors": 103,
+    "after_speaker_errors": 79,
+    "changed_rows": [
+      {
+        "utt": "67fe_031_xsil",
+        "before": {
+          "utt": "67fe_031_xsil",
+          "ref": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "hyp": "there like a number of the phosphate published it was a very human it was rainbow have it",
+          "errors": 21,
+          "words": 22
+        },
+        "after": {
+          "utt": "67fe_031_xsil",
+          "ref": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "hyp": "these take the shape of a long round arch with path high above and its two ends apparently beyond the horizon",
+          "errors": 1,
+          "words": 22
+        }
+      },
+      {
+        "utt": "67fe_033_xsil",
+        "before": {
+          "utt": "67fe_033_xsil",
+          "ref": "people look but no one ever finds it",
+          "hyp": "people come down ever visit",
+          "errors": 6,
+          "words": 8
+        },
+        "after": {
+          "utt": "67fe_033_xsil",
+          "ref": "people look but no one ever finds it",
+          "hyp": "people come down ever visit him",
+          "errors": 6,
+          "words": 8
+        }
+      },
+      {
+        "utt": "67fe_038_sil",
+        "before": {
+          "utt": "67fe_038_sil",
+          "ref": "set the piece here and say nothing",
+          "hyp": "sprigs of resigning",
+          "errors": 7,
+          "words": 7
+        },
+        "after": {
+          "utt": "67fe_038_sil",
+          "ref": "set the piece here and say nothing",
+          "hyp": "tell me to reside nothing",
+          "errors": 6,
+          "words": 7
+        }
+      },
+      {
+        "utt": "67fe_039_sil",
+        "before": {
+          "utt": "67fe_039_sil",
+          "ref": "dull stories make her laugh",
+          "hyp": "dull stories make enough for",
+          "errors": 2,
+          "words": 5
+        },
+        "after": {
+          "utt": "67fe_039_sil",
+          "ref": "dull stories make her laugh",
+          "hyp": "dull stories make enough fire",
+          "errors": 2,
+          "words": 5
+        }
+      },
+      {
+        "utt": "67fe_042_sil",
+        "before": {
+          "utt": "67fe_042_sil",
+          "ref": "choose between the high road and the low",
+          "hyp": "choose between that road their home",
+          "errors": 5,
+          "words": 8
+        },
+        "after": {
+          "utt": "67fe_042_sil",
+          "ref": "choose between the high road and the low",
+          "hyp": "choose between that road the low",
+          "errors": 3,
+          "words": 8
+        }
+      },
+      {
+        "utt": "67fe_043_sil",
+        "before": {
+          "utt": "67fe_043_sil",
+          "ref": "a plea for funds seems to come again",
+          "hyp": "believe it seems come again",
+          "errors": 5,
+          "words": 8
+        },
+        "after": {
+          "utt": "67fe_043_sil",
+          "ref": "a plea for funds seems to come again",
+          "hyp": "i believe it seems to come again",
+          "errors": 4,
+          "words": 8
+        }
+      }
+    ]
+  },
+  {
+    "key": "shared_40_GMM+fMLLR",
+    "source": "archived-runs/syvu_lexfix_20260921/bfeat_full",
+    "model_sha256": "d3c55b46613c1c62ba5e87a92ff151f473a25edd5cc6072a8348ab21b2db93bf",
+    "lmwt": 15,
+    "before_speaker_errors": 112,
+    "after_speaker_errors": 97,
+    "changed_rows": [
+      {
+        "utt": "67fe_031_xsil",
+        "before": {
+          "utt": "67fe_031_xsil",
+          "ref": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "hyp": "let him for the first the department it was afraid you rubbish up it",
+          "errors": 22,
+          "words": 22
+        },
+        "after": {
+          "utt": "67fe_031_xsil",
+          "ref": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "hyp": "these take the shape of a long round arch with an path high above and its two ends apparently beyond the rise",
+          "errors": 2,
+          "words": 22
+        }
+      },
+      {
+        "utt": "67fe_032_xsil",
+        "before": {
+          "utt": "67fe_032_xsil",
+          "ref": "there is according to legend a boiling pot of gold at one end",
+          "hyp": "there is according to legend a boiling pot of gold at one end",
+          "errors": 0,
+          "words": 13
+        },
+        "after": {
+          "utt": "67fe_032_xsil",
+          "ref": "there is according to legend a boiling pot of gold at one end",
+          "hyp": "if so to legend a boiling pot of gold at one end",
+          "errors": 3,
+          "words": 13
+        }
+      },
+      {
+        "utt": "67fe_040_sil",
+        "before": {
+          "utt": "67fe_040_sil",
+          "ref": "a stiff cord will do to fasten your shoe",
+          "hyp": "asked have got was due to fasten two",
+          "errors": 7,
+          "words": 9
+        },
+        "after": {
+          "utt": "67fe_040_sil",
+          "ref": "a stiff cord will do to fasten your shoe",
+          "hyp": "asked have got was too far stew",
+          "errors": 9,
+          "words": 9
+        }
+      }
+    ]
+  },
+  {
+    "key": "shared_40_DNN+fMLLR",
+    "source": "archived-runs/syvu_lexfix_20260921/bfeat_full",
+    "model_sha256": "eae5082ff8cc1af6f24c76ce87c41d855403aeccef1acb961a7a901dbaf8c88d",
+    "lmwt": 16,
+    "before_speaker_errors": 90,
+    "after_speaker_errors": 70,
+    "changed_rows": [
+      {
+        "utt": "67fe_031_xsil",
+        "before": {
+          "utt": "67fe_031_xsil",
+          "ref": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "hyp": "and let him for the farmer swapped his it was very human rubbish up for it",
+          "errors": 22,
+          "words": 22
+        },
+        "after": {
+          "utt": "67fe_031_xsil",
+          "ref": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "hyp": "these take the shape of a long round arch with its path high above and its two ends apparently beyond horizon",
+          "errors": 1,
+          "words": 22
+        }
+      },
+      {
+        "utt": "67fe_033_xsil",
+        "before": {
+          "utt": "67fe_033_xsil",
+          "ref": "people look but no one ever finds it",
+          "hyp": "people look but no one ever finds it",
+          "errors": 0,
+          "words": 8
+        },
+        "after": {
+          "utt": "67fe_033_xsil",
+          "ref": "people look but no one ever finds it",
+          "hyp": "people come down ever finds it",
+          "errors": 4,
+          "words": 8
+        }
+      },
+      {
+        "utt": "67fe_034_xsil",
+        "before": {
+          "utt": "67fe_034_xsil",
+          "ref": "when a man looks for something beyond his reach his friends say he is looking for the pot of gold at the end of the rainbow",
+          "hyp": "man looks for to be musicians have seen as confirmed chronic and the rainbow",
+          "errors": 21,
+          "words": 26
+        },
+        "after": {
+          "utt": "67fe_034_xsil",
+          "ref": "when a man looks for something beyond his reach his friends say he is looking for the pot of gold at the end of the rainbow",
+          "hyp": "when a man looks for to be musicians have seen as confirmed chronic in the rainbow",
+          "errors": 19,
+          "words": 26
+        }
+      },
+      {
+        "utt": "67fe_039_sil",
+        "before": {
+          "utt": "67fe_039_sil",
+          "ref": "dull stories make her laugh",
+          "hyp": "dull stories make enough for",
+          "errors": 2,
+          "words": 5
+        },
+        "after": {
+          "utt": "67fe_039_sil",
+          "ref": "dull stories make her laugh",
+          "hyp": "dull stories make enough",
+          "errors": 2,
+          "words": 5
+        }
+      },
+      {
+        "utt": "67fe_041_sil",
+        "before": {
+          "utt": "67fe_041_sil",
+          "ref": "get the trust fund to the bank early",
+          "hyp": "conditions first the back today",
+          "errors": 7,
+          "words": 8
+        },
+        "after": {
+          "utt": "67fe_041_sil",
+          "ref": "get the trust fund to the bank early",
+          "hyp": "it gets the first the back today",
+          "errors": 7,
+          "words": 8
+        }
+      },
+      {
+        "utt": "67fe_044_sil",
+        "before": {
+          "utt": "67fe_044_sil",
+          "ref": "he lent his coat to the tall gaunt stranger",
+          "hyp": "it as good the tall gaunt stranger",
+          "errors": 5,
+          "words": 9
+        },
+        "after": {
+          "utt": "67fe_044_sil",
+          "ref": "he lent his coat to the tall gaunt stranger",
+          "hyp": "it's going to the tall gaunt stranger",
+          "errors": 4,
+          "words": 9
+        }
+      }
+    ]
+  },
+  {
+    "key": "shared_40_DNN_s2",
+    "source": "archived-runs/syvu_lexfix_20260921/bfeat_full",
+    "model_sha256": "9ccb65fb01998cb394a050f675b9b1d928554dc50df2203d05f713dbe5720ef5",
+    "lmwt": 16,
+    "before_speaker_errors": 95,
+    "after_speaker_errors": 75,
+    "changed_rows": [
+      {
+        "utt": "67fe_031_xsil",
+        "before": {
+          "utt": "67fe_031_xsil",
+          "ref": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "hyp": "let emperor so far thermometers it was afraid you are most part of it",
+          "errors": 22,
+          "words": 22
+        },
+        "after": {
+          "utt": "67fe_031_xsil",
+          "ref": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "hyp": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the rise",
+          "errors": 1,
+          "words": 22
+        }
+      },
+      {
+        "utt": "67fe_038_sil",
+        "before": {
+          "utt": "67fe_038_sil",
+          "ref": "set the piece here and say nothing",
+          "hyp": "the piece of resigning",
+          "errors": 5,
+          "words": 7
+        },
+        "after": {
+          "utt": "67fe_038_sil",
+          "ref": "set the piece here and say nothing",
+          "hyp": "tell me to reside thing",
+          "errors": 7,
+          "words": 7
+        }
+      },
+      {
+        "utt": "67fe_039_sil",
+        "before": {
+          "utt": "67fe_039_sil",
+          "ref": "dull stories make her laugh",
+          "hyp": "dull stories make enough for",
+          "errors": 2,
+          "words": 5
+        },
+        "after": {
+          "utt": "67fe_039_sil",
+          "ref": "dull stories make her laugh",
+          "hyp": "of course make enough for",
+          "errors": 4,
+          "words": 5
+        }
+      },
+      {
+        "utt": "67fe_040_sil",
+        "before": {
+          "utt": "67fe_040_sil",
+          "ref": "a stiff cord will do to fasten your shoe",
+          "hyp": "asked have got was due to fasten two",
+          "errors": 7,
+          "words": 9
+        },
+        "after": {
+          "utt": "67fe_040_sil",
+          "ref": "a stiff cord will do to fasten your shoe",
+          "hyp": "asked have got was due to fasten your shoe",
+          "errors": 5,
+          "words": 9
+        }
+      },
+      {
+        "utt": "67fe_041_sil",
+        "before": {
+          "utt": "67fe_041_sil",
+          "ref": "get the trust fund to the bank early",
+          "hyp": "it gets the first the back today",
+          "errors": 7,
+          "words": 8
+        },
+        "after": {
+          "utt": "67fe_041_sil",
+          "ref": "get the trust fund to the bank early",
+          "hyp": "i get there is for the back today",
+          "errors": 7,
+          "words": 8
+        }
+      },
+      {
+        "utt": "67fe_043_sil",
+        "before": {
+          "utt": "67fe_043_sil",
+          "ref": "a plea for funds seems to come again",
+          "hyp": "believe it seems come again",
+          "errors": 5,
+          "words": 8
+        },
+        "after": {
+          "utt": "67fe_043_sil",
+          "ref": "a plea for funds seems to come again",
+          "hyp": "believe it seems to come again",
+          "errors": 4,
+          "words": 8
+        }
+      }
+    ]
+  },
+  {
+    "key": "shared_40_DNN_s3",
+    "source": "archived-runs/syvu_lexfix_20260921/bfeat_full",
+    "model_sha256": "8322fc235f20e41a5a91ad4ab743e04c15daee80f5e0b58ffcb13c69bc8c00d5",
+    "lmwt": 17,
+    "before_speaker_errors": 90,
+    "after_speaker_errors": 74,
+    "changed_rows": [
+      {
+        "utt": "67fe_029_xsil",
+        "before": {
+          "utt": "67fe_029_xsil",
+          "ref": "when sunlight strikes raindrops in the air they act like a prism and form a rainbow",
+          "hyp": "when sunlight strikes raindrops in their like a prism and form a rainbow",
+          "errors": 4,
+          "words": 16
+        },
+        "after": {
+          "utt": "67fe_029_xsil",
+          "ref": "when sunlight strikes raindrops in the air they act like a prism and form a rainbow",
+          "hyp": "when sunlight strikes raindrops in their like him to from the rainbow",
+          "errors": 9,
+          "words": 16
+        }
+      },
+      {
+        "utt": "67fe_031_xsil",
+        "before": {
+          "utt": "67fe_031_xsil",
+          "ref": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "hyp": "lacheneur time for the first the permanent it was afraid you there was type of it",
+          "errors": 22,
+          "words": 22
+        },
+        "after": {
+          "utt": "67fe_031_xsil",
+          "ref": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "hyp": "these take the shape of a long round arch with its path high above and its two is a pretty be horizon",
+          "errors": 4,
+          "words": 22
+        }
+      },
+      {
+        "utt": "67fe_039_sil",
+        "before": {
+          "utt": "67fe_039_sil",
+          "ref": "dull stories make her laugh",
+          "hyp": "still stories make enough for",
+          "errors": 3,
+          "words": 5
+        },
+        "after": {
+          "utt": "67fe_039_sil",
+          "ref": "dull stories make her laugh",
+          "hyp": "still force make enough fire",
+          "errors": 4,
+          "words": 5
+        }
+      },
+      {
+        "utt": "67fe_042_sil",
+        "before": {
+          "utt": "67fe_042_sil",
+          "ref": "choose between the high road and the low",
+          "hyp": "she would be there is slow",
+          "errors": 8,
+          "words": 8
+        },
+        "after": {
+          "utt": "67fe_042_sil",
+          "ref": "choose between the high road and the low",
+          "hyp": "she was we that road in the low",
+          "errors": 5,
+          "words": 8
+        }
+      },
+      {
+        "utt": "67fe_043_sil",
+        "before": {
+          "utt": "67fe_043_sil",
+          "ref": "a plea for funds seems to come again",
+          "hyp": "believe it seems to come again",
+          "errors": 4,
+          "words": 8
+        },
+        "after": {
+          "utt": "67fe_043_sil",
+          "ref": "a plea for funds seems to come again",
+          "hyp": "i believe it seems to come again",
+          "errors": 4,
+          "words": 8
+        }
+      },
+      {
+        "utt": "67fe_044_sil",
+        "before": {
+          "utt": "67fe_044_sil",
+          "ref": "he lent his coat to the tall gaunt stranger",
+          "hyp": "he let's go tall gaunt stranger",
+          "errors": 5,
+          "words": 9
+        },
+        "after": {
+          "utt": "67fe_044_sil",
+          "ref": "he lent his coat to the tall gaunt stranger",
+          "hyp": "he let's go the tall gaunt stranger",
+          "errors": 4,
+          "words": 9
+        }
+      }
+    ]
+  },
+  {
+    "key": "disjoint_40_GMM_transform_withheld_fold1",
+    "source": "archived-runs/syvu_lexfix_20260921/xspk40/fold1",
+    "model_sha256": "42eb4c1c5132b7de5747c118015095e0918be60cd9a1e3f42b1c9a33c3ab1761",
+    "lmwt": 16,
+    "before_speaker_errors": 120,
+    "after_speaker_errors": 99,
+    "changed_rows": [
+      {
+        "utt": "67fe_031_xsil",
+        "before": {
+          "utt": "67fe_031_xsil",
+          "ref": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "hyp": "it high above and form a bridge immaterial there was a number of us",
+          "errors": 21,
+          "words": 22
+        },
+        "after": {
+          "utt": "67fe_031_xsil",
+          "ref": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "hyp": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "errors": 0,
+          "words": 22
+        }
+      }
+    ]
+  },
+  {
+    "key": "disjoint_40_GMM+fMLLR_fold1",
+    "source": "archived-runs/syvu_lexfix_20260921/xspk40/fold1",
+    "model_sha256": "42eb4c1c5132b7de5747c118015095e0918be60cd9a1e3f42b1c9a33c3ab1761",
+    "lmwt": 17,
+    "before_speaker_errors": 106,
+    "after_speaker_errors": 78,
+    "changed_rows": [
+      {
+        "utt": "67fe_029_xsil",
+        "before": {
+          "utt": "67fe_029_xsil",
+          "ref": "when sunlight strikes raindrops in the air they act like a prism and form a rainbow",
+          "hyp": "when sunlight strikes raindrops in it aims to perform rainbow",
+          "errors": 10,
+          "words": 16
+        },
+        "after": {
+          "utt": "67fe_029_xsil",
+          "ref": "when sunlight strikes raindrops in the air they act like a prism and form a rainbow",
+          "hyp": "when sunlight strikes raindrops in the a prism and form a rainbow",
+          "errors": 4,
+          "words": 16
+        }
+      },
+      {
+        "utt": "67fe_031_xsil",
+        "before": {
+          "utt": "67fe_031_xsil",
+          "ref": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "hyp": "it high above and form a department it was afraid you are was a number of it",
+          "errors": 21,
+          "words": 22
+        },
+        "after": {
+          "utt": "67fe_031_xsil",
+          "ref": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "hyp": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "errors": 0,
+          "words": 22
+        }
+      },
+      {
+        "utt": "67fe_034_xsil",
+        "before": {
+          "utt": "67fe_034_xsil",
+          "ref": "when a man looks for something beyond his reach his friends say he is looking for the pot of gold at the end of the rainbow",
+          "hyp": "because of superposition of days confirmed of the rainbow",
+          "errors": 22,
+          "words": 26
+        },
+        "after": {
+          "utt": "67fe_034_xsil",
+          "ref": "when a man looks for something beyond his reach his friends say he is looking for the pot of gold at the end of the rainbow",
+          "hyp": "and perplexed of superposition of days confirmed over the rainbow",
+          "errors": 23,
+          "words": 26
+        }
+      },
+      {
+        "utt": "67fe_041_sil",
+        "before": {
+          "utt": "67fe_041_sil",
+          "ref": "get the trust fund to the bank early",
+          "hyp": "again to develop activity",
+          "errors": 7,
+          "words": 8
+        },
+        "after": {
+          "utt": "67fe_041_sil",
+          "ref": "get the trust fund to the bank early",
+          "hyp": "get the first the back there",
+          "errors": 5,
+          "words": 8
+        }
+      },
+      {
+        "utt": "67fe_044_sil",
+        "before": {
+          "utt": "67fe_044_sil",
+          "ref": "he lent his coat to the tall gaunt stranger",
+          "hyp": "eight and scoundrel was change them",
+          "errors": 9,
+          "words": 9
+        },
+        "after": {
+          "utt": "67fe_044_sil",
+          "ref": "he lent his coat to the tall gaunt stranger",
+          "hyp": "eight and scoundrel change them",
+          "errors": 9,
+          "words": 9
+        }
+      }
+    ]
+  },
+  {
+    "key": "disjoint_40_DNN_transform_withheld_fold1",
+    "source": "archived-runs/syvu_lexfix_20260921/xspk40/fold1",
+    "model_sha256": "067e3eb2de10e5139fc3fbd9ab2c2f07114c1a5cc2196873703e3b11f73625ac",
+    "lmwt": 15,
+    "before_speaker_errors": 127,
+    "after_speaker_errors": 106,
+    "changed_rows": [
+      {
+        "utt": "67fe_031_xsil",
+        "before": {
+          "utt": "67fe_031_xsil",
+          "ref": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "hyp": "however the phenomenon she had been very human common type of this",
+          "errors": 21,
+          "words": 22
+        },
+        "after": {
+          "utt": "67fe_031_xsil",
+          "ref": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "hyp": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "errors": 0,
+          "words": 22
+        }
+      }
+    ]
+  },
+  {
+    "key": "disjoint_40_DNN+fMLLR_fold1",
+    "source": "archived-runs/syvu_lexfix_20260921/xspk40/fold1",
+    "model_sha256": "067e3eb2de10e5139fc3fbd9ab2c2f07114c1a5cc2196873703e3b11f73625ac",
+    "lmwt": 15,
+    "before_speaker_errors": 97,
+    "after_speaker_errors": 77,
+    "changed_rows": [
+      {
+        "utt": "67fe_029_xsil",
+        "before": {
+          "utt": "67fe_029_xsil",
+          "ref": "when sunlight strikes raindrops in the air they act like a prism and form a rainbow",
+          "hyp": "when sunlight strikes raindrops in her a prism and form a rainbow",
+          "errors": 5,
+          "words": 16
+        },
+        "after": {
+          "utt": "67fe_029_xsil",
+          "ref": "when sunlight strikes raindrops in the air they act like a prism and form a rainbow",
+          "hyp": "when sunlight strikes raindrops in the air they act like a prism and form a rainbow",
+          "errors": 0,
+          "words": 16
+        }
+      },
+      {
+        "utt": "67fe_031_xsil",
+        "before": {
+          "utt": "67fe_031_xsil",
+          "ref": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "hyp": "that time for the farmer swapped his name different you are was a number of it",
+          "errors": 22,
+          "words": 22
+        },
+        "after": {
+          "utt": "67fe_031_xsil",
+          "ref": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "hyp": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "errors": 0,
+          "words": 22
+        }
+      },
+      {
+        "utt": "67fe_033_xsil",
+        "before": {
+          "utt": "67fe_033_xsil",
+          "ref": "people look but no one ever finds it",
+          "hyp": "people look but no one ever finds it",
+          "errors": 0,
+          "words": 8
+        },
+        "after": {
+          "utt": "67fe_033_xsil",
+          "ref": "people look but no one ever finds it",
+          "hyp": "people come down never forget him",
+          "errors": 7,
+          "words": 8
+        }
+      },
+      {
+        "utt": "67fe_034_xsil",
+        "before": {
+          "utt": "67fe_034_xsil",
+          "ref": "when a man looks for something beyond his reach his friends say he is looking for the pot of gold at the end of the rainbow",
+          "hyp": "bricks of superposition of taste confirmed the following the rainbow",
+          "errors": 22,
+          "words": 26
+        },
+        "after": {
+          "utt": "67fe_034_xsil",
+          "ref": "when a man looks for something beyond his reach his friends say he is looking for the pot of gold at the end of the rainbow",
+          "hyp": "bricks of superposition of the season confirmed the following the rainbow",
+          "errors": 22,
+          "words": 26
+        }
+      },
+      {
+        "utt": "67fe_040_sil",
+        "before": {
+          "utt": "67fe_040_sil",
+          "ref": "a stiff cord will do to fasten your shoe",
+          "hyp": "at seven was due to fasten your shoe",
+          "errors": 5,
+          "words": 9
+        },
+        "after": {
+          "utt": "67fe_040_sil",
+          "ref": "a stiff cord will do to fasten your shoe",
+          "hyp": "has never got was due to fasten your shoe",
+          "errors": 5,
+          "words": 9
+        }
+      },
+      {
+        "utt": "67fe_043_sil",
+        "before": {
+          "utt": "67fe_043_sil",
+          "ref": "a plea for funds seems to come again",
+          "hyp": "believe it seems come again",
+          "errors": 5,
+          "words": 8
+        },
+        "after": {
+          "utt": "67fe_043_sil",
+          "ref": "a plea for funds seems to come again",
+          "hyp": "believe it seems to come again",
+          "errors": 4,
+          "words": 8
+        }
+      },
+      {
+        "utt": "67fe_044_sil",
+        "before": {
+          "utt": "67fe_044_sil",
+          "ref": "he lent his coat to the tall gaunt stranger",
+          "hyp": "eight and scoundrel go to change them",
+          "errors": 8,
+          "words": 9
+        },
+        "after": {
+          "utt": "67fe_044_sil",
+          "ref": "he lent his coat to the tall gaunt stranger",
+          "hyp": "eight and scoundrel course change them",
+          "errors": 9,
+          "words": 9
+        }
+      }
+    ]
+  },
+  {
+    "key": "factor_f_smooth_5tap_g_GMM+fMLLR_s1",
+    "source": "archived-runs/syvu_lexfix_20260921/f_smooth_5tap_g",
+    "model_sha256": "c9d5e36175ad87d530455990344c38bb05a04870045e9ef25d13c3b2f6733145",
+    "lmwt": 16,
+    "before_speaker_errors": 107,
+    "after_speaker_errors": 83,
+    "changed_rows": [
+      {
+        "utt": "67fe_031_xsil",
+        "before": {
+          "utt": "67fe_031_xsil",
+          "ref": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "hyp": "like a number of the farmer swapped his them several you rubbish up and",
+          "errors": 20,
+          "words": 22
+        },
+        "after": {
+          "utt": "67fe_031_xsil",
+          "ref": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "hyp": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the rise",
+          "errors": 1,
+          "words": 22
+        }
+      },
+      {
+        "utt": "67fe_032_xsil",
+        "before": {
+          "utt": "67fe_032_xsil",
+          "ref": "there is according to legend a boiling pot of gold at one end",
+          "hyp": "there is going to legend a boiling pot of the but it",
+          "errors": 5,
+          "words": 13
+        },
+        "after": {
+          "utt": "67fe_032_xsil",
+          "ref": "there is according to legend a boiling pot of gold at one end",
+          "hyp": "there is going to legend a boiling pot of gold at one end",
+          "errors": 1,
+          "words": 13
+        }
+      },
+      {
+        "utt": "67fe_034_xsil",
+        "before": {
+          "utt": "67fe_034_xsil",
+          "ref": "when a man looks for something beyond his reach his friends say he is looking for the pot of gold at the end of the rainbow",
+          "hyp": "when mixed of the people suit in safety is good for something following the rainbow",
+          "errors": 21,
+          "words": 26
+        },
+        "after": {
+          "utt": "67fe_034_xsil",
+          "ref": "when a man looks for something beyond his reach his friends say he is looking for the pot of gold at the end of the rainbow",
+          "hyp": "when mixed for the people suit in safety is good for something following the rainbow",
+          "errors": 20,
+          "words": 26
+        }
+      },
+      {
+        "utt": "67fe_038_sil",
+        "before": {
+          "utt": "67fe_038_sil",
+          "ref": "set the piece here and say nothing",
+          "hyp": "the me to reside nothing",
+          "errors": 5,
+          "words": 7
+        },
+        "after": {
+          "utt": "67fe_038_sil",
+          "ref": "set the piece here and say nothing",
+          "hyp": "we never say nothing",
+          "errors": 5,
+          "words": 7
+        }
+      },
+      {
+        "utt": "67fe_042_sil",
+        "before": {
+          "utt": "67fe_042_sil",
+          "ref": "choose between the high road and the low",
+          "hyp": "she would be that rode low",
+          "errors": 7,
+          "words": 8
+        },
+        "after": {
+          "utt": "67fe_042_sil",
+          "ref": "choose between the high road and the low",
+          "hyp": "she would be that road now",
+          "errors": 7,
+          "words": 8
+        }
+      },
+      {
+        "utt": "67fe_043_sil",
+        "before": {
+          "utt": "67fe_043_sil",
+          "ref": "a plea for funds seems to come again",
+          "hyp": "i believe it seems come again",
+          "errors": 5,
+          "words": 8
+        },
+        "after": {
+          "utt": "67fe_043_sil",
+          "ref": "a plea for funds seems to come again",
+          "hyp": "i believe i seem to come again him",
+          "errors": 6,
+          "words": 8
+        }
+      },
+      {
+        "utt": "67fe_044_sil",
+        "before": {
+          "utt": "67fe_044_sil",
+          "ref": "he lent his coat to the tall gaunt stranger",
+          "hyp": "it had scoundrel was stranger",
+          "errors": 8,
+          "words": 9
+        },
+        "after": {
+          "utt": "67fe_044_sil",
+          "ref": "he lent his coat to the tall gaunt stranger",
+          "hyp": "it at school stranger",
+          "errors": 8,
+          "words": 9
+        }
+      },
+      {
+        "utt": "67fe_045_sil",
+        "before": {
+          "utt": "67fe_045_sil",
+          "ref": "there is a strong chance it will happen once more",
+          "hyp": "if she had to happen once more",
+          "errors": 7,
+          "words": 10
+        },
+        "after": {
+          "utt": "67fe_045_sil",
+          "ref": "there is a strong chance it will happen once more",
+          "hyp": "if the she asked will happen once more",
+          "errors": 6,
+          "words": 10
+        }
+      }
+    ]
+  },
+  {
+    "key": "factor_f_smooth_5tap_g_DNN+fMLLR_s1",
+    "source": "archived-runs/syvu_lexfix_20260921/f_smooth_5tap_g",
+    "model_sha256": "9c8ebab4363ee241f5c9b37d84c5e02eb5f0b7f4c24da0a7c0e1d3e5823ff034",
+    "lmwt": 16,
+    "before_speaker_errors": 100,
+    "after_speaker_errors": 73,
+    "changed_rows": [
+      {
+        "utt": "67fe_031_xsil",
+        "before": {
+          "utt": "67fe_031_xsil",
+          "ref": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "hyp": "a lack happen for her from the department it was a real you rubbish up for it",
+          "errors": 21,
+          "words": 22
+        },
+        "after": {
+          "utt": "67fe_031_xsil",
+          "ref": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "hyp": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "errors": 0,
+          "words": 22
+        }
+      },
+      {
+        "utt": "67fe_032_xsil",
+        "before": {
+          "utt": "67fe_032_xsil",
+          "ref": "there is according to legend a boiling pot of gold at one end",
+          "hyp": "there is going to legend a boiling pot of gold at one end",
+          "errors": 1,
+          "words": 13
+        },
+        "after": {
+          "utt": "67fe_032_xsil",
+          "ref": "there is according to legend a boiling pot of gold at one end",
+          "hyp": "there is going to legend a boiling pot of gold at but it",
+          "errors": 3,
+          "words": 13
+        }
+      },
+      {
+        "utt": "67fe_033_xsil",
+        "before": {
+          "utt": "67fe_033_xsil",
+          "ref": "people look but no one ever finds it",
+          "hyp": "people look up no one ever visit",
+          "errors": 3,
+          "words": 8
+        },
+        "after": {
+          "utt": "67fe_033_xsil",
+          "ref": "people look but no one ever finds it",
+          "hyp": "people come no one ever finds it",
+          "errors": 2,
+          "words": 8
+        }
+      },
+      {
+        "utt": "67fe_034_xsil",
+        "before": {
+          "utt": "67fe_034_xsil",
+          "ref": "when a man looks for something beyond his reach his friends say he is looking for the pot of gold at the end of the rainbow",
+          "hyp": "but extremely musicians every day is good for something following in the rainbow",
+          "errors": 22,
+          "words": 26
+        },
+        "after": {
+          "utt": "67fe_034_xsil",
+          "ref": "when a man looks for something beyond his reach his friends say he is looking for the pot of gold at the end of the rainbow",
+          "hyp": "when a man looks for the musicians every day is a good for something following in the rainbow",
+          "errors": 18,
+          "words": 26
+        }
+      },
+      {
+        "utt": "67fe_038_sil",
+        "before": {
+          "utt": "67fe_038_sil",
+          "ref": "set the piece here and say nothing",
+          "hyp": "a speedy resigning",
+          "errors": 7,
+          "words": 7
+        },
+        "after": {
+          "utt": "67fe_038_sil",
+          "ref": "set the piece here and say nothing",
+          "hyp": "ask me to reside nothing",
+          "errors": 6,
+          "words": 7
+        }
+      },
+      {
+        "utt": "67fe_039_sil",
+        "before": {
+          "utt": "67fe_039_sil",
+          "ref": "dull stories make her laugh",
+          "hyp": "still respected offer",
+          "errors": 5,
+          "words": 5
+        },
+        "after": {
+          "utt": "67fe_039_sil",
+          "ref": "dull stories make her laugh",
+          "hyp": "voice make enough are",
+          "errors": 4,
+          "words": 5
+        }
+      },
+      {
+        "utt": "67fe_041_sil",
+        "before": {
+          "utt": "67fe_041_sil",
+          "ref": "get the trust fund to the bank early",
+          "hyp": "the kitchen first the back thirty",
+          "errors": 6,
+          "words": 8
+        },
+        "after": {
+          "utt": "67fe_041_sil",
+          "ref": "get the trust fund to the bank early",
+          "hyp": "the kitchen first the back to",
+          "errors": 6,
+          "words": 8
+        }
+      },
+      {
+        "utt": "67fe_043_sil",
+        "before": {
+          "utt": "67fe_043_sil",
+          "ref": "a plea for funds seems to come again",
+          "hyp": "believe it seems come again",
+          "errors": 5,
+          "words": 8
+        },
+        "after": {
+          "utt": "67fe_043_sil",
+          "ref": "a plea for funds seems to come again",
+          "hyp": "believe it seems to come again",
+          "errors": 4,
+          "words": 8
+        }
+      },
+      {
+        "utt": "67fe_044_sil",
+        "before": {
+          "utt": "67fe_044_sil",
+          "ref": "he lent his coat to the tall gaunt stranger",
+          "hyp": "eight let's go the tall gaunt stranger",
+          "errors": 5,
+          "words": 9
+        },
+        "after": {
+          "utt": "67fe_044_sil",
+          "ref": "he lent his coat to the tall gaunt stranger",
+          "hyp": "it as good the tall gaunt stranger",
+          "errors": 5,
+          "words": 9
+        }
+      },
+      {
+        "utt": "67fe_045_sil",
+        "before": {
+          "utt": "67fe_045_sil",
+          "ref": "there is a strong chance it will happen once more",
+          "hyp": "if not just will happen once more",
+          "errors": 6,
+          "words": 10
+        },
+        "after": {
+          "utt": "67fe_045_sil",
+          "ref": "there is a strong chance it will happen once more",
+          "hyp": "if she asked will happen once more",
+          "errors": 6,
+          "words": 10
+        }
+      }
+    ]
+  },
+  {
+    "key": "factor_f_smooth_5tap_g_DNN+fMLLR_s2",
+    "source": "archived-runs/syvu_lexfix_20260921/f_smooth_5tap_g",
+    "model_sha256": "d673a957db6bd6e39bd0b24c01cea600f5556469a8ab405e15f3a2ae0073fa2c",
+    "lmwt": 17,
+    "before_speaker_errors": 97,
+    "after_speaker_errors": 78,
+    "changed_rows": [
+      {
+        "utt": "67fe_030_xsil",
+        "before": {
+          "utt": "67fe_030_xsil",
+          "ref": "the rainbow is a division of white light into many beautiful colours",
+          "hyp": "the rainbow was division of white light into many beautiful colours",
+          "errors": 2,
+          "words": 12
+        },
+        "after": {
+          "utt": "67fe_030_xsil",
+          "ref": "the rainbow is a division of white light into many beautiful colours",
+          "hyp": "the rainbow was a division of white light into many beautiful colours",
+          "errors": 1,
+          "words": 12
+        }
+      },
+      {
+        "utt": "67fe_031_xsil",
+        "before": {
+          "utt": "67fe_031_xsil",
+          "ref": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "hyp": "lack happens of a film happen it was a real you rubbish up right",
+          "errors": 20,
+          "words": 22
+        },
+        "after": {
+          "utt": "67fe_031_xsil",
+          "ref": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "hyp": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the rise",
+          "errors": 1,
+          "words": 22
+        }
+      },
+      {
+        "utt": "67fe_032_xsil",
+        "before": {
+          "utt": "67fe_032_xsil",
+          "ref": "there is according to legend a boiling pot of gold at one end",
+          "hyp": "there is going to legend a boiling pot of the but it",
+          "errors": 5,
+          "words": 13
+        },
+        "after": {
+          "utt": "67fe_032_xsil",
+          "ref": "there is according to legend a boiling pot of gold at one end",
+          "hyp": "there is going to legend a boiling pot of gold at but it",
+          "errors": 3,
+          "words": 13
+        }
+      },
+      {
+        "utt": "67fe_034_xsil",
+        "before": {
+          "utt": "67fe_034_xsil",
+          "ref": "when a man looks for something beyond his reach his friends say he is looking for the pot of gold at the end of the rainbow",
+          "hyp": "perplexed for the beep to save deserves he is good for something for lothian the rainbow",
+          "errors": 20,
+          "words": 26
+        },
+        "after": {
+          "utt": "67fe_034_xsil",
+          "ref": "when a man looks for something beyond his reach his friends say he is looking for the pot of gold at the end of the rainbow",
+          "hyp": "perplexed for the beep to save deserve season confirmed the following in the rainbow",
+          "errors": 22,
+          "words": 26
+        }
+      },
+      {
+        "utt": "67fe_038_sil",
+        "before": {
+          "utt": "67fe_038_sil",
+          "ref": "set the piece here and say nothing",
+          "hyp": "the me to reside nothing",
+          "errors": 5,
+          "words": 7
+        },
+        "after": {
+          "utt": "67fe_038_sil",
+          "ref": "set the piece here and say nothing",
+          "hyp": "that me to reside nothing",
+          "errors": 6,
+          "words": 7
+        }
+      },
+      {
+        "utt": "67fe_039_sil",
+        "before": {
+          "utt": "67fe_039_sil",
+          "ref": "dull stories make her laugh",
+          "hyp": "still voice may enough air",
+          "errors": 5,
+          "words": 5
+        },
+        "after": {
+          "utt": "67fe_039_sil",
+          "ref": "dull stories make her laugh",
+          "hyp": "a voice make enough are",
+          "errors": 4,
+          "words": 5
+        }
+      },
+      {
+        "utt": "67fe_040_sil",
+        "before": {
+          "utt": "67fe_040_sil",
+          "ref": "a stiff cord will do to fasten your shoe",
+          "hyp": "asked have got was due to fasten your shoe",
+          "errors": 5,
+          "words": 9
+        },
+        "after": {
+          "utt": "67fe_040_sil",
+          "ref": "a stiff cord will do to fasten your shoe",
+          "hyp": "it has ever got was due to fasten your shoe",
+          "errors": 6,
+          "words": 9
+        }
+      },
+      {
+        "utt": "67fe_041_sil",
+        "before": {
+          "utt": "67fe_041_sil",
+          "ref": "get the trust fund to the bank early",
+          "hyp": "the kitchen first the back thirty",
+          "errors": 6,
+          "words": 8
+        },
+        "after": {
+          "utt": "67fe_041_sil",
+          "ref": "get the trust fund to the bank early",
+          "hyp": "again there is first the back thirty",
+          "errors": 7,
+          "words": 8
+        }
+      },
+      {
+        "utt": "67fe_042_sil",
+        "before": {
+          "utt": "67fe_042_sil",
+          "ref": "choose between the high road and the low",
+          "hyp": "it shows we that road the low",
+          "errors": 5,
+          "words": 8
+        },
+        "after": {
+          "utt": "67fe_042_sil",
+          "ref": "choose between the high road and the low",
+          "hyp": "it shows we that road in the low",
+          "errors": 5,
+          "words": 8
+        }
+      },
+      {
+        "utt": "67fe_044_sil",
+        "before": {
+          "utt": "67fe_044_sil",
+          "ref": "he lent his coat to the tall gaunt stranger",
+          "hyp": "it let's go the tall gaunt stranger",
+          "errors": 5,
+          "words": 9
+        },
+        "after": {
+          "utt": "67fe_044_sil",
+          "ref": "he lent his coat to the tall gaunt stranger",
+          "hyp": "it let's go to the tall gaunt stranger",
+          "errors": 4,
+          "words": 9
+        }
+      }
+    ]
+  },
+  {
+    "key": "factor_f_smooth_5tap_g_DNN+fMLLR_s3",
+    "source": "archived-runs/syvu_lexfix_20260921/f_smooth_5tap_g",
+    "model_sha256": "686c8be913b6b06aa1446f804da7cb422a5535d8f506dffade0ad5b4f97680d4",
+    "lmwt": 16,
+    "before_speaker_errors": 104,
+    "after_speaker_errors": 84,
+    "changed_rows": [
+      {
+        "utt": "67fe_030_xsil",
+        "before": {
+          "utt": "67fe_030_xsil",
+          "ref": "the rainbow is a division of white light into many beautiful colours",
+          "hyp": "the rainbow was a division of white light into many beautiful colours",
+          "errors": 1,
+          "words": 12
+        },
+        "after": {
+          "utt": "67fe_030_xsil",
+          "ref": "the rainbow is a division of white light into many beautiful colours",
+          "hyp": "the rainbow was division of white light into many beautiful colours",
+          "errors": 2,
+          "words": 12
+        }
+      },
+      {
+        "utt": "67fe_031_xsil",
+        "before": {
+          "utt": "67fe_031_xsil",
+          "ref": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "hyp": "lack a number of the surface of the department it was a really new era must drip is",
+          "errors": 21,
+          "words": 22
+        },
+        "after": {
+          "utt": "67fe_031_xsil",
+          "ref": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "hyp": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the rise",
+          "errors": 1,
+          "words": 22
+        }
+      },
+      {
+        "utt": "67fe_034_xsil",
+        "before": {
+          "utt": "67fe_034_xsil",
+          "ref": "when a man looks for something beyond his reach his friends say he is looking for the pot of gold at the end of the rainbow",
+          "hyp": "perplexed for the be abusive to safety is good for something following in the rainbow",
+          "errors": 21,
+          "words": 26
+        },
+        "after": {
+          "utt": "67fe_034_xsil",
+          "ref": "when a man looks for something beyond his reach his friends say he is looking for the pot of gold at the end of the rainbow",
+          "hyp": "perplexed for the be abusive deserved east confirmed the following in the rainbow",
+          "errors": 22,
+          "words": 26
+        }
+      },
+      {
+        "utt": "67fe_038_sil",
+        "before": {
+          "utt": "67fe_038_sil",
+          "ref": "set the piece here and say nothing",
+          "hyp": "the me to reside nothing",
+          "errors": 5,
+          "words": 7
+        },
+        "after": {
+          "utt": "67fe_038_sil",
+          "ref": "set the piece here and say nothing",
+          "hyp": "let me to reside nothing",
+          "errors": 6,
+          "words": 7
+        }
+      },
+      {
+        "utt": "67fe_039_sil",
+        "before": {
+          "utt": "67fe_039_sil",
+          "ref": "dull stories make her laugh",
+          "hyp": "they'll voice make enough her",
+          "errors": 4,
+          "words": 5
+        },
+        "after": {
+          "utt": "67fe_039_sil",
+          "ref": "dull stories make her laugh",
+          "hyp": "they'll voice make enough at",
+          "errors": 4,
+          "words": 5
+        }
+      },
+      {
+        "utt": "67fe_041_sil",
+        "before": {
+          "utt": "67fe_041_sil",
+          "ref": "get the trust fund to the bank early",
+          "hyp": "a kitchen first the back dirty",
+          "errors": 7,
+          "words": 8
+        },
+        "after": {
+          "utt": "67fe_041_sil",
+          "ref": "get the trust fund to the bank early",
+          "hyp": "again the first the back dirty",
+          "errors": 6,
+          "words": 8
+        }
+      },
+      {
+        "utt": "67fe_042_sil",
+        "before": {
+          "utt": "67fe_042_sil",
+          "ref": "choose between the high road and the low",
+          "hyp": "choose between i rowed the low",
+          "errors": 4,
+          "words": 8
+        },
+        "after": {
+          "utt": "67fe_042_sil",
+          "ref": "choose between the high road and the low",
+          "hyp": "she was we sat frozen the low",
+          "errors": 6,
+          "words": 8
+        }
+      },
+      {
+        "utt": "67fe_043_sil",
+        "before": {
+          "utt": "67fe_043_sil",
+          "ref": "a plea for funds seems to come again",
+          "hyp": "believe as seems come again",
+          "errors": 5,
+          "words": 8
+        },
+        "after": {
+          "utt": "67fe_043_sil",
+          "ref": "a plea for funds seems to come again",
+          "hyp": "believe of a seems to come again",
+          "errors": 4,
+          "words": 8
+        }
+      },
+      {
+        "utt": "67fe_044_sil",
+        "before": {
+          "utt": "67fe_044_sil",
+          "ref": "he lent his coat to the tall gaunt stranger",
+          "hyp": "it is good the tall gaunt stranger",
+          "errors": 5,
+          "words": 9
+        },
+        "after": {
+          "utt": "67fe_044_sil",
+          "ref": "he lent his coat to the tall gaunt stranger",
+          "hyp": "it let's go to the tall gaunt stranger",
+          "errors": 4,
+          "words": 9
+        }
+      },
+      {
+        "utt": "67fe_045_sil",
+        "before": {
+          "utt": "67fe_045_sil",
+          "ref": "there is a strong chance it will happen once more",
+          "hyp": "if the show just will happen puts bowl",
+          "errors": 8,
+          "words": 10
+        },
+        "after": {
+          "utt": "67fe_045_sil",
+          "ref": "there is a strong chance it will happen once more",
+          "hyp": "if she asked will happen once more",
+          "errors": 6,
+          "words": 10
+        }
+      }
+    ]
+  },
+  {
+    "key": "factor_f_clean_ours_g_GMM+fMLLR_s1",
+    "source": "archived-runs/syvu_lexfix_20260921/f_clean_ours_g",
+    "model_sha256": "60381f427be53d4f8743908c3ec1ca0faba9f2fcddabb54ad00a087f5ab88b76",
+    "lmwt": 16,
+    "before_speaker_errors": 116,
+    "after_speaker_errors": 93,
+    "changed_rows": [
+      {
+        "utt": "67fe_029_xsil",
+        "before": {
+          "utt": "67fe_029_xsil",
+          "ref": "when sunlight strikes raindrops in the air they act like a prism and form a rainbow",
+          "hyp": "when sunlight strikes raindrops in it comes up the former rainbow",
+          "errors": 10,
+          "words": 16
+        },
+        "after": {
+          "utt": "67fe_029_xsil",
+          "ref": "when sunlight strikes raindrops in the air they act like a prism and form a rainbow",
+          "hyp": "when sunlight strikes raindrops in italy him some have rainbow",
+          "errors": 10,
+          "words": 16
+        }
+      },
+      {
+        "utt": "67fe_031_xsil",
+        "before": {
+          "utt": "67fe_031_xsil",
+          "ref": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "hyp": "and let him of the thermometer them several you are much about it",
+          "errors": 21,
+          "words": 22
+        },
+        "after": {
+          "utt": "67fe_031_xsil",
+          "ref": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "hyp": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the rise",
+          "errors": 1,
+          "words": 22
+        }
+      },
+      {
+        "utt": "67fe_032_xsil",
+        "before": {
+          "utt": "67fe_032_xsil",
+          "ref": "there is according to legend a boiling pot of gold at one end",
+          "hyp": "if it's going to legend a boiling pot of the but it",
+          "errors": 7,
+          "words": 13
+        },
+        "after": {
+          "utt": "67fe_032_xsil",
+          "ref": "there is according to legend a boiling pot of gold at one end",
+          "hyp": "if it's going to legend a boiling pot of gold at one end",
+          "errors": 3,
+          "words": 13
+        }
+      },
+      {
+        "utt": "67fe_034_xsil",
+        "before": {
+          "utt": "67fe_034_xsil",
+          "ref": "when a man looks for something beyond his reach his friends say he is looking for the pot of gold at the end of the rainbow",
+          "hyp": "and perplexed for the beep turned out in safety second half time the following the rainbow",
+          "errors": 22,
+          "words": 26
+        },
+        "after": {
+          "utt": "67fe_034_xsil",
+          "ref": "when a man looks for something beyond his reach his friends say he is looking for the pot of gold at the end of the rainbow",
+          "hyp": "and perplexed for the people safety safety second for something following the rainbow",
+          "errors": 22,
+          "words": 26
+        }
+      },
+      {
+        "utt": "67fe_039_sil",
+        "before": {
+          "utt": "67fe_039_sil",
+          "ref": "dull stories make her laugh",
+          "hyp": "always be enough him",
+          "errors": 5,
+          "words": 5
+        },
+        "after": {
+          "utt": "67fe_039_sil",
+          "ref": "dull stories make her laugh",
+          "hyp": "chris make enough him",
+          "errors": 4,
+          "words": 5
+        }
+      },
+      {
+        "utt": "67fe_044_sil",
+        "before": {
+          "utt": "67fe_044_sil",
+          "ref": "he lent his coat to the tall gaunt stranger",
+          "hyp": "he lent scoundrel was change them",
+          "errors": 7,
+          "words": 9
+        },
+        "after": {
+          "utt": "67fe_044_sil",
+          "ref": "he lent his coat to the tall gaunt stranger",
+          "hyp": "it and scoundrel was change them",
+          "errors": 9,
+          "words": 9
+        }
+      }
+    ]
+  },
+  {
+    "key": "factor_f_clean_ours_g_DNN+fMLLR_s1",
+    "source": "archived-runs/syvu_lexfix_20260921/f_clean_ours_g",
+    "model_sha256": "8a7488225112ac5c48812057c8fe8a2d81d546860f53100b2edc9f158a4e7a88",
+    "lmwt": 15,
+    "before_speaker_errors": 103,
+    "after_speaker_errors": 76,
+    "changed_rows": [
+      {
+        "utt": "67fe_029_xsil",
+        "before": {
+          "utt": "67fe_029_xsil",
+          "ref": "when sunlight strikes raindrops in the air they act like a prism and form a rainbow",
+          "hyp": "when sunlight strikes raindrops in like a prism and form a rainbow",
+          "errors": 4,
+          "words": 16
+        },
+        "after": {
+          "utt": "67fe_029_xsil",
+          "ref": "when sunlight strikes raindrops in the air they act like a prism and form a rainbow",
+          "hyp": "when sunlight strikes raindrops in the early him time to form a rainbow",
+          "errors": 7,
+          "words": 16
+        }
+      },
+      {
+        "utt": "67fe_031_xsil",
+        "before": {
+          "utt": "67fe_031_xsil",
+          "ref": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "hyp": "lack it proved thermometer him several you are most part of it",
+          "errors": 22,
+          "words": 22
+        },
+        "after": {
+          "utt": "67fe_031_xsil",
+          "ref": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "hyp": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the rise",
+          "errors": 1,
+          "words": 22
+        }
+      },
+      {
+        "utt": "67fe_033_xsil",
+        "before": {
+          "utt": "67fe_033_xsil",
+          "ref": "people look but no one ever finds it",
+          "hyp": "people come down ever visit",
+          "errors": 6,
+          "words": 8
+        },
+        "after": {
+          "utt": "67fe_033_xsil",
+          "ref": "people look but no one ever finds it",
+          "hyp": "people come down ever finds it",
+          "errors": 4,
+          "words": 8
+        }
+      },
+      {
+        "utt": "67fe_034_xsil",
+        "before": {
+          "utt": "67fe_034_xsil",
+          "ref": "when a man looks for something beyond his reach his friends say he is looking for the pot of gold at the end of the rainbow",
+          "hyp": "when mixed form emu safety seventies to confirm snack for lothian and leave up",
+          "errors": 24,
+          "words": 26
+        },
+        "after": {
+          "utt": "67fe_034_xsil",
+          "ref": "when a man looks for something beyond his reach his friends say he is looking for the pot of gold at the end of the rainbow",
+          "hyp": "when a man looks for the beam to save deserved east confirmed look for lothian and a rainbow",
+          "errors": 19,
+          "words": 26
+        }
+      },
+      {
+        "utt": "67fe_038_sil",
+        "before": {
+          "utt": "67fe_038_sil",
+          "ref": "set the piece here and say nothing",
+          "hyp": "the piece here for say nothing",
+          "errors": 2,
+          "words": 7
+        },
+        "after": {
+          "utt": "67fe_038_sil",
+          "ref": "set the piece here and say nothing",
+          "hyp": "the me to reside thing",
+          "errors": 6,
+          "words": 7
+        }
+      },
+      {
+        "utt": "67fe_039_sil",
+        "before": {
+          "utt": "67fe_039_sil",
+          "ref": "dull stories make her laugh",
+          "hyp": "always make enough fire",
+          "errors": 4,
+          "words": 5
+        },
+        "after": {
+          "utt": "67fe_039_sil",
+          "ref": "dull stories make her laugh",
+          "hyp": "i've always make enough fire",
+          "errors": 4,
+          "words": 5
+        }
+      },
+      {
+        "utt": "67fe_040_sil",
+        "before": {
+          "utt": "67fe_040_sil",
+          "ref": "a stiff cord will do to fasten your shoe",
+          "hyp": "has have got was due to fasten two",
+          "errors": 7,
+          "words": 9
+        },
+        "after": {
+          "utt": "67fe_040_sil",
+          "ref": "a stiff cord will do to fasten your shoe",
+          "hyp": "asked have got was due to fasten your shoe",
+          "errors": 5,
+          "words": 9
+        }
+      },
+      {
+        "utt": "67fe_041_sil",
+        "before": {
+          "utt": "67fe_041_sil",
+          "ref": "get the trust fund to the bank early",
+          "hyp": "it gets the first the back day",
+          "errors": 7,
+          "words": 8
+        },
+        "after": {
+          "utt": "67fe_041_sil",
+          "ref": "get the trust fund to the bank early",
+          "hyp": "the kitchen first the back day",
+          "errors": 6,
+          "words": 8
+        }
+      },
+      {
+        "utt": "67fe_043_sil",
+        "before": {
+          "utt": "67fe_043_sil",
+          "ref": "a plea for funds seems to come again",
+          "hyp": "believe it seems come again",
+          "errors": 5,
+          "words": 8
+        },
+        "after": {
+          "utt": "67fe_043_sil",
+          "ref": "a plea for funds seems to come again",
+          "hyp": "believe it seems to come again",
+          "errors": 4,
+          "words": 8
+        }
+      },
+      {
+        "utt": "67fe_044_sil",
+        "before": {
+          "utt": "67fe_044_sil",
+          "ref": "he lent his coat to the tall gaunt stranger",
+          "hyp": "it and scoundrel was change them",
+          "errors": 9,
+          "words": 9
+        },
+        "after": {
+          "utt": "67fe_044_sil",
+          "ref": "he lent his coat to the tall gaunt stranger",
+          "hyp": "it and scoundrel gaunt stranger",
+          "errors": 7,
+          "words": 9
+        }
+      }
+    ]
+  },
+  {
+    "key": "factor_f_clean_ours_g_DNN+fMLLR_s2",
+    "source": "archived-runs/syvu_lexfix_20260921/f_clean_ours_g",
+    "model_sha256": "b5192009cd4b4fb4fe68137e3eb4695ffbe711ad1f47083d2f3ae5a36e61acbe",
+    "lmwt": 17,
+    "before_speaker_errors": 114,
+    "after_speaker_errors": 89,
+    "changed_rows": [
+      {
+        "utt": "67fe_031_xsil",
+        "before": {
+          "utt": "67fe_031_xsil",
+          "ref": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "hyp": "lack and for the first the apartments it was a real you are was drama this",
+          "errors": 22,
+          "words": 22
+        },
+        "after": {
+          "utt": "67fe_031_xsil",
+          "ref": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "hyp": "these take the shape of a long round arch with its path high above and its two is a merely be of the rise",
+          "errors": 6,
+          "words": 22
+        }
+      },
+      {
+        "utt": "67fe_032_xsil",
+        "before": {
+          "utt": "67fe_032_xsil",
+          "ref": "there is according to legend a boiling pot of gold at one end",
+          "hyp": "if is going to legend a boiling pot of the but it",
+          "errors": 6,
+          "words": 13
+        },
+        "after": {
+          "utt": "67fe_032_xsil",
+          "ref": "there is according to legend a boiling pot of gold at one end",
+          "hyp": "there is going to legend a boiling pot of gold at one end",
+          "errors": 1,
+          "words": 13
+        }
+      },
+      {
+        "utt": "67fe_034_xsil",
+        "before": {
+          "utt": "67fe_034_xsil",
+          "ref": "when a man looks for something beyond his reach his friends say he is looking for the pot of gold at the end of the rainbow",
+          "hyp": "perplexed for to be put safety seventies confirmed overloaded the rainbow",
+          "errors": 23,
+          "words": 26
+        },
+        "after": {
+          "utt": "67fe_034_xsil",
+          "ref": "when a man looks for something beyond his reach his friends say he is looking for the pot of gold at the end of the rainbow",
+          "hyp": "perplexed for the beep to save seventies a good for something for lothian the rainbow",
+          "errors": 22,
+          "words": 26
+        }
+      },
+      {
+        "utt": "67fe_038_sil",
+        "before": {
+          "utt": "67fe_038_sil",
+          "ref": "set the piece here and say nothing",
+          "hyp": "the peace resigning",
+          "errors": 6,
+          "words": 7
+        },
+        "after": {
+          "utt": "67fe_038_sil",
+          "ref": "set the piece here and say nothing",
+          "hyp": "the peace resign thing",
+          "errors": 6,
+          "words": 7
+        }
+      },
+      {
+        "utt": "67fe_039_sil",
+        "before": {
+          "utt": "67fe_039_sil",
+          "ref": "dull stories make her laugh",
+          "hyp": "or speak enough for",
+          "errors": 5,
+          "words": 5
+        },
+        "after": {
+          "utt": "67fe_039_sil",
+          "ref": "dull stories make her laugh",
+          "hyp": "of course make enough for",
+          "errors": 4,
+          "words": 5
+        }
+      },
+      {
+        "utt": "67fe_041_sil",
+        "before": {
+          "utt": "67fe_041_sil",
+          "ref": "get the trust fund to the bank early",
+          "hyp": "kitchen first the back today",
+          "errors": 7,
+          "words": 8
+        },
+        "after": {
+          "utt": "67fe_041_sil",
+          "ref": "get the trust fund to the bank early",
+          "hyp": "it gets the first the back today",
+          "errors": 7,
+          "words": 8
+        }
+      },
+      {
+        "utt": "67fe_042_sil",
+        "before": {
+          "utt": "67fe_042_sil",
+          "ref": "choose between the high road and the low",
+          "hyp": "she was we that road allow",
+          "errors": 7,
+          "words": 8
+        },
+        "after": {
+          "utt": "67fe_042_sil",
+          "ref": "choose between the high road and the low",
+          "hyp": "choose between i rode low",
+          "errors": 5,
+          "words": 8
+        }
+      }
+    ]
+  },
+  {
+    "key": "factor_f_clean_ours_g_DNN+fMLLR_s3",
+    "source": "archived-runs/syvu_lexfix_20260921/f_clean_ours_g",
+    "model_sha256": "3b7b7b8d9484cfa3f2ea054268a8091e9c66216f47642a37735443d7d6a71eba",
+    "lmwt": 17,
+    "before_speaker_errors": 104,
+    "after_speaker_errors": 88,
+    "changed_rows": [
+      {
+        "utt": "67fe_031_xsil",
+        "before": {
+          "utt": "67fe_031_xsil",
+          "ref": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "hyp": "lack a number of the thought but it was a really new there was rainbow have it",
+          "errors": 21,
+          "words": 22
+        },
+        "after": {
+          "utt": "67fe_031_xsil",
+          "ref": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "hyp": "these take the shape of a long round arch with its path high above and its two is a merely be of the rise",
+          "errors": 6,
+          "words": 22
+        }
+      },
+      {
+        "utt": "67fe_033_xsil",
+        "before": {
+          "utt": "67fe_033_xsil",
+          "ref": "people look but no one ever finds it",
+          "hyp": "people look them down ever visit",
+          "errors": 5,
+          "words": 8
+        },
+        "after": {
+          "utt": "67fe_033_xsil",
+          "ref": "people look but no one ever finds it",
+          "hyp": "people come down ever finds it",
+          "errors": 4,
+          "words": 8
+        }
+      },
+      {
+        "utt": "67fe_034_xsil",
+        "before": {
+          "utt": "67fe_034_xsil",
+          "ref": "when a man looks for something beyond his reach his friends say he is looking for the pot of gold at the end of the rainbow",
+          "hyp": "when a man looks for the be saved seventies confirmed follow the rainbow",
+          "errors": 18,
+          "words": 26
+        },
+        "after": {
+          "utt": "67fe_034_xsil",
+          "ref": "when a man looks for something beyond his reach his friends say he is looking for the pot of gold at the end of the rainbow",
+          "hyp": "when a man looks for the people safety seventies confirmed falling in the rainbow",
+          "errors": 18,
+          "words": 26
+        }
+      },
+      {
+        "utt": "67fe_039_sil",
+        "before": {
+          "utt": "67fe_039_sil",
+          "ref": "dull stories make her laugh",
+          "hyp": "always make enough it",
+          "errors": 4,
+          "words": 5
+        },
+        "after": {
+          "utt": "67fe_039_sil",
+          "ref": "dull stories make her laugh",
+          "hyp": "always make enough and",
+          "errors": 4,
+          "words": 5
+        }
+      },
+      {
+        "utt": "67fe_041_sil",
+        "before": {
+          "utt": "67fe_041_sil",
+          "ref": "get the trust fund to the bank early",
+          "hyp": "condition first the back thirty",
+          "errors": 7,
+          "words": 8
+        },
+        "after": {
+          "utt": "67fe_041_sil",
+          "ref": "get the trust fund to the bank early",
+          "hyp": "condition first the back today",
+          "errors": 7,
+          "words": 8
+        }
+      }
+    ]
+  },
+  {
+    "key": "factor_ours_full_g_GMM+fMLLR_s1",
+    "source": "archived-runs/syvu_lexfix_20260921/ours_full_g",
+    "model_sha256": "450c267a7c47c8f3452a77f923509a7dc00cc1ec6a84372f5dcad69f02b2aac1",
+    "lmwt": 13,
+    "before_speaker_errors": 125,
+    "after_speaker_errors": 103,
+    "changed_rows": [
+      {
+        "utt": "67fe_029_xsil",
+        "before": {
+          "utt": "67fe_029_xsil",
+          "ref": "when sunlight strikes raindrops in the air they act like a prism and form a rainbow",
+          "hyp": "when sunlight strikes raindrops in italy it was him the from rainbow",
+          "errors": 10,
+          "words": 16
+        },
+        "after": {
+          "utt": "67fe_029_xsil",
+          "ref": "when sunlight strikes raindrops in the air they act like a prism and form a rainbow",
+          "hyp": "when sunlight strikes raindrops in italy it was up the from rainbow",
+          "errors": 10,
+          "words": 16
+        }
+      },
+      {
+        "utt": "67fe_031_xsil",
+        "before": {
+          "utt": "67fe_031_xsil",
+          "ref": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "hyp": "and like that above and form a football pretty him different he was rubbish up at",
+          "errors": 22,
+          "words": 22
+        },
+        "after": {
+          "utt": "67fe_031_xsil",
+          "ref": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "hyp": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the rise",
+          "errors": 1,
+          "words": 22
+        }
+      },
+      {
+        "utt": "67fe_032_xsil",
+        "before": {
+          "utt": "67fe_032_xsil",
+          "ref": "there is according to legend a boiling pot of gold at one end",
+          "hyp": "so going to legend a boiling pot of gold at one end",
+          "errors": 3,
+          "words": 13
+        },
+        "after": {
+          "utt": "67fe_032_xsil",
+          "ref": "there is according to legend a boiling pot of gold at one end",
+          "hyp": "the going to legend a boiling pot of gold at one end",
+          "errors": 3,
+          "words": 13
+        }
+      },
+      {
+        "utt": "67fe_041_sil",
+        "before": {
+          "utt": "67fe_041_sil",
+          "ref": "get the trust fund to the bank early",
+          "hyp": "it's fun to back today",
+          "errors": 7,
+          "words": 8
+        },
+        "after": {
+          "utt": "67fe_041_sil",
+          "ref": "get the trust fund to the bank early",
+          "hyp": "it's flat pack today",
+          "errors": 8,
+          "words": 8
+        }
+      },
+      {
+        "utt": "67fe_042_sil",
+        "before": {
+          "utt": "67fe_042_sil",
+          "ref": "choose between the high road and the low",
+          "hyp": "she would be there is so",
+          "errors": 8,
+          "words": 8
+        },
+        "after": {
+          "utt": "67fe_042_sil",
+          "ref": "choose between the high road and the low",
+          "hyp": "she was we there is so",
+          "errors": 8,
+          "words": 8
+        }
+      },
+      {
+        "utt": "67fe_043_sil",
+        "before": {
+          "utt": "67fe_043_sil",
+          "ref": "a plea for funds seems to come again",
+          "hyp": "it may fancy become a head",
+          "errors": 8,
+          "words": 8
+        },
+        "after": {
+          "utt": "67fe_043_sil",
+          "ref": "a plea for funds seems to come again",
+          "hyp": "it may fancy becoming then",
+          "errors": 8,
+          "words": 8
+        }
+      },
+      {
+        "utt": "67fe_044_sil",
+        "before": {
+          "utt": "67fe_044_sil",
+          "ref": "he lent his coat to the tall gaunt stranger",
+          "hyp": "it is too there was change",
+          "errors": 9,
+          "words": 9
+        },
+        "after": {
+          "utt": "67fe_044_sil",
+          "ref": "he lent his coat to the tall gaunt stranger",
+          "hyp": "he said to go there was change",
+          "errors": 7,
+          "words": 9
+        }
+      }
+    ]
+  },
+  {
+    "key": "factor_ours_full_g_DNN+fMLLR_s1",
+    "source": "archived-runs/syvu_lexfix_20260921/ours_full_g",
+    "model_sha256": "2c7122e29c89cb8067139c6a57049c66394218afa4061d17596a0bad89cadb23",
+    "lmwt": 15,
+    "before_speaker_errors": 110,
+    "after_speaker_errors": 87,
+    "changed_rows": [
+      {
+        "utt": "67fe_029_xsil",
+        "before": {
+          "utt": "67fe_029_xsil",
+          "ref": "when sunlight strikes raindrops in the air they act like a prism and form a rainbow",
+          "hyp": "when sunlight strikes raindrops in their lives in the former rainbow",
+          "errors": 10,
+          "words": 16
+        },
+        "after": {
+          "utt": "67fe_029_xsil",
+          "ref": "when sunlight strikes raindrops in the air they act like a prism and form a rainbow",
+          "hyp": "when sunlight strikes raindrops in the early it was and form a rainbow",
+          "errors": 6,
+          "words": 16
+        }
+      },
+      {
+        "utt": "67fe_031_xsil",
+        "before": {
+          "utt": "67fe_031_xsil",
+          "ref": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "hyp": "and like a number of football prettier every you are was a number of it",
+          "errors": 21,
+          "words": 22
+        },
+        "after": {
+          "utt": "67fe_031_xsil",
+          "ref": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "hyp": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "errors": 0,
+          "words": 22
+        }
+      },
+      {
+        "utt": "67fe_032_xsil",
+        "before": {
+          "utt": "67fe_032_xsil",
+          "ref": "there is according to legend a boiling pot of gold at one end",
+          "hyp": "so to legend a boiling pot of gold at one end",
+          "errors": 3,
+          "words": 13
+        },
+        "after": {
+          "utt": "67fe_032_xsil",
+          "ref": "there is according to legend a boiling pot of gold at one end",
+          "hyp": "so going to legend a boiling pot of gold at one end",
+          "errors": 3,
+          "words": 13
+        }
+      },
+      {
+        "utt": "67fe_034_xsil",
+        "before": {
+          "utt": "67fe_034_xsil",
+          "ref": "when a man looks for something beyond his reach his friends say he is looking for the pot of gold at the end of the rainbow",
+          "hyp": "brings us to be musicians have these hewn from the government in the rainbow",
+          "errors": 23,
+          "words": 26
+        },
+        "after": {
+          "utt": "67fe_034_xsil",
+          "ref": "when a man looks for something beyond his reach his friends say he is looking for the pot of gold at the end of the rainbow",
+          "hyp": "brings us to be stages seasoning confirmed government in the tube",
+          "errors": 25,
+          "words": 26
+        }
+      },
+      {
+        "utt": "67fe_038_sil",
+        "before": {
+          "utt": "67fe_038_sil",
+          "ref": "set the piece here and say nothing",
+          "hyp": "we there is nothing",
+          "errors": 6,
+          "words": 7
+        },
+        "after": {
+          "utt": "67fe_038_sil",
+          "ref": "set the piece here and say nothing",
+          "hyp": "space of resigning",
+          "errors": 7,
+          "words": 7
+        }
+      },
+      {
+        "utt": "67fe_039_sil",
+        "before": {
+          "utt": "67fe_039_sil",
+          "ref": "dull stories make her laugh",
+          "hyp": "always be enough out",
+          "errors": 5,
+          "words": 5
+        },
+        "after": {
+          "utt": "67fe_039_sil",
+          "ref": "dull stories make her laugh",
+          "hyp": "you have always be enough for",
+          "errors": 6,
+          "words": 5
+        }
+      },
+      {
+        "utt": "67fe_040_sil",
+        "before": {
+          "utt": "67fe_040_sil",
+          "ref": "a stiff cord will do to fasten your shoe",
+          "hyp": "ask her one was due to fasten your shoe",
+          "errors": 5,
+          "words": 9
+        },
+        "after": {
+          "utt": "67fe_040_sil",
+          "ref": "a stiff cord will do to fasten your shoe",
+          "hyp": "acid one was due to fasten your shoe",
+          "errors": 5,
+          "words": 9
+        }
+      },
+      {
+        "utt": "67fe_041_sil",
+        "before": {
+          "utt": "67fe_041_sil",
+          "ref": "get the trust fund to the bank early",
+          "hyp": "it is for the back today",
+          "errors": 7,
+          "words": 8
+        },
+        "after": {
+          "utt": "67fe_041_sil",
+          "ref": "get the trust fund to the bank early",
+          "hyp": "it is for the bank early",
+          "errors": 5,
+          "words": 8
+        }
+      },
+      {
+        "utt": "67fe_042_sil",
+        "before": {
+          "utt": "67fe_042_sil",
+          "ref": "choose between the high road and the low",
+          "hyp": "it was with her outgrow",
+          "errors": 8,
+          "words": 8
+        },
+        "after": {
+          "utt": "67fe_042_sil",
+          "ref": "choose between the high road and the low",
+          "hyp": "it was we narrow so",
+          "errors": 8,
+          "words": 8
+        }
+      }
+    ]
+  },
+  {
+    "key": "factor_f_norm_mad_g_GMM+fMLLR_s1",
+    "source": "archived-runs/syvu_lexfix_20260921/f_norm_mad_g",
+    "model_sha256": "f24a4066d8ca16526cd88ef1670e0487a8a8809d08d9241fcd062406c63cf6d1",
+    "lmwt": 11,
+    "before_speaker_errors": 130,
+    "after_speaker_errors": 106,
+    "changed_rows": [
+      {
+        "utt": "67fe_029_xsil",
+        "before": {
+          "utt": "67fe_029_xsil",
+          "ref": "when sunlight strikes raindrops in the air they act like a prism and form a rainbow",
+          "hyp": "when sunlight strikes raindrops in it was him from rainbow",
+          "errors": 10,
+          "words": 16
+        },
+        "after": {
+          "utt": "67fe_029_xsil",
+          "ref": "when sunlight strikes raindrops in the air they act like a prism and form a rainbow",
+          "hyp": "when sunlight strikes raindrops in italy it was him from rainbow",
+          "errors": 10,
+          "words": 16
+        }
+      },
+      {
+        "utt": "67fe_030_xsil",
+        "before": {
+          "utt": "67fe_030_xsil",
+          "ref": "the rainbow is a division of white light into many beautiful colours",
+          "hyp": "the rainbow was division of white light into many beautiful colours",
+          "errors": 2,
+          "words": 12
+        },
+        "after": {
+          "utt": "67fe_030_xsil",
+          "ref": "the rainbow is a division of white light into many beautiful colours",
+          "hyp": "the rainbow was a division of white light into many beautiful colours",
+          "errors": 1,
+          "words": 12
+        }
+      },
+      {
+        "utt": "67fe_031_xsil",
+        "before": {
+          "utt": "67fe_031_xsil",
+          "ref": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "hyp": "at him verse fulfilment pretty him tyranny your there was slip it",
+          "errors": 22,
+          "words": 22
+        },
+        "after": {
+          "utt": "67fe_031_xsil",
+          "ref": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "hyp": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the rise",
+          "errors": 1,
+          "words": 22
+        }
+      },
+      {
+        "utt": "67fe_032_xsil",
+        "before": {
+          "utt": "67fe_032_xsil",
+          "ref": "there is according to legend a boiling pot of gold at one end",
+          "hyp": "so to legend a boiling pot of gold at one is",
+          "errors": 4,
+          "words": 13
+        },
+        "after": {
+          "utt": "67fe_032_xsil",
+          "ref": "there is according to legend a boiling pot of gold at one end",
+          "hyp": "it's going to legend a boiling pot of gold at one is",
+          "errors": 4,
+          "words": 13
+        }
+      },
+      {
+        "utt": "67fe_033_xsil",
+        "before": {
+          "utt": "67fe_033_xsil",
+          "ref": "people look but no one ever finds it",
+          "hyp": "people look him no benefit",
+          "errors": 5,
+          "words": 8
+        },
+        "after": {
+          "utt": "67fe_033_xsil",
+          "ref": "people look but no one ever finds it",
+          "hyp": "people home town pervaded",
+          "errors": 7,
+          "words": 8
+        }
+      },
+      {
+        "utt": "67fe_034_xsil",
+        "before": {
+          "utt": "67fe_034_xsil",
+          "ref": "when a man looks for something beyond his reach his friends say he is looking for the pot of gold at the end of the rainbow",
+          "hyp": "please of the beam decisions have seen to confirm the government in europe",
+          "errors": 25,
+          "words": 26
+        },
+        "after": {
+          "utt": "67fe_034_xsil",
+          "ref": "when a man looks for something beyond his reach his friends say he is looking for the pot of gold at the end of the rainbow",
+          "hyp": "place for the beam decisions have seen to confirm the government in europe",
+          "errors": 24,
+          "words": 26
+        }
+      },
+      {
+        "utt": "67fe_040_sil",
+        "before": {
+          "utt": "67fe_040_sil",
+          "ref": "a stiff cord will do to fasten your shoe",
+          "hyp": "aristotle thought stew",
+          "errors": 9,
+          "words": 9
+        },
+        "after": {
+          "utt": "67fe_040_sil",
+          "ref": "a stiff cord will do to fasten your shoe",
+          "hyp": "aristotle to fasten your shoe",
+          "errors": 5,
+          "words": 9
+        }
+      },
+      {
+        "utt": "67fe_041_sil",
+        "before": {
+          "utt": "67fe_041_sil",
+          "ref": "get the trust fund to the bank early",
+          "hyp": "it's fun to back there",
+          "errors": 7,
+          "words": 8
+        },
+        "after": {
+          "utt": "67fe_041_sil",
+          "ref": "get the trust fund to the bank early",
+          "hyp": "it is far back there",
+          "errors": 8,
+          "words": 8
+        }
+      },
+      {
+        "utt": "67fe_044_sil",
+        "before": {
+          "utt": "67fe_044_sil",
+          "ref": "he lent his coat to the tall gaunt stranger",
+          "hyp": "it in school was change him",
+          "errors": 9,
+          "words": 9
+        },
+        "after": {
+          "utt": "67fe_044_sil",
+          "ref": "he lent his coat to the tall gaunt stranger",
+          "hyp": "it has school was change him",
+          "errors": 9,
+          "words": 9
+        }
+      }
+    ]
+  },
+  {
+    "key": "factor_f_norm_mad_g_DNN+fMLLR_s1",
+    "source": "archived-runs/syvu_lexfix_20260921/f_norm_mad_g",
+    "model_sha256": "11529a5635035ea10af9d03c96f09bfda86184115dc20c7179684250a9259ec4",
+    "lmwt": 14,
+    "before_speaker_errors": 119,
+    "after_speaker_errors": 94,
+    "changed_rows": [
+      {
+        "utt": "67fe_031_xsil",
+        "before": {
+          "utt": "67fe_031_xsil",
+          "ref": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "hyp": "let it was thermometer see him different you there was ramp led",
+          "errors": 22,
+          "words": 22
+        },
+        "after": {
+          "utt": "67fe_031_xsil",
+          "ref": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "hyp": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the rise",
+          "errors": 1,
+          "words": 22
+        }
+      },
+      {
+        "utt": "67fe_034_xsil",
+        "before": {
+          "utt": "67fe_034_xsil",
+          "ref": "when a man looks for something beyond his reach his friends say he is looking for the pot of gold at the end of the rainbow",
+          "hyp": "place for the beam suit in safety is a good for breakfast new them",
+          "errors": 24,
+          "words": 26
+        },
+        "after": {
+          "utt": "67fe_034_xsil",
+          "ref": "when a man looks for something beyond his reach his friends say he is looking for the pot of gold at the end of the rainbow",
+          "hyp": "place for to be musicians have cease to go and from the government through them",
+          "errors": 24,
+          "words": 26
+        }
+      },
+      {
+        "utt": "67fe_039_sil",
+        "before": {
+          "utt": "67fe_039_sil",
+          "ref": "dull stories make her laugh",
+          "hyp": "it is always be enough",
+          "errors": 5,
+          "words": 5
+        },
+        "after": {
+          "utt": "67fe_039_sil",
+          "ref": "dull stories make her laugh",
+          "hyp": "it's always be enough",
+          "errors": 5,
+          "words": 5
+        }
+      },
+      {
+        "utt": "67fe_041_sil",
+        "before": {
+          "utt": "67fe_041_sil",
+          "ref": "get the trust fund to the bank early",
+          "hyp": "it's flat pack that day",
+          "errors": 8,
+          "words": 8
+        },
+        "after": {
+          "utt": "67fe_041_sil",
+          "ref": "get the trust fund to the bank early",
+          "hyp": "it is flat pack that day",
+          "errors": 8,
+          "words": 8
+        }
+      },
+      {
+        "utt": "67fe_042_sil",
+        "before": {
+          "utt": "67fe_042_sil",
+          "ref": "choose between the high road and the low",
+          "hyp": "she would be that rode low",
+          "errors": 7,
+          "words": 8
+        },
+        "after": {
+          "utt": "67fe_042_sil",
+          "ref": "choose between the high road and the low",
+          "hyp": "it was we that rode low",
+          "errors": 7,
+          "words": 8
+        }
+      },
+      {
+        "utt": "67fe_043_sil",
+        "before": {
+          "utt": "67fe_043_sil",
+          "ref": "a plea for funds seems to come again",
+          "hyp": "it believe as my head",
+          "errors": 8,
+          "words": 8
+        },
+        "after": {
+          "utt": "67fe_043_sil",
+          "ref": "a plea for funds seems to come again",
+          "hyp": "it be very come again",
+          "errors": 6,
+          "words": 8
+        }
+      },
+      {
+        "utt": "67fe_045_sil",
+        "before": {
+          "utt": "67fe_045_sil",
+          "ref": "there is a strong chance it will happen once more",
+          "hyp": "it's just will happen must bob",
+          "errors": 8,
+          "words": 10
+        },
+        "after": {
+          "utt": "67fe_045_sil",
+          "ref": "there is a strong chance it will happen once more",
+          "hyp": "it's just will happen once more",
+          "errors": 6,
+          "words": 10
+        }
+      }
+    ]
+  },
+  {
+    "key": "factor_f_norm_mad_g_DNN+fMLLR_s2",
+    "source": "archived-runs/syvu_lexfix_20260921/f_norm_mad_g",
+    "model_sha256": "9434bfb6763287c1abb9c46259947a0df74189f26f8de93f703296f08fb99076",
+    "lmwt": 17,
+    "before_speaker_errors": 108,
+    "after_speaker_errors": 87,
+    "changed_rows": [
+      {
+        "utt": "67fe_029_xsil",
+        "before": {
+          "utt": "67fe_029_xsil",
+          "ref": "when sunlight strikes raindrops in the air they act like a prism and form a rainbow",
+          "hyp": "when sunlight strikes raindrops in at the labour some the former in bowl",
+          "errors": 11,
+          "words": 16
+        },
+        "after": {
+          "utt": "67fe_029_xsil",
+          "ref": "when sunlight strikes raindrops in the air they act like a prism and form a rainbow",
+          "hyp": "when sunlight strikes raindrops in labour some the former in bowl",
+          "errors": 11,
+          "words": 16
+        }
+      },
+      {
+        "utt": "67fe_031_xsil",
+        "before": {
+          "utt": "67fe_031_xsil",
+          "ref": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "hyp": "it like a smooth fulfilment pretty him to really there was amount",
+          "errors": 21,
+          "words": 22
+        },
+        "after": {
+          "utt": "67fe_031_xsil",
+          "ref": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "hyp": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the rise",
+          "errors": 1,
+          "words": 22
+        }
+      },
+      {
+        "utt": "67fe_034_xsil",
+        "before": {
+          "utt": "67fe_034_xsil",
+          "ref": "when a man looks for something beyond his reach his friends say he is looking for the pot of gold at the end of the rainbow",
+          "hyp": "place for the beam to save deserves easy confirmed the government the ship",
+          "errors": 23,
+          "words": 26
+        },
+        "after": {
+          "utt": "67fe_034_xsil",
+          "ref": "when a man looks for something beyond his reach his friends say he is looking for the pot of gold at the end of the rainbow",
+          "hyp": "place for the hebrews it just as easy confirmed the government the tube",
+          "errors": 23,
+          "words": 26
+        }
+      },
+      {
+        "utt": "67fe_038_sil",
+        "before": {
+          "utt": "67fe_038_sil",
+          "ref": "set the piece here and say nothing",
+          "hyp": "be there is anything",
+          "errors": 7,
+          "words": 7
+        },
+        "after": {
+          "utt": "67fe_038_sil",
+          "ref": "set the piece here and say nothing",
+          "hyp": "the police are say nothing",
+          "errors": 4,
+          "words": 7
+        }
+      },
+      {
+        "utt": "67fe_039_sil",
+        "before": {
+          "utt": "67fe_039_sil",
+          "ref": "dull stories make her laugh",
+          "hyp": "it is always benefit",
+          "errors": 5,
+          "words": 5
+        },
+        "after": {
+          "utt": "67fe_039_sil",
+          "ref": "dull stories make her laugh",
+          "hyp": "i've always benefit",
+          "errors": 5,
+          "words": 5
+        }
+      },
+      {
+        "utt": "67fe_040_sil",
+        "before": {
+          "utt": "67fe_040_sil",
+          "ref": "a stiff cord will do to fasten your shoe",
+          "hyp": "as if gone was due to fasten your shoe",
+          "errors": 5,
+          "words": 9
+        },
+        "after": {
+          "utt": "67fe_040_sil",
+          "ref": "a stiff cord will do to fasten your shoe",
+          "hyp": "as have gone was due to fasten your shoe",
+          "errors": 5,
+          "words": 9
+        }
+      },
+      {
+        "utt": "67fe_042_sil",
+        "before": {
+          "utt": "67fe_042_sil",
+          "ref": "choose between the high road and the low",
+          "hyp": "choose between around slope",
+          "errors": 6,
+          "words": 8
+        },
+        "after": {
+          "utt": "67fe_042_sil",
+          "ref": "choose between the high road and the low",
+          "hyp": "it was way around slope",
+          "errors": 8,
+          "words": 8
+        }
+      }
+    ]
+  },
+  {
+    "key": "factor_f_norm_mad_g_DNN+fMLLR_s3",
+    "source": "archived-runs/syvu_lexfix_20260921/f_norm_mad_g",
+    "model_sha256": "3c8af0f478bab27240e80892fb3030e37f60e77356e8eafe136b07320c9f4c92",
+    "lmwt": 17,
+    "before_speaker_errors": 107,
+    "after_speaker_errors": 93,
+    "changed_rows": [
+      {
+        "utt": "67fe_031_xsil",
+        "before": {
+          "utt": "67fe_031_xsil",
+          "ref": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "hyp": "and like a smooth surface football pretty upset really your narrow slip it",
+          "errors": 21,
+          "words": 22
+        },
+        "after": {
+          "utt": "67fe_031_xsil",
+          "ref": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "hyp": "these take the shape of a long round arch with its path high above and its two ends apparently pure horizon",
+          "errors": 2,
+          "words": 22
+        }
+      },
+      {
+        "utt": "67fe_034_xsil",
+        "before": {
+          "utt": "67fe_034_xsil",
+          "ref": "when a man looks for something beyond his reach his friends say he is looking for the pot of gold at the end of the rainbow",
+          "hyp": "place for to be musicians have season confirmed followed them",
+          "errors": 25,
+          "words": 26
+        },
+        "after": {
+          "utt": "67fe_034_xsil",
+          "ref": "when a man looks for something beyond his reach his friends say he is looking for the pot of gold at the end of the rainbow",
+          "hyp": "place for to be musicians have season confirmed following in the rainbow",
+          "errors": 23,
+          "words": 26
+        }
+      },
+      {
+        "utt": "67fe_038_sil",
+        "before": {
+          "utt": "67fe_038_sil",
+          "ref": "set the piece here and say nothing",
+          "hyp": "the piece of resigning",
+          "errors": 5,
+          "words": 7
+        },
+        "after": {
+          "utt": "67fe_038_sil",
+          "ref": "set the piece here and say nothing",
+          "hyp": "space resigned thing",
+          "errors": 7,
+          "words": 7
+        }
+      },
+      {
+        "utt": "67fe_039_sil",
+        "before": {
+          "utt": "67fe_039_sil",
+          "ref": "dull stories make her laugh",
+          "hyp": "it's always men have found",
+          "errors": 5,
+          "words": 5
+        },
+        "after": {
+          "utt": "67fe_039_sil",
+          "ref": "dull stories make her laugh",
+          "hyp": "there's always men have found",
+          "errors": 5,
+          "words": 5
+        }
+      },
+      {
+        "utt": "67fe_040_sil",
+        "before": {
+          "utt": "67fe_040_sil",
+          "ref": "a stiff cord will do to fasten your shoe",
+          "hyp": "a stiff cord will do to fasten your shoe",
+          "errors": 0,
+          "words": 9
+        },
+        "after": {
+          "utt": "67fe_040_sil",
+          "ref": "a stiff cord will do to fasten your shoe",
+          "hyp": "as have got was due to fasten your shoe",
+          "errors": 5,
+          "words": 9
+        }
+      },
+      {
+        "utt": "67fe_041_sil",
+        "before": {
+          "utt": "67fe_041_sil",
+          "ref": "get the trust fund to the bank early",
+          "hyp": "it's first the bank early",
+          "errors": 5,
+          "words": 8
+        },
+        "after": {
+          "utt": "67fe_041_sil",
+          "ref": "get the trust fund to the bank early",
+          "hyp": "it divided back today",
+          "errors": 8,
+          "words": 8
+        }
+      },
+      {
+        "utt": "67fe_042_sil",
+        "before": {
+          "utt": "67fe_042_sil",
+          "ref": "choose between the high road and the low",
+          "hyp": "she would be their own to know",
+          "errors": 8,
+          "words": 8
+        },
+        "after": {
+          "utt": "67fe_042_sil",
+          "ref": "choose between the high road and the low",
+          "hyp": "it was wait rode low",
+          "errors": 7,
+          "words": 8
+        }
+      },
+      {
+        "utt": "67fe_043_sil",
+        "before": {
+          "utt": "67fe_043_sil",
+          "ref": "a plea for funds seems to come again",
+          "hyp": "it be very speak up again",
+          "errors": 7,
+          "words": 8
+        },
+        "after": {
+          "utt": "67fe_043_sil",
+          "ref": "a plea for funds seems to come again",
+          "hyp": "it believe any to come again",
+          "errors": 5,
+          "words": 8
+        }
+      },
+      {
+        "utt": "67fe_044_sil",
+        "before": {
+          "utt": "67fe_044_sil",
+          "ref": "he lent his coat to the tall gaunt stranger",
+          "hyp": "it's good role was change him",
+          "errors": 9,
+          "words": 9
+        },
+        "after": {
+          "utt": "67fe_044_sil",
+          "ref": "he lent his coat to the tall gaunt stranger",
+          "hyp": "it's good role was change",
+          "errors": 9,
+          "words": 9
+        }
+      }
+    ]
+  },
+  {
+    "key": "trainlm_shared32",
+    "source": "archived-runs/syvu_lexfix_20260921/train_only_lm/fixed_vocab/shared32",
+    "model_sha256": "18a71da981abf60cde6e68cd30a61091d6f34f75e175c4d5f26fbcf301851a91",
+    "lmwt": 11,
+    "before_speaker_errors": 145,
+    "after_speaker_errors": 140,
+    "changed_rows": [
+      {
+        "utt": "67fe_029_xsil",
+        "before": {
+          "utt": "67fe_029_xsil",
+          "ref": "when sunlight strikes raindrops in the air they act like a prism and form a rainbow",
+          "hyp": "westchester in germany and let him step the former rainbow",
+          "errors": 14,
+          "words": 16,
+          "decoded_unk": 0
+        },
+        "after": {
+          "utt": "67fe_029_xsil",
+          "ref": "when sunlight strikes raindrops in the air they act like a prism and form a rainbow",
+          "hyp": "witnesses richmond they let him time to from rainbow",
+          "errors": 14,
+          "words": 16
+        }
+      },
+      {
+        "utt": "67fe_031_xsil",
+        "before": {
+          "utt": "67fe_031_xsil",
+          "ref": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "hyp": "lacheneur preferred a father permanent it was a very you are was rainbow have it",
+          "errors": 21,
+          "words": 22,
+          "decoded_unk": 0
+        },
+        "after": {
+          "utt": "67fe_031_xsil",
+          "ref": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "hyp": "these things type of a long frowned with smart type of an issue is a merely be of the rise",
+          "errors": 16,
+          "words": 22
+        }
+      },
+      {
+        "utt": "67fe_032_xsil",
+        "before": {
+          "utt": "67fe_032_xsil",
+          "ref": "there is according to legend a boiling pot of gold at one end",
+          "hyp": "if is no intention appointment for the but it",
+          "errors": 12,
+          "words": 13,
+          "decoded_unk": 0
+        },
+        "after": {
+          "utt": "67fe_032_xsil",
+          "ref": "there is according to legend a boiling pot of gold at one end",
+          "hyp": "there is no intention appointment for the but it",
+          "errors": 11,
+          "words": 13
+        }
+      },
+      {
+        "utt": "67fe_034_xsil",
+        "before": {
+          "utt": "67fe_034_xsil",
+          "ref": "when a man looks for something beyond his reach his friends say he is looking for the pot of gold at the end of the rainbow",
+          "hyp": "perplexed for to be boost huge safety is confirmed overloaded the rainbow",
+          "errors": 22,
+          "words": 26,
+          "decoded_unk": 0
+        },
+        "after": {
+          "utt": "67fe_034_xsil",
+          "ref": "when a man looks for something beyond his reach his friends say he is looking for the pot of gold at the end of the rainbow",
+          "hyp": "perplexed for the beep to save deserved decent confirmed took following in the rainbow",
+          "errors": 23,
+          "words": 26
+        }
+      },
+      {
+        "utt": "67fe_038_sil",
+        "before": {
+          "utt": "67fe_038_sil",
+          "ref": "set the piece here and say nothing",
+          "hyp": "some easy reside thing",
+          "errors": 7,
+          "words": 7,
+          "decoded_unk": 0
+        },
+        "after": {
+          "utt": "67fe_038_sil",
+          "ref": "set the piece here and say nothing",
+          "hyp": "can be to reside thing",
+          "errors": 7,
+          "words": 7
+        }
+      },
+      {
+        "utt": "67fe_039_sil",
+        "before": {
+          "utt": "67fe_039_sil",
+          "ref": "dull stories make her laugh",
+          "hyp": "still the his make enough at",
+          "errors": 5,
+          "words": 5,
+          "decoded_unk": 0
+        },
+        "after": {
+          "utt": "67fe_039_sil",
+          "ref": "dull stories make her laugh",
+          "hyp": "still dismay enough at",
+          "errors": 5,
+          "words": 5
+        }
+      },
+      {
+        "utt": "67fe_041_sil",
+        "before": {
+          "utt": "67fe_041_sil",
+          "ref": "get the trust fund to the bank early",
+          "hyp": "it get should first the back today",
+          "errors": 7,
+          "words": 8,
+          "decoded_unk": 0
+        },
+        "after": {
+          "utt": "67fe_041_sil",
+          "ref": "get the trust fund to the bank early",
+          "hyp": "it get into the first the back there",
+          "errors": 7,
+          "words": 8
+        }
+      }
+    ]
+  },
+  {
+    "key": "trainlm_shared32_s2",
+    "source": "archived-runs/syvu_lexfix_20260921/train_only_lm/fixed_vocab/shared32_s2",
+    "model_sha256": "1a243ad73003d3285cc7344a54ed9995b63ebf84b93537c31ac9f0560e9066e8",
+    "lmwt": 12,
+    "before_speaker_errors": 139,
+    "after_speaker_errors": 138,
+    "changed_rows": [
+      {
+        "utt": "67fe_029_xsil",
+        "before": {
+          "utt": "67fe_029_xsil",
+          "ref": "when sunlight strikes raindrops in the air they act like a prism and form a rainbow",
+          "hyp": "westchester in germany and it like him some to from rainbow",
+          "errors": 13,
+          "words": 16,
+          "decoded_unk": 0
+        },
+        "after": {
+          "utt": "67fe_029_xsil",
+          "ref": "when sunlight strikes raindrops in the air they act like a prism and form a rainbow",
+          "hyp": "westchester is richard many and it alarmed him to from rainbow",
+          "errors": 15,
+          "words": 16
+        }
+      },
+      {
+        "utt": "67fe_031_xsil",
+        "before": {
+          "utt": "67fe_031_xsil",
+          "ref": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "hyp": "a lack had above the phosphate permanent it was a very you are worship it",
+          "errors": 21,
+          "words": 22,
+          "decoded_unk": 0
+        },
+        "after": {
+          "utt": "67fe_031_xsil",
+          "ref": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "hyp": "these things type of a long found it was part time of an issue is a merely pure the rise",
+          "errors": 17,
+          "words": 22
+        }
+      },
+      {
+        "utt": "67fe_034_xsil",
+        "before": {
+          "utt": "67fe_034_xsil",
+          "ref": "when a man looks for something beyond his reach his friends say he is looking for the pot of gold at the end of the rainbow",
+          "hyp": "and perplexed for the be musicians have ceased confirmed look for lothian the rainbow",
+          "errors": 22,
+          "words": 26,
+          "decoded_unk": 0
+        },
+        "after": {
+          "utt": "67fe_034_xsil",
+          "ref": "when a man looks for something beyond his reach his friends say he is looking for the pot of gold at the end of the rainbow",
+          "hyp": "and perplexed for the beep to save deserved season confirmed look for lothian the rainbow",
+          "errors": 22,
+          "words": 26
+        }
+      },
+      {
+        "utt": "67fe_037_sil",
+        "before": {
+          "utt": "67fe_037_sil",
+          "ref": "light maple makes for a swell room",
+          "hyp": "let people makes for as well from",
+          "errors": 5,
+          "words": 7,
+          "decoded_unk": 0
+        },
+        "after": {
+          "utt": "67fe_037_sil",
+          "ref": "light maple makes for a swell room",
+          "hyp": "let me be made for as well from",
+          "errors": 7,
+          "words": 7
+        }
+      },
+      {
+        "utt": "67fe_038_sil",
+        "before": {
+          "utt": "67fe_038_sil",
+          "ref": "set the piece here and say nothing",
+          "hyp": "that me to reside nothing",
+          "errors": 6,
+          "words": 7,
+          "decoded_unk": 0
+        },
+        "after": {
+          "utt": "67fe_038_sil",
+          "ref": "set the piece here and say nothing",
+          "hyp": "tell me to reside nothing",
+          "errors": 6,
+          "words": 7
+        }
+      },
+      {
+        "utt": "67fe_039_sil",
+        "before": {
+          "utt": "67fe_039_sil",
+          "ref": "dull stories make her laugh",
+          "hyp": "still source make enough out",
+          "errors": 4,
+          "words": 5,
+          "decoded_unk": 0
+        },
+        "after": {
+          "utt": "67fe_039_sil",
+          "ref": "dull stories make her laugh",
+          "hyp": "still source make enough at",
+          "errors": 4,
+          "words": 5
+        }
+      },
+      {
+        "utt": "67fe_042_sil",
+        "before": {
+          "utt": "67fe_042_sil",
+          "ref": "choose between the high road and the low",
+          "hyp": "she was we that road their up",
+          "errors": 7,
+          "words": 8,
+          "decoded_unk": 0
+        },
+        "after": {
+          "utt": "67fe_042_sil",
+          "ref": "choose between the high road and the low",
+          "hyp": "she between that road in their up",
+          "errors": 6,
+          "words": 8
+        }
+      }
+    ]
+  },
+  {
+    "key": "trainlm_shared32_s3",
+    "source": "archived-runs/syvu_lexfix_20260921/train_only_lm/fixed_vocab/shared32_s3",
+    "model_sha256": "995ff6cc4bb86e0e6700776053b109d60100fa731dbed529ab38c7c8a6b17dfa",
+    "lmwt": 13,
+    "before_speaker_errors": 144,
+    "after_speaker_errors": 141,
+    "changed_rows": [
+      {
+        "utt": "67fe_029_xsil",
+        "before": {
+          "utt": "67fe_029_xsil",
+          "ref": "when sunlight strikes raindrops in the air they act like a prism and form a rainbow",
+          "hyp": "witnesses richmond and let him some the former rainbow",
+          "errors": 15,
+          "words": 16,
+          "decoded_unk": 0
+        },
+        "after": {
+          "utt": "67fe_029_xsil",
+          "ref": "when sunlight strikes raindrops in the air they act like a prism and form a rainbow",
+          "hyp": "whistles serious but then they let him step the former rainbow",
+          "errors": 14,
+          "words": 16
+        }
+      },
+      {
+        "utt": "67fe_031_xsil",
+        "before": {
+          "utt": "67fe_031_xsil",
+          "ref": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "hyp": "like happen for suffers from apartment him different new there was flip it",
+          "errors": 22,
+          "words": 22,
+          "decoded_unk": 0
+        },
+        "after": {
+          "utt": "67fe_031_xsil",
+          "ref": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "hyp": "these things lay buffalo found it was part time often into his upper lip you the rise",
+          "errors": 20,
+          "words": 22
+        }
+      },
+      {
+        "utt": "67fe_032_xsil",
+        "before": {
+          "utt": "67fe_032_xsil",
+          "ref": "there is according to legend a boiling pot of gold at one end",
+          "hyp": "there is no intention appointment for the but it",
+          "errors": 11,
+          "words": 13,
+          "decoded_unk": 0
+        },
+        "after": {
+          "utt": "67fe_032_xsil",
+          "ref": "there is according to legend a boiling pot of gold at one end",
+          "hyp": "there is no intention appointed but for the but it",
+          "errors": 11,
+          "words": 13
+        }
+      },
+      {
+        "utt": "67fe_037_sil",
+        "before": {
+          "utt": "67fe_037_sil",
+          "ref": "light maple makes for a swell room",
+          "hyp": "let people makes for as well from",
+          "errors": 5,
+          "words": 7,
+          "decoded_unk": 0
+        },
+        "after": {
+          "utt": "67fe_037_sil",
+          "ref": "light maple makes for a swell room",
+          "hyp": "let people makes for as well for up",
+          "errors": 6,
+          "words": 7
+        }
+      },
+      {
+        "utt": "67fe_039_sil",
+        "before": {
+          "utt": "67fe_039_sil",
+          "ref": "dull stories make her laugh",
+          "hyp": "still the respected offer",
+          "errors": 5,
+          "words": 5,
+          "decoded_unk": 0
+        },
+        "after": {
+          "utt": "67fe_039_sil",
+          "ref": "dull stories make her laugh",
+          "hyp": "they lori's make it offer",
+          "errors": 4,
+          "words": 5
+        }
+      },
+      {
+        "utt": "67fe_040_sil",
+        "before": {
+          "utt": "67fe_040_sil",
+          "ref": "a stiff cord will do to fasten your shoe",
+          "hyp": "has have gone was university issue",
+          "errors": 9,
+          "words": 9,
+          "decoded_unk": 0
+        },
+        "after": {
+          "utt": "67fe_040_sil",
+          "ref": "a stiff cord will do to fasten your shoe",
+          "hyp": "has never got was university issue",
+          "errors": 9,
+          "words": 9
+        }
+      },
+      {
+        "utt": "67fe_041_sil",
+        "before": {
+          "utt": "67fe_041_sil",
+          "ref": "get the trust fund to the bank early",
+          "hyp": "again there is first the back today",
+          "errors": 7,
+          "words": 8,
+          "decoded_unk": 0
+        },
+        "after": {
+          "utt": "67fe_041_sil",
+          "ref": "get the trust fund to the bank early",
+          "hyp": "again there is first the back there",
+          "errors": 7,
+          "words": 8
+        }
+      },
+      {
+        "utt": "67fe_042_sil",
+        "before": {
+          "utt": "67fe_042_sil",
+          "ref": "choose between the high road and the low",
+          "hyp": "she between i rode low",
+          "errors": 6,
+          "words": 8,
+          "decoded_unk": 0
+        },
+        "after": {
+          "utt": "67fe_042_sil",
+          "ref": "choose between the high road and the low",
+          "hyp": "she between i rowed in the low",
+          "errors": 5,
+          "words": 8
+        }
+      },
+      {
+        "utt": "67fe_044_sil",
+        "before": {
+          "utt": "67fe_044_sil",
+          "ref": "he lent his coat to the tall gaunt stranger",
+          "hyp": "it is good the royal courts changed",
+          "errors": 8,
+          "words": 9,
+          "decoded_unk": 0
+        },
+        "after": {
+          "utt": "67fe_044_sil",
+          "ref": "he lent his coat to the tall gaunt stranger",
+          "hyp": "in and scoundrel course changed",
+          "errors": 9,
+          "words": 9
+        }
+      }
+    ]
+  },
+  {
+    "key": "trainlm_fold1_32",
+    "source": "archived-runs/syvu_lexfix_20260921/train_only_lm/fixed_vocab/fold1_32",
+    "model_sha256": "0821e0e060eb79a219b84ddcc2dcef3f907cf78c6218ea6d8657ff4f314ae2f1",
+    "lmwt": 8,
+    "before_speaker_errors": 149,
+    "after_speaker_errors": 141,
+    "changed_rows": [
+      {
+        "utt": "67fe_029_xsil",
+        "before": {
+          "utt": "67fe_029_xsil",
+          "ref": "when sunlight strikes raindrops in the air they act like a prism and form a rainbow",
+          "hyp": "westchester to return many and let him some the farmer rainbow",
+          "errors": 15,
+          "words": 16,
+          "decoded_unk": 0
+        },
+        "after": {
+          "utt": "67fe_029_xsil",
+          "ref": "when sunlight strikes raindrops in the air they act like a prism and form a rainbow",
+          "hyp": "westchester to return many and the early him time to from rainbow",
+          "errors": 14,
+          "words": 16
+        }
+      },
+      {
+        "utt": "67fe_030_xsil",
+        "before": {
+          "utt": "67fe_030_xsil",
+          "ref": "the rainbow is a division of white light into many beautiful colours",
+          "hyp": "the rainbow was division of my lighted many been floods",
+          "errors": 7,
+          "words": 12,
+          "decoded_unk": 0
+        },
+        "after": {
+          "utt": "67fe_030_xsil",
+          "ref": "the rainbow is a division of white light into many beautiful colours",
+          "hyp": "the rainbow was division of my lighted many beautiful cards",
+          "errors": 6,
+          "words": 12
+        }
+      },
+      {
+        "utt": "67fe_031_xsil",
+        "before": {
+          "utt": "67fe_031_xsil",
+          "ref": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "hyp": "it had a lack happen for the phosphate published it was a very human it was a number of us",
+          "errors": 22,
+          "words": 22,
+          "decoded_unk": 0
+        },
+        "after": {
+          "utt": "67fe_031_xsil",
+          "ref": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "hyp": "anything today buffalo crowded with part time often into its per emu the rise",
+          "errors": 19,
+          "words": 22
+        }
+      },
+      {
+        "utt": "67fe_032_xsil",
+        "before": {
+          "utt": "67fe_032_xsil",
+          "ref": "there is according to legend a boiling pot of gold at one end",
+          "hyp": "there is no intention a boy but for the but it",
+          "errors": 10,
+          "words": 13,
+          "decoded_unk": 0
+        },
+        "after": {
+          "utt": "67fe_032_xsil",
+          "ref": "there is according to legend a boiling pot of gold at one end",
+          "hyp": "there is no intention a boy put a for the but it",
+          "errors": 10,
+          "words": 13
+        }
+      },
+      {
+        "utt": "67fe_034_xsil",
+        "before": {
+          "utt": "67fe_034_xsil",
+          "ref": "when a man looks for something beyond his reach his friends say he is looking for the pot of gold at the end of the rainbow",
+          "hyp": "and perplexed for the beep to save deserve days confirmed thing fully in the rainbow",
+          "errors": 23,
+          "words": 26,
+          "decoded_unk": 0
+        },
+        "after": {
+          "utt": "67fe_034_xsil",
+          "ref": "when a man looks for something beyond his reach his friends say he is looking for the pot of gold at the end of the rainbow",
+          "hyp": "and perplexed for the beep to save deserved easy confirmed tongue fully in the rainbow",
+          "errors": 23,
+          "words": 26
+        }
+      },
+      {
+        "utt": "67fe_039_sil",
+        "before": {
+          "utt": "67fe_039_sil",
+          "ref": "dull stories make her laugh",
+          "hyp": "the full respect enough her",
+          "errors": 5,
+          "words": 5,
+          "decoded_unk": 0
+        },
+        "after": {
+          "utt": "67fe_039_sil",
+          "ref": "dull stories make her laugh",
+          "hyp": "the force make enough her",
+          "errors": 4,
+          "words": 5
+        }
+      },
+      {
+        "utt": "67fe_040_sil",
+        "before": {
+          "utt": "67fe_040_sil",
+          "ref": "a stiff cord will do to fasten your shoe",
+          "hyp": "has never got was university a new",
+          "errors": 9,
+          "words": 9,
+          "decoded_unk": 0
+        },
+        "after": {
+          "utt": "67fe_040_sil",
+          "ref": "a stiff cord will do to fasten your shoe",
+          "hyp": "has never got was universe new",
+          "errors": 9,
+          "words": 9
+        }
+      },
+      {
+        "utt": "67fe_041_sil",
+        "before": {
+          "utt": "67fe_041_sil",
+          "ref": "get the trust fund to the bank early",
+          "hyp": "again engine first the back there",
+          "errors": 7,
+          "words": 8,
+          "decoded_unk": 0
+        },
+        "after": {
+          "utt": "67fe_041_sil",
+          "ref": "get the trust fund to the bank early",
+          "hyp": "it condition first the back there",
+          "errors": 7,
+          "words": 8
+        }
+      },
+      {
+        "utt": "67fe_043_sil",
+        "before": {
+          "utt": "67fe_043_sil",
+          "ref": "a plea for funds seems to come again",
+          "hyp": "i believe it seems coming it",
+          "errors": 7,
+          "words": 8,
+          "decoded_unk": 0
+        },
+        "after": {
+          "utt": "67fe_043_sil",
+          "ref": "a plea for funds seems to come again",
+          "hyp": "believe it seems a coming it",
+          "errors": 7,
+          "words": 8
+        }
+      },
+      {
+        "utt": "67fe_044_sil",
+        "before": {
+          "utt": "67fe_044_sil",
+          "ref": "he lent his coat to the tall gaunt stranger",
+          "hyp": "ends council could change them",
+          "errors": 9,
+          "words": 9,
+          "decoded_unk": 0
+        },
+        "after": {
+          "utt": "67fe_044_sil",
+          "ref": "he lent his coat to the tall gaunt stranger",
+          "hyp": "eight and scoundrel course change them",
+          "errors": 9,
+          "words": 9
+        }
+      },
+      {
+        "utt": "67fe_045_sil",
+        "before": {
+          "utt": "67fe_045_sil",
+          "ref": "there is a strong chance it will happen once more",
+          "hyp": "if the newcastle happened but small",
+          "errors": 10,
+          "words": 10,
+          "decoded_unk": 0
+        },
+        "after": {
+          "utt": "67fe_045_sil",
+          "ref": "there is a strong chance it will happen once more",
+          "hyp": "if struck has will happen but small",
+          "errors": 8,
+          "words": 10
+        }
+      }
+    ]
+  },
+  {
+    "key": "trainlm_shared40",
+    "source": "archived-runs/syvu_lexfix_20260921/train_only_lm/fixed_vocab/shared40",
+    "model_sha256": "eae5082ff8cc1af6f24c76ce87c41d855403aeccef1acb961a7a901dbaf8c88d",
+    "lmwt": 9,
+    "before_speaker_errors": 142,
+    "after_speaker_errors": 142,
+    "changed_rows": [
+      {
+        "utt": "67fe_031_xsil",
+        "before": {
+          "utt": "67fe_031_xsil",
+          "ref": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "hyp": "and let happen for the suffered for thermometers it was very new era was up threat",
+          "errors": 22,
+          "words": 22,
+          "decoded_unk": 0
+        },
+        "after": {
+          "utt": "67fe_031_xsil",
+          "ref": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "hyp": "these things a name of the long around with the parts i am often is to is a mary be of the rise",
+          "errors": 19,
+          "words": 22
+        }
+      },
+      {
+        "utt": "67fe_032_xsil",
+        "before": {
+          "utt": "67fe_032_xsil",
+          "ref": "there is according to legend a boiling pot of gold at one end",
+          "hyp": "there is sweet addition pointing but of for the but it",
+          "errors": 10,
+          "words": 13,
+          "decoded_unk": 0
+        },
+        "after": {
+          "utt": "67fe_032_xsil",
+          "ref": "there is according to legend a boiling pot of gold at one end",
+          "hyp": "there is a winged addition pointing but afford but it",
+          "errors": 10,
+          "words": 13
+        }
+      },
+      {
+        "utt": "67fe_033_xsil",
+        "before": {
+          "utt": "67fe_033_xsil",
+          "ref": "people look but no one ever finds it",
+          "hyp": "people come down ever visit",
+          "errors": 6,
+          "words": 8,
+          "decoded_unk": 0
+        },
+        "after": {
+          "utt": "67fe_033_xsil",
+          "ref": "people look but no one ever finds it",
+          "hyp": "people come never faded",
+          "errors": 7,
+          "words": 8
+        }
+      },
+      {
+        "utt": "67fe_034_xsil",
+        "before": {
+          "utt": "67fe_034_xsil",
+          "ref": "when a man looks for something beyond his reach his friends say he is looking for the pot of gold at the end of the rainbow",
+          "hyp": "and perplexed for to be musicians have cease confirmed thing for the in the rainbow",
+          "errors": 21,
+          "words": 26,
+          "decoded_unk": 0
+        },
+        "after": {
+          "utt": "67fe_034_xsil",
+          "ref": "when a man looks for something beyond his reach his friends say he is looking for the pot of gold at the end of the rainbow",
+          "hyp": "and perplexed for to be musicians have cease confirmed uk falling in the rainbow",
+          "errors": 23,
+          "words": 26
+        }
+      },
+      {
+        "utt": "67fe_039_sil",
+        "before": {
+          "utt": "67fe_039_sil",
+          "ref": "dull stories make her laugh",
+          "hyp": "still there is make enough for",
+          "errors": 5,
+          "words": 5,
+          "decoded_unk": 0
+        },
+        "after": {
+          "utt": "67fe_039_sil",
+          "ref": "dull stories make her laugh",
+          "hyp": "still for his make enough for",
+          "errors": 5,
+          "words": 5
+        }
+      },
+      {
+        "utt": "67fe_040_sil",
+        "before": {
+          "utt": "67fe_040_sil",
+          "ref": "a stiff cord will do to fasten your shoe",
+          "hyp": "asked have gone was due to fast you do",
+          "errors": 8,
+          "words": 9,
+          "decoded_unk": 0
+        },
+        "after": {
+          "utt": "67fe_040_sil",
+          "ref": "a stiff cord will do to fasten your shoe",
+          "hyp": "asked have gone was due to vast you do",
+          "errors": 8,
+          "words": 9
+        }
+      },
+      {
+        "utt": "67fe_041_sil",
+        "before": {
+          "utt": "67fe_041_sil",
+          "ref": "get the trust fund to the bank early",
+          "hyp": "it condition first the back today",
+          "errors": 7,
+          "words": 8,
+          "decoded_unk": 0
+        },
+        "after": {
+          "utt": "67fe_041_sil",
+          "ref": "get the trust fund to the bank early",
+          "hyp": "it gets the first the back today",
+          "errors": 7,
+          "words": 8
+        }
+      },
+      {
+        "utt": "67fe_045_sil",
+        "before": {
+          "utt": "67fe_045_sil",
+          "ref": "there is a strong chance it will happen once more",
+          "hyp": "if she asked will happen but so",
+          "errors": 8,
+          "words": 10,
+          "decoded_unk": 0
+        },
+        "after": {
+          "utt": "67fe_045_sil",
+          "ref": "there is a strong chance it will happen once more",
+          "hyp": "if she asked will happen buns morrow",
+          "errors": 8,
+          "words": 10
+        }
+      }
+    ]
+  },
+  {
+    "key": "trainlm_shared40_s2",
+    "source": "archived-runs/syvu_lexfix_20260921/train_only_lm/fixed_vocab/shared40_s2",
+    "model_sha256": "9ccb65fb01998cb394a050f675b9b1d928554dc50df2203d05f713dbe5720ef5",
+    "lmwt": 13,
+    "before_speaker_errors": 143,
+    "after_speaker_errors": 138,
+    "changed_rows": [
+      {
+        "utt": "67fe_031_xsil",
+        "before": {
+          "utt": "67fe_031_xsil",
+          "ref": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "hyp": "as a lack and perverse of vaudeville permanent it was afraid you'll there was drop fit",
+          "errors": 21,
+          "words": 22,
+          "decoded_unk": 0
+        },
+        "after": {
+          "utt": "67fe_031_xsil",
+          "ref": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "hyp": "these things are type of long around with smart i am often is to is a murray beer the rise",
+          "errors": 17,
+          "words": 22
+        }
+      },
+      {
+        "utt": "67fe_034_xsil",
+        "before": {
+          "utt": "67fe_034_xsil",
+          "ref": "when a man looks for something beyond his reach his friends say he is looking for the pot of gold at the end of the rainbow",
+          "hyp": "and perplexed for the be musicians have cease confirmed the following the rainbow",
+          "errors": 22,
+          "words": 26,
+          "decoded_unk": 0
+        },
+        "after": {
+          "utt": "67fe_034_xsil",
+          "ref": "when a man looks for something beyond his reach his friends say he is looking for the pot of gold at the end of the rainbow",
+          "hyp": "and perplexed for to be musicians have cease confirmed the following the rainbow",
+          "errors": 22,
+          "words": 26
+        }
+      },
+      {
+        "utt": "67fe_039_sil",
+        "before": {
+          "utt": "67fe_039_sil",
+          "ref": "dull stories make her laugh",
+          "hyp": "still there is make enough for",
+          "errors": 5,
+          "words": 5,
+          "decoded_unk": 0
+        },
+        "after": {
+          "utt": "67fe_039_sil",
+          "ref": "dull stories make her laugh",
+          "hyp": "of course make enough for",
+          "errors": 4,
+          "words": 5
+        }
+      },
+      {
+        "utt": "67fe_044_sil",
+        "before": {
+          "utt": "67fe_044_sil",
+          "ref": "he lent his coat to the tall gaunt stranger",
+          "hyp": "it and scoot role was changed",
+          "errors": 9,
+          "words": 9,
+          "decoded_unk": 0
+        },
+        "after": {
+          "utt": "67fe_044_sil",
+          "ref": "he lent his coat to the tall gaunt stranger",
+          "hyp": "it and scoundrel courts changed",
+          "errors": 9,
+          "words": 9
+        }
+      }
+    ]
+  },
+  {
+    "key": "trainlm_shared40_s3",
+    "source": "archived-runs/syvu_lexfix_20260921/train_only_lm/fixed_vocab/shared40_s3",
+    "model_sha256": "8322fc235f20e41a5a91ad4ab743e04c15daee80f5e0b58ffcb13c69bc8c00d5",
+    "lmwt": 13,
+    "before_speaker_errors": 142,
+    "after_speaker_errors": 133,
+    "changed_rows": [
+      {
+        "utt": "67fe_029_xsil",
+        "before": {
+          "utt": "67fe_029_xsil",
+          "ref": "when sunlight strikes raindrops in the air they act like a prism and form a rainbow",
+          "hyp": "when salensus richmond it like him some the from the rainbow",
+          "errors": 13,
+          "words": 16,
+          "decoded_unk": 0
+        },
+        "after": {
+          "utt": "67fe_029_xsil",
+          "ref": "when sunlight strikes raindrops in the air they act like a prism and form a rainbow",
+          "hyp": "when solicits richmond it like him to from the rainbow",
+          "errors": 13,
+          "words": 16
+        }
+      },
+      {
+        "utt": "67fe_031_xsil",
+        "before": {
+          "utt": "67fe_031_xsil",
+          "ref": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "hyp": "and lack happen for the first the permanent it was afraid you there was type of it",
+          "errors": 22,
+          "words": 22,
+          "decoded_unk": 0
+        },
+        "after": {
+          "utt": "67fe_031_xsil",
+          "ref": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "hyp": "these things name of long around it was a part time often is too is a merely be of the rise",
+          "errors": 19,
+          "words": 22
+        }
+      },
+      {
+        "utt": "67fe_032_xsil",
+        "before": {
+          "utt": "67fe_032_xsil",
+          "ref": "there is according to legend a boiling pot of gold at one end",
+          "hyp": "there is within engine appointment for the but it",
+          "errors": 11,
+          "words": 13,
+          "decoded_unk": 0
+        },
+        "after": {
+          "utt": "67fe_032_xsil",
+          "ref": "there is according to legend a boiling pot of gold at one end",
+          "hyp": "there is so in addition appointment for the but it",
+          "errors": 11,
+          "words": 13
+        }
+      },
+      {
+        "utt": "67fe_034_xsil",
+        "before": {
+          "utt": "67fe_034_xsil",
+          "ref": "when a man looks for something beyond his reach his friends say he is looking for the pot of gold at the end of the rainbow",
+          "hyp": "and perplexed for the be musicians have cease confirmed the following the rainbow",
+          "errors": 22,
+          "words": 26,
+          "decoded_unk": 0
+        },
+        "after": {
+          "utt": "67fe_034_xsil",
+          "ref": "when a man looks for something beyond his reach his friends say he is looking for the pot of gold at the end of the rainbow",
+          "hyp": "and perplexed for to be musicians have seen as a confirmed the following the rainbow",
+          "errors": 22,
+          "words": 26
+        }
+      },
+      {
+        "utt": "67fe_038_sil",
+        "before": {
+          "utt": "67fe_038_sil",
+          "ref": "set the piece here and say nothing",
+          "hyp": "that piece of resigning",
+          "errors": 6,
+          "words": 7,
+          "decoded_unk": 0
+        },
+        "after": {
+          "utt": "67fe_038_sil",
+          "ref": "set the piece here and say nothing",
+          "hyp": "that meet her reside nothing",
+          "errors": 6,
+          "words": 7
+        }
+      },
+      {
+        "utt": "67fe_039_sil",
+        "before": {
+          "utt": "67fe_039_sil",
+          "ref": "dull stories make her laugh",
+          "hyp": "still there is make enough for",
+          "errors": 5,
+          "words": 5,
+          "decoded_unk": 0
+        },
+        "after": {
+          "utt": "67fe_039_sil",
+          "ref": "dull stories make her laugh",
+          "hyp": "the force make enough for",
+          "errors": 4,
+          "words": 5
+        }
+      },
+      {
+        "utt": "67fe_040_sil",
+        "before": {
+          "utt": "67fe_040_sil",
+          "ref": "a stiff cord will do to fasten your shoe",
+          "hyp": "has never got was due to fast you",
+          "errors": 8,
+          "words": 9,
+          "decoded_unk": 0
+        },
+        "after": {
+          "utt": "67fe_040_sil",
+          "ref": "a stiff cord will do to fasten your shoe",
+          "hyp": "asked have gone was due to fast you",
+          "errors": 8,
+          "words": 9
+        }
+      },
+      {
+        "utt": "67fe_041_sil",
+        "before": {
+          "utt": "67fe_041_sil",
+          "ref": "get the trust fund to the bank early",
+          "hyp": "it should first the back today",
+          "errors": 7,
+          "words": 8,
+          "decoded_unk": 0
+        },
+        "after": {
+          "utt": "67fe_041_sil",
+          "ref": "get the trust fund to the bank early",
+          "hyp": "conditions first the back there",
+          "errors": 7,
+          "words": 8
+        }
+      },
+      {
+        "utt": "67fe_042_sil",
+        "before": {
+          "utt": "67fe_042_sil",
+          "ref": "choose between the high road and the low",
+          "hyp": "she was we that road their home",
+          "errors": 7,
+          "words": 8,
+          "decoded_unk": 0
+        },
+        "after": {
+          "utt": "67fe_042_sil",
+          "ref": "choose between the high road and the low",
+          "hyp": "she was we their own in the low",
+          "errors": 6,
+          "words": 8
+        }
+      },
+      {
+        "utt": "67fe_043_sil",
+        "before": {
+          "utt": "67fe_043_sil",
+          "ref": "a plea for funds seems to come again",
+          "hyp": "believe it seems coming in",
+          "errors": 7,
+          "words": 8,
+          "decoded_unk": 0
+        },
+        "after": {
+          "utt": "67fe_043_sil",
+          "ref": "a plea for funds seems to come again",
+          "hyp": "believe it seems to come again",
+          "errors": 4,
+          "words": 8
+        }
+      },
+      {
+        "utt": "67fe_044_sil",
+        "before": {
+          "utt": "67fe_044_sil",
+          "ref": "he lent his coat to the tall gaunt stranger",
+          "hyp": "it and to go the role was changed",
+          "errors": 8,
+          "words": 9,
+          "decoded_unk": 0
+        },
+        "after": {
+          "utt": "67fe_044_sil",
+          "ref": "he lent his coat to the tall gaunt stranger",
+          "hyp": "he let's go the role was changed",
+          "errors": 7,
+          "words": 9
+        }
+      }
+    ]
+  },
+  {
+    "key": "trainlm_fold1_40",
+    "source": "archived-runs/syvu_lexfix_20260921/train_only_lm/fixed_vocab/fold1_40",
+    "model_sha256": "067e3eb2de10e5139fc3fbd9ab2c2f07114c1a5cc2196873703e3b11f73625ac",
+    "lmwt": 8,
+    "before_speaker_errors": 146,
+    "after_speaker_errors": 139,
+    "changed_rows": [
+      {
+        "utt": "67fe_029_xsil",
+        "before": {
+          "utt": "67fe_029_xsil",
+          "ref": "when sunlight strikes raindrops in the air they act like a prism and form a rainbow",
+          "hyp": "her wednesday stirrin of money in the lame some the former rainbow",
+          "errors": 14,
+          "words": 16,
+          "decoded_unk": 0
+        },
+        "after": {
+          "utt": "67fe_029_xsil",
+          "ref": "when sunlight strikes raindrops in the air they act like a prism and form a rainbow",
+          "hyp": "what sinister it has been in the letter was him the former rainbow",
+          "errors": 14,
+          "words": 16
+        }
+      },
+      {
+        "utt": "67fe_031_xsil",
+        "before": {
+          "utt": "67fe_031_xsil",
+          "ref": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "hyp": "they had a lack happen for the for the top up to see him different you are was number of it",
+          "errors": 22,
+          "words": 22,
+          "decoded_unk": 0
+        },
+        "after": {
+          "utt": "67fe_031_xsil",
+          "ref": "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+          "hyp": "these things in emphasis crowded with apart type of an is too as a murray pure the rise",
+          "errors": 19,
+          "words": 22
+        }
+      },
+      {
+        "utt": "67fe_034_xsil",
+        "before": {
+          "utt": "67fe_034_xsil",
+          "ref": "when a man looks for something beyond his reach his friends say he is looking for the pot of gold at the end of the rainbow",
+          "hyp": "and perplexed for the beep to save deserve taste confirmed the following and the rainbow",
+          "errors": 22,
+          "words": 26,
+          "decoded_unk": 0
+        },
+        "after": {
+          "utt": "67fe_034_xsil",
+          "ref": "when a man looks for something beyond his reach his friends say he is looking for the pot of gold at the end of the rainbow",
+          "hyp": "perplexed for the beep to save deserve taste confirmed the following and the rainbow",
+          "errors": 22,
+          "words": 26
+        }
+      },
+      {
+        "utt": "67fe_037_sil",
+        "before": {
+          "utt": "67fe_037_sil",
+          "ref": "light maple makes for a swell room",
+          "hyp": "let me makes for is well from",
+          "errors": 5,
+          "words": 7,
+          "decoded_unk": 0
+        },
+        "after": {
+          "utt": "67fe_037_sil",
+          "ref": "light maple makes for a swell room",
+          "hyp": "let me makes for as well from",
+          "errors": 5,
+          "words": 7
+        }
+      },
+      {
+        "utt": "67fe_038_sil",
+        "before": {
+          "utt": "67fe_038_sil",
+          "ref": "set the piece here and say nothing",
+          "hyp": "that be sara say nothing",
+          "errors": 5,
+          "words": 7,
+          "decoded_unk": 0
+        },
+        "after": {
+          "utt": "67fe_038_sil",
+          "ref": "set the piece here and say nothing",
+          "hyp": "this piece are a say nothing",
+          "errors": 4,
+          "words": 7
+        }
+      },
+      {
+        "utt": "67fe_041_sil",
+        "before": {
+          "utt": "67fe_041_sil",
+          "ref": "get the trust fund to the bank early",
+          "hyp": "again they should fuss the back the day",
+          "errors": 8,
+          "words": 8,
+          "decoded_unk": 0
+        },
+        "after": {
+          "utt": "67fe_041_sil",
+          "ref": "get the trust fund to the bank early",
+          "hyp": "again they should fuss the back there",
+          "errors": 7,
+          "words": 8
+        }
+      },
+      {
+        "utt": "67fe_042_sil",
+        "before": {
+          "utt": "67fe_042_sil",
+          "ref": "choose between the high road and the low",
+          "hyp": "it should was we that road their home",
+          "errors": 8,
+          "words": 8,
+          "decoded_unk": 0
+        },
+        "after": {
+          "utt": "67fe_042_sil",
+          "ref": "choose between the high road and the low",
+          "hyp": "it should was we that road in the low",
+          "errors": 6,
+          "words": 8
+        }
+      },
+      {
+        "utt": "67fe_045_sil",
+        "before": {
+          "utt": "67fe_045_sil",
+          "ref": "there is a strong chance it will happen once more",
+          "hyp": "if the show just will happen been small",
+          "errors": 8,
+          "words": 10,
+          "decoded_unk": 0
+        },
+        "after": {
+          "utt": "67fe_045_sil",
+          "ref": "there is a strong chance it will happen once more",
+          "hyp": "if struck just will happen been small",
+          "errors": 8,
+          "words": 10
+        }
+      }
+    ]
+  }
+]

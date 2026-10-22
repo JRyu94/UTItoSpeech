@@ -1,0 +1,119 @@
+[
+  {
+    "seed": 1,
+    "jobs": 8,
+    "direction": "primary conditioning minus public filtering",
+    "test_modal": {
+      "a_errors": 1961,
+      "b_errors": 1958,
+      "words": 13614,
+      "a_wer": 14.404289701777582,
+      "b_wer": 14.382253562509181,
+      "delta_pp": 0.022036139268400177,
+      "ci95": [
+        -0.7557483676240955,
+        0.7986505135659757
+      ],
+      "speakers": 81,
+      "utterances": 1209,
+      "negative_speakers": 38,
+      "positive_speakers": 36,
+      "ties": 7
+    },
+    "test_silent": {
+      "a_errors": 3835,
+      "b_errors": 3817,
+      "words": 13614,
+      "a_wer": 28.169531364771558,
+      "b_wer": 28.037314529161158,
+      "delta_pp": 0.13221683561040107,
+      "ci95": [
+        -0.6764910487906203,
+        0.9200749352783889
+      ],
+      "speakers": 81,
+      "utterances": 1209,
+      "negative_speakers": 36,
+      "positive_speakers": 42,
+      "ties": 3
+    }
+  },
+  {
+    "seed": 2,
+    "jobs": 6,
+    "direction": "primary conditioning minus public filtering",
+    "test_modal": {
+      "a_errors": 2116,
+      "b_errors": 2124,
+      "words": 13614,
+      "a_wer": 15.542823563978258,
+      "b_wer": 15.601586602027325,
+      "delta_pp": -0.058763038049067136,
+      "ci95": [
+        -0.88635278795697,
+        0.7272714261861929
+      ],
+      "speakers": 81,
+      "utterances": 1209,
+      "negative_speakers": 36,
+      "positive_speakers": 36,
+      "ties": 9
+    },
+    "test_silent": {
+      "a_errors": 4149,
+      "b_errors": 4262,
+      "words": 13614,
+      "a_wer": 30.475980608197442,
+      "b_wer": 31.306008520640518,
+      "delta_pp": -0.8300279124430733,
+      "ci95": [
+        -1.7971371194866896,
+        0.08815023690918788
+      ],
+      "speakers": 81,
+      "utterances": 1209,
+      "negative_speakers": 42,
+      "positive_speakers": 34,
+      "ties": 5
+    }
+  },
+  {
+    "seed": 3,
+    "jobs": 6,
+    "direction": "primary conditioning minus public filtering",
+    "test_modal": {
+      "a_errors": 2019,
+      "b_errors": 2033,
+      "words": 13614,
+      "a_wer": 14.830321727633319,
+      "b_wer": 14.933157044219186,
+      "delta_pp": -0.10283531658586749,
+      "ci95": [
+        -0.8400451131818205,
+        0.6159375822119179
+      ],
+      "speakers": 81,
+      "utterances": 1209,
+      "negative_speakers": 42,
+      "positive_speakers": 34,
+      "ties": 5
+    },
+    "test_silent": {
+      "a_errors": 4072,
+      "b_errors": 4043,
+      "words": 13614,
+      "a_wer": 29.91038636697517,
+      "b_wer": 29.697370354047305,
+      "delta_pp": 0.21301601292786837,
+      "ci95": [
+        -0.689379870682769,
+        1.1216887473649562
+      ],
+      "speakers": 81,
+      "utterances": 1209,
+      "negative_speakers": 36,
+      "positive_speakers": 37,
+      "ties": 8
+    }
+  }
+]

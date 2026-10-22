@@ -1,0 +1,50 @@
+{
+  "input": "67fe_031_xsil",
+  "numpy": "1.24.3",
+  "scipy": "1.10.1",
+  "checks": [
+    {
+      "conditioning": "primary",
+      "shape": [
+        447,
+        44
+      ],
+      "max_abs_error": 0.0,
+      "offset": 59
+    },
+    {
+      "conditioning": "public",
+      "shape": [
+        447,
+        44
+      ],
+      "max_abs_error": 0.0,
+      "offset": 59
+    }
+  ],
+  "vocabulary": {
+    "lexicon_entries": 9902,
+    "unique_lexicon_entries": 9902,
+    "special_lexicon_symbols": [
+      "!SIL",
+      "<UNK>"
+    ],
+    "lexical_entries": 9900,
+    "corpus": {
+      "arpa_unigrams": 9902,
+      "boundary_symbols": [
+        "</s>",
+        "<s>"
+      ],
+      "non_boundary_entries": 9900
+    },
+    "training_only": {
+      "arpa_unigrams": 9902,
+      "boundary_symbols": [
+        "</s>",
+        "<s>"
+      ],
+      "non_boundary_entries": 9900
+    }
+  }
+}

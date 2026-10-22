@@ -1,0 +1,37 @@
+{
+  "public_filter_old_feature_max_abs_difference": 5.066394805908203e-07,
+  "public_filter_correction": {
+    "utt": "67fe_031_xsil",
+    "tongue_frames": 569,
+    "lip_frames": 506,
+    "metadata_offset": 59,
+    "applied_offset": 59,
+    "output_frames": 447
+  },
+  "actual_hashes": {
+    "data/local/dict/lexicon.txt": "827b4aca42c2dfd3857bde1f427b1c1e1db23f4d2e9ec8a990dbcd7c5e32cc9a",
+    "data/local/lm.arpa": "542d000218e7c21381e1e280549311766ad5d548c3247d5ae91e0925a021d939"
+  },
+  "upstream_equivalence_samples": [
+    {
+      "kind": "tongue",
+      "frames": 569,
+      "max_abs_error": 0.0
+    },
+    {
+      "kind": "lip",
+      "frames": 506,
+      "max_abs_error": 0.0
+    },
+    {
+      "kind": "tongue",
+      "frames": 569,
+      "max_abs_error": 0.0
+    },
+    {
+      "kind": "lip",
+      "frames": 506,
+      "max_abs_error": 0.0
+    }
+  ]
+}

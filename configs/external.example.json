@@ -1,0 +1,11 @@
+{
+  "kaldi_root": "/path/to/kaldi",
+  "recipe": "/path/to/prepared-recipe",
+  "dlc_input": "/path/to/tracks.npz",
+  "mfa_dictionary": "/path/to/english_us_arpa.dict",
+  "fallback_lexicon": "/path/to/original-lexicon.txt",
+  "output": "generated/external",
+  "units": 32,
+  "nnet_jobs": 8,
+  "seed": 1
+}

@@ -1,0 +1,67 @@
+{
+  "date_frozen": "2026-10-21",
+  "preprocessing": {
+    "contrast": "Existing primary conditioning versus verified Beeson public-code trajectory filtering; 40-phone inventory in both arms",
+    "fixed": [
+      "DLC coordinate source",
+      "44-D positions",
+      "offset guard and alignment",
+      "utterance normalizer",
+      "train/dev/test IDs",
+      "corrected MFA lexicon",
+      "corpus bigram",
+      "SAT/DNN recipe hyperparameters",
+      "dev-only LM-weight search 7..17"
+    ],
+    "run_pairs": [
+      {
+        "seed": 1,
+        "jobs": 8
+      },
+      {
+        "seed": 2,
+        "jobs": 6
+      },
+      {
+        "seed": 3,
+        "jobs": 6
+      }
+    ],
+    "training": "Reuse unchanged feature-specific trained GMM/SAT alignments; train three public-filter DNNs with within-pair matching jobs and seed procedure. Existing primary-feature DNNs are retained, avoiding duplicate training.",
+    "analysis": "WER and paired 81-speaker bootstrap differences for each run and speech mode; report every run and direct direction changes. Descriptive run summary includes the 8/6/6-job difference. No winner chosen on test WER.",
+    "interpretation": "A controlled filtering-pipeline comparison under one inventory/recognizer, not exact reproduction of the published Beeson system or a universal superiority claim."
+  },
+  "alignment_support": {
+    "primary": {
+      "intended_train_ids": 11618,
+      "successfully_aligned_ids": 11616,
+      "unaligned_ids": [
+        "12me_017_xaud",
+        "80me_013_xaud"
+      ],
+      "aligned_id_sha256": "b23ad0f1a033cc4f81aa00f8a62e88a115eda5d05cd6b34d6f303eb0dae290be"
+    },
+    "public_filter": {
+      "intended_train_ids": 11618,
+      "successfully_aligned_ids": 11615,
+      "unaligned_ids": [
+        "12me_017_xaud",
+        "65ms_192_aud",
+        "80me_013_xaud"
+      ],
+      "aligned_id_sha256": "d240a33ca0cb395f53d22d8c813ea6b6d2abe01ed3ec3e13f285aec7a7c31599"
+    }
+  },
+  "source_model_hashes": {
+    "archived-runs/syvu_lexfix_20260921/bfeat_full/exp/sat/final.mdl": "d3c55b46613c1c62ba5e87a92ff151f473a25edd5cc6072a8348ab21b2db93bf",
+    "archived-runs/syvu_lexfix_20260921/bfeat_full/exp/sat/final.mat": "ea3b10ebded3a7b72a9e108952c8851bf8bed56cdcbed91d7c3ed75ac717aac9",
+    "archived-runs/syvu_lexfix_20260921/bfeat_full/exp/sat_ali/final.mdl": "d3c55b46613c1c62ba5e87a92ff151f473a25edd5cc6072a8348ab21b2db93bf",
+    "archived-runs/syvu_lexfix_20260921/bfeat_full/data/local/dict/lexicon.txt": "827b4aca42c2dfd3857bde1f427b1c1e1db23f4d2e9ec8a990dbcd7c5e32cc9a",
+    "archived-runs/syvu_lexfix_20260921/bfeat_full/data/local/lm.arpa": "542d000218e7c21381e1e280549311766ad5d548c3247d5ae91e0925a021d939",
+    "archived-runs/syvu_lexfix_20260921/beeson_matched/recipe/exp/sat/final.mdl": "f3f8e1f83b5e8b7b0669978335caf7d2d9666858162e80c9e7a7a26cfba1df82",
+    "archived-runs/syvu_lexfix_20260921/beeson_matched/recipe/exp/sat/final.mat": "40209d7d99063c5b9a34a6a85dbeca229427b5b7fcb9a67c799750bfda350461",
+    "archived-runs/syvu_lexfix_20260921/beeson_matched/recipe/exp/sat_ali/final.mdl": "f3f8e1f83b5e8b7b0669978335caf7d2d9666858162e80c9e7a7a26cfba1df82",
+    "archived-runs/syvu_lexfix_20260921/beeson_matched/recipe/data/local/dict/lexicon.txt": "827b4aca42c2dfd3857bde1f427b1c1e1db23f4d2e9ec8a990dbcd7c5e32cc9a",
+    "archived-runs/syvu_lexfix_20260921/beeson_matched/recipe/data/local/lm.arpa": "542d000218e7c21381e1e280549311766ad5d548c3247d5ae91e0925a021d939"
+  }
+}

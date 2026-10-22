@@ -1,0 +1,3395 @@
+{
+  "method": {
+    "source_sha256": "0f257142593ad76634a6dac91b18523c4b431eb684c5b687e788cd7641f78dd5",
+    "bootstrap": "paired resampling of 81 speakers; fixed sentence subsets and fitted models",
+    "resamples": 5000,
+    "seed": 20261021,
+    "multiplicity": "unadjusted exploratory confidence intervals",
+    "repeated_texts": [
+      "the rainbow is a division of white light into many beautiful colours",
+      "these take the shape of a long round arch with its path high above and its two ends apparently beyond the horizon",
+      "people look but no one ever finds it",
+      "when a man looks for something beyond his reach his friends say he is looking for the pot of gold at the end of the rainbow",
+      "when sunlight strikes raindrops in the air they act like a prism and form a rainbow",
+      "there is according to legend a boiling pot of gold at one end"
+    ],
+    "scope": "existing hypotheses only; no retraining, decoding or test-based selection"
+  },
+  "baseline": {
+    "test_modal": {
+      "all": {
+        "wer": 13.801968561774643,
+        "words": 13614,
+        "utterances": 1209
+      },
+      "repeated": {
+        "wer": 6.14460909555442,
+        "words": 7828,
+        "utterances": 484
+      },
+      "specific": {
+        "wer": 24.161769789146216,
+        "words": 5786,
+        "utterances": 725
+      }
+    },
+    "test_silent": {
+      "all": {
+        "wer": 27.493756427207288,
+        "words": 13614,
+        "utterances": 1209
+      },
+      "repeated": {
+        "wer": 15.48288196218702,
+        "words": 7828,
+        "utterances": 484
+      },
+      "specific": {
+        "wer": 43.74351883857587,
+        "words": 5786,
+        "utterances": 725
+      }
+    }
+  },
+  "unit_comparisons": [
+    {
+      "protocol": "shared",
+      "model": "GMM+fMLLR",
+      "mode": "test_modal",
+      "subsets": {
+        "all": {
+          "a_wer": 16.644630527398267,
+          "b_wer": 16.931100337887468,
+          "delta_pp": -0.2864698104892014,
+          "ci95": [
+            -0.9424255310211833,
+            0.3904041691165485
+          ],
+          "negative_speakers": 42,
+          "positive_speakers": 32,
+          "ties": 7,
+          "sign_p": 0.29541328065567013,
+          "words": 13614,
+          "utterances": 1209
+        },
+        "repeated": {
+          "a_wer": 7.192130812468063,
+          "b_wer": 6.8983137455288706,
+          "delta_pp": 0.29381706693919263,
+          "ci95": [
+            -0.25497439191904403,
+            0.8209522566095342
+          ],
+          "negative_speakers": 24,
+          "positive_speakers": 36,
+          "ties": 21,
+          "sign_p": 0.1550019040032606,
+          "words": 7828,
+          "utterances": 484
+        },
+        "specific": {
+          "a_wer": 29.433114414103006,
+          "b_wer": 30.50466643622537,
+          "delta_pp": -1.0715520221223649,
+          "ci95": [
+            -2.3420818058183723,
+            0.20762596146054713
+          ],
+          "negative_speakers": 42,
+          "positive_speakers": 32,
+          "ties": 7,
+          "sign_p": 0.29541328065567013,
+          "words": 5786,
+          "utterances": 725
+        }
+      },
+      "specific_minus_repeated": {
+        "delta_pp": -1.3653690890615575,
+        "ci95": [
+          -2.6779439480309155,
+          -0.04497477221145312
+        ]
+      }
+    },
+    {
+      "protocol": "shared",
+      "model": "GMM+fMLLR",
+      "mode": "test_silent",
+      "subsets": {
+        "all": {
+          "a_wer": 28.492728074041427,
+          "b_wer": 28.551491112090496,
+          "delta_pp": -0.05876303804906868,
+          "ci95": [
+            -1.0134930887898461,
+            0.908914672242704
+          ],
+          "negative_speakers": 37,
+          "positive_speakers": 33,
+          "ties": 11,
+          "sign_p": 0.7202027723528613,
+          "words": 13614,
+          "utterances": 1209
+        },
+        "repeated": {
+          "a_wer": 15.304036791006643,
+          "b_wer": 14.665304036791007,
+          "delta_pp": 0.6387327542156367,
+          "ci95": [
+            -0.2036400661830196,
+            1.4946489704362655
+          ],
+          "negative_speakers": 28,
+          "positive_speakers": 43,
+          "ties": 10,
+          "sign_p": 0.09592363141082376,
+          "words": 7828,
+          "utterances": 484
+        },
+        "specific": {
+          "a_wer": 46.33598340822675,
+          "b_wer": 47.338403041825096,
+          "delta_pp": -1.0024196335983433,
+          "ci95": [
+            -2.6275303250283315,
+            0.6556585740917361
+          ],
+          "negative_speakers": 43,
+          "positive_speakers": 35,
+          "ties": 3,
+          "sign_p": 0.4282070357175808,
+          "words": 5786,
+          "utterances": 725
+        }
+      },
+      "specific_minus_repeated": {
+        "delta_pp": -1.64115238781398,
+        "ci95": [
+          -3.255756018628513,
+          -0.0507316497804734
+        ]
+      }
+    },
+    {
+      "protocol": "shared",
+      "model": "DNN+fMLLR",
+      "mode": "test_modal",
+      "subsets": {
+        "all": {
+          "a_wer": 13.801968561774643,
+          "b_wer": 14.404289701777582,
+          "delta_pp": -0.6023211400029389,
+          "ci95": [
+            -1.3490054429305178,
+            0.13963837867937223
+          ],
+          "negative_speakers": 48,
+          "positive_speakers": 28,
+          "ties": 5,
+          "sign_p": 0.02862665550873788,
+          "words": 13614,
+          "utterances": 1209
+        },
+        "repeated": {
+          "a_wer": 6.14460909555442,
+          "b_wer": 5.901890648952478,
+          "delta_pp": 0.24271844660194208,
+          "ci95": [
+            -0.5226925038245789,
+            1.0876623935025886
+          ],
+          "negative_speakers": 32,
+          "positive_speakers": 25,
+          "ties": 24,
+          "sign_p": 0.42704285650325524,
+          "words": 7828,
+          "utterances": 484
+        },
+        "specific": {
+          "a_wer": 24.161769789146216,
+          "b_wer": 25.90736259937781,
+          "delta_pp": -1.7455928102315923,
+          "ci95": [
+            -3.020889929394634,
+            -0.49834338034509407
+          ],
+          "negative_speakers": 49,
+          "positive_speakers": 28,
+          "ties": 4,
+          "sign_p": 0.02203345876482212,
+          "words": 5786,
+          "utterances": 725
+        }
+      },
+      "specific_minus_repeated": {
+        "delta_pp": -1.9883112568335344,
+        "ci95": [
+          -3.4115708935874083,
+          -0.5858996800419376
+        ]
+      }
+    },
+    {
+      "protocol": "shared",
+      "model": "DNN+fMLLR",
+      "mode": "test_silent",
+      "subsets": {
+        "all": {
+          "a_wer": 27.493756427207288,
+          "b_wer": 28.169531364771558,
+          "delta_pp": -0.6757749375642703,
+          "ci95": [
+            -1.5295308904853397,
+            0.2047682160050288
+          ],
+          "negative_speakers": 44,
+          "positive_speakers": 31,
+          "ties": 6,
+          "sign_p": 0.1654279417242567,
+          "words": 13614,
+          "utterances": 1209
+        },
+        "repeated": {
+          "a_wer": 15.48288196218702,
+          "b_wer": 14.9591211037302,
+          "delta_pp": 0.5237608584568214,
+          "ci95": [
+            -0.3200307357481695,
+            1.4278565947466473
+          ],
+          "negative_speakers": 34,
+          "positive_speakers": 37,
+          "ties": 10,
+          "sign_p": 0.8125886494061618,
+          "words": 7828,
+          "utterances": 484
+        },
+        "specific": {
+          "a_wer": 43.74351883857587,
+          "b_wer": 46.04217075699965,
+          "delta_pp": -2.2986519184237793,
+          "ci95": [
+            -3.920757138746578,
+            -0.727499514363297
+          ],
+          "negative_speakers": 51,
+          "positive_speakers": 25,
+          "ties": 5,
+          "sign_p": 0.0038362357516146246,
+          "words": 5786,
+          "utterances": 725
+        }
+      },
+      "specific_minus_repeated": {
+        "delta_pp": -2.8224127768806007,
+        "ci95": [
+          -4.625697174748368,
+          -1.0603809976212204
+        ]
+      }
+    },
+    {
+      "protocol": "disjoint",
+      "model": "GMM_transform_withheld",
+      "mode": "test_modal",
+      "subsets": {
+        "all": {
+          "a_wer": 22.557661231085646,
+          "b_wer": 22.836785661818716,
+          "delta_pp": -0.27912443073307003,
+          "ci95": [
+            -1.092695805221472,
+            0.5435990296737816
+          ],
+          "negative_speakers": 37,
+          "positive_speakers": 37,
+          "ties": 7,
+          "sign_p": 1.0,
+          "words": 13614,
+          "utterances": 1209
+        },
+        "repeated": {
+          "a_wer": 8.827286663260091,
+          "b_wer": 8.610117526826775,
+          "delta_pp": 0.21716913643331637,
+          "ci95": [
+            -0.5748649886293322,
+            1.083630800611933
+          ],
+          "negative_speakers": 30,
+          "positive_speakers": 27,
+          "ties": 24,
+          "sign_p": 0.7913664277791806,
+          "words": 7828,
+          "utterances": 484
+        },
+        "specific": {
+          "a_wer": 41.13377117179399,
+          "b_wer": 42.084341513999306,
+          "delta_pp": -0.9505703422053173,
+          "ci95": [
+            -2.676882112585768,
+            0.677218184823402
+          ],
+          "negative_speakers": 36,
+          "positive_speakers": 34,
+          "ties": 11,
+          "sign_p": 0.9049745264594623,
+          "words": 5786,
+          "utterances": 725
+        }
+      },
+      "specific_minus_repeated": {
+        "delta_pp": -1.1677394786386337,
+        "ci95": [
+          -3.138049231780265,
+          0.7488917042093937
+        ]
+      }
+    },
+    {
+      "protocol": "disjoint",
+      "model": "GMM_transform_withheld",
+      "mode": "test_silent",
+      "subsets": {
+        "all": {
+          "a_wer": 38.25473776994271,
+          "b_wer": 38.66607903628618,
+          "delta_pp": -0.4113412663434701,
+          "ci95": [
+            -1.3168703028251372,
+            0.5060626786507784
+          ],
+          "negative_speakers": 40,
+          "positive_speakers": 37,
+          "ties": 4,
+          "sign_p": 0.8198929037490487,
+          "words": 13614,
+          "utterances": 1209
+        },
+        "repeated": {
+          "a_wer": 21.244251405212058,
+          "b_wer": 20.24782830863567,
+          "delta_pp": 0.9964230965763896,
+          "ci95": [
+            -0.089537825255857,
+            2.1198209948745483
+          ],
+          "negative_speakers": 27,
+          "positive_speakers": 47,
+          "ties": 7,
+          "sign_p": 0.026516832550684835,
+          "words": 7828,
+          "utterances": 484
+        },
+        "specific": {
+          "a_wer": 61.26857932941583,
+          "b_wer": 63.58451434497062,
+          "delta_pp": -2.3159350155547926,
+          "ci95": [
+            -4.126776871544024,
+            -0.5891055056062119
+          ],
+          "negative_speakers": 45,
+          "positive_speakers": 30,
+          "ties": 6,
+          "sign_p": 0.10534226887460488,
+          "words": 5786,
+          "utterances": 725
+        }
+      },
+      "specific_minus_repeated": {
+        "delta_pp": -3.3123581121311823,
+        "ci95": [
+          -5.531933078797336,
+          -1.151530458075536
+        ]
+      }
+    },
+    {
+      "protocol": "disjoint",
+      "model": "GMM+fMLLR",
+      "mode": "test_modal",
+      "subsets": {
+        "all": {
+          "a_wer": 17.893345085940943,
+          "b_wer": 18.223887174966947,
+          "delta_pp": -0.3305420890260038,
+          "ci95": [
+            -1.0413668318619405,
+            0.383049373187713
+          ],
+          "negative_speakers": 38,
+          "positive_speakers": 38,
+          "ties": 5,
+          "sign_p": 1.0,
+          "words": 13614,
+          "utterances": 1209
+        },
+        "repeated": {
+          "a_wer": 7.792539601430762,
+          "b_wer": 7.805314256515074,
+          "delta_pp": -0.012774655084312414,
+          "ci95": [
+            -0.6389980765260548,
+            0.6028868134476255
+          ],
+          "negative_speakers": 27,
+          "positive_speakers": 31,
+          "ties": 23,
+          "sign_p": 0.6940040940761316,
+          "words": 7828,
+          "utterances": 484
+        },
+        "specific": {
+          "a_wer": 31.55893536121673,
+          "b_wer": 32.31939163498099,
+          "delta_pp": -0.7604562737642588,
+          "ci95": [
+            -2.1600231570206563,
+            0.6314110710836246
+          ],
+          "negative_speakers": 41,
+          "positive_speakers": 35,
+          "ties": 5,
+          "sign_p": 0.5665734423986847,
+          "words": 5786,
+          "utterances": 725
+        }
+      },
+      "specific_minus_repeated": {
+        "delta_pp": -0.7476816186799464,
+        "ci95": [
+          -2.1752665166729246,
+          0.6854995613799707
+        ]
+      }
+    },
+    {
+      "protocol": "disjoint",
+      "model": "GMM+fMLLR",
+      "mode": "test_silent",
+      "subsets": {
+        "all": {
+          "a_wer": 29.454972822094902,
+          "b_wer": 29.74878801234024,
+          "delta_pp": -0.2938151902453363,
+          "ci95": [
+            -1.1973255100205396,
+            0.6116963004438506
+          ],
+          "negative_speakers": 40,
+          "positive_speakers": 33,
+          "ties": 8,
+          "sign_p": 0.4827885568440213,
+          "words": 13614,
+          "utterances": 1209
+        },
+        "repeated": {
+          "a_wer": 15.955544200306592,
+          "b_wer": 15.367910066428207,
+          "delta_pp": 0.5876341338783853,
+          "ci95": [
+            -0.4327572161466692,
+            1.6257894571690152
+          ],
+          "negative_speakers": 31,
+          "positive_speakers": 35,
+          "ties": 15,
+          "sign_p": 0.7122308826373508,
+          "words": 7828,
+          "utterances": 484
+        },
+        "specific": {
+          "a_wer": 47.71863117870723,
+          "b_wer": 49.20497753197373,
+          "delta_pp": -1.486346353266505,
+          "ci95": [
+            -3.1584628870441165,
+            0.19015269075649105
+          ],
+          "negative_speakers": 46,
+          "positive_speakers": 29,
+          "ties": 6,
+          "sign_p": 0.06394991646706695,
+          "words": 5786,
+          "utterances": 725
+        }
+      },
+      "specific_minus_repeated": {
+        "delta_pp": -2.0739804871448904,
+        "ci95": [
+          -4.098120462391672,
+          -0.04869016926220511
+        ]
+      }
+    },
+    {
+      "protocol": "disjoint",
+      "model": "DNN_transform_withheld",
+      "mode": "test_modal",
+      "subsets": {
+        "all": {
+          "a_wer": 20.802115469369767,
+          "b_wer": 20.9857499632731,
+          "delta_pp": -0.18363449390333386,
+          "ci95": [
+            -0.9514802392623867,
+            0.566608734892003
+          ],
+          "negative_speakers": 39,
+          "positive_speakers": 35,
+          "ties": 7,
+          "sign_p": 0.72754708348947,
+          "words": 13614,
+          "utterances": 1209
+        },
+        "repeated": {
+          "a_wer": 8.137455288707205,
+          "b_wer": 8.073582013285641,
+          "delta_pp": 0.06387327542156385,
+          "ci95": [
+            -0.8067872901738791,
+            0.9051504334523203
+          ],
+          "negative_speakers": 25,
+          "positive_speakers": 33,
+          "ties": 23,
+          "sign_p": 0.3581433018061379,
+          "words": 7828,
+          "utterances": 484
+        },
+        "specific": {
+          "a_wer": 37.936398202557896,
+          "b_wer": 38.45489111648808,
+          "delta_pp": -0.5184929139301815,
+          "ci95": [
+            -1.8282639731932737,
+            0.8032233756830244
+          ],
+          "negative_speakers": 40,
+          "positive_speakers": 33,
+          "ties": 8,
+          "sign_p": 0.4827885568440213,
+          "words": 5786,
+          "utterances": 725
+        }
+      },
+      "specific_minus_repeated": {
+        "delta_pp": -0.5823661893517453,
+        "ci95": [
+          -2.185336559560155,
+          0.9773397904683961
+        ]
+      }
+    },
+    {
+      "protocol": "disjoint",
+      "model": "DNN_transform_withheld",
+      "mode": "test_silent",
+      "subsets": {
+        "all": {
+          "a_wer": 38.335536947260174,
+          "b_wer": 39.033348024092845,
+          "delta_pp": -0.6978110768326715,
+          "ci95": [
+            -1.9089129797639108,
+            0.4472593408289536
+          ],
+          "negative_speakers": 46,
+          "positive_speakers": 33,
+          "ties": 2,
+          "sign_p": 0.17661055306016413,
+          "words": 13614,
+          "utterances": 1209
+        },
+        "repeated": {
+          "a_wer": 22.662238119570773,
+          "b_wer": 21.844660194174757,
+          "delta_pp": 0.8175779253960158,
+          "ci95": [
+            -0.6886876673893622,
+            2.2776711452335228
+          ],
+          "negative_speakers": 34,
+          "positive_speakers": 40,
+          "ties": 7,
+          "sign_p": 0.5613807442989819,
+          "words": 7828,
+          "utterances": 484
+        },
+        "specific": {
+          "a_wer": 59.54026961631524,
+          "b_wer": 62.28828206014518,
+          "delta_pp": -2.7480124438299356,
+          "ci95": [
+            -4.505627748402153,
+            -1.0615738384936086
+          ],
+          "negative_speakers": 51,
+          "positive_speakers": 26,
+          "ties": 4,
+          "sign_p": 0.005870707889737202,
+          "words": 5786,
+          "utterances": 725
+        }
+      },
+      "specific_minus_repeated": {
+        "delta_pp": -3.5655903692259514,
+        "ci95": [
+          -5.720243598963048,
+          -1.4132120473309733
+        ]
+      }
+    },
+    {
+      "protocol": "disjoint",
+      "model": "DNN+fMLLR",
+      "mode": "test_modal",
+      "subsets": {
+        "all": {
+          "a_wer": 14.756867930071985,
+          "b_wer": 15.234317614220656,
+          "delta_pp": -0.4774496841486702,
+          "ci95": [
+            -1.1511150057907729,
+            0.1982600956950616
+          ],
+          "negative_speakers": 41,
+          "positive_speakers": 32,
+          "ties": 8,
+          "sign_p": 0.3491818381705883,
+          "words": 13614,
+          "utterances": 1209
+        },
+        "repeated": {
+          "a_wer": 5.633622892181911,
+          "b_wer": 5.646397547266224,
+          "delta_pp": -0.012774655084312414,
+          "ci95": [
+            -0.5481896991330955,
+            0.4738320202032347
+          ],
+          "negative_speakers": 25,
+          "positive_speakers": 33,
+          "ties": 23,
+          "sign_p": 0.3581433018061379,
+          "words": 7828,
+          "utterances": 484
+        },
+        "specific": {
+          "a_wer": 27.099896301417214,
+          "b_wer": 28.20601451780159,
+          "delta_pp": -1.1061182163843775,
+          "ci95": [
+            -2.493712381771281,
+            0.31413094748781856
+          ],
+          "negative_speakers": 42,
+          "positive_speakers": 28,
+          "ties": 11,
+          "sign_p": 0.11960933562988493,
+          "words": 5786,
+          "utterances": 725
+        }
+      },
+      "specific_minus_repeated": {
+        "delta_pp": -1.093343561300065,
+        "ci95": [
+          -2.575355016250653,
+          0.43611918328063576
+        ]
+      }
+    },
+    {
+      "protocol": "disjoint",
+      "model": "DNN+fMLLR",
+      "mode": "test_silent",
+      "subsets": {
+        "all": {
+          "a_wer": 26.98692522403408,
+          "b_wer": 27.104451300132215,
+          "delta_pp": -0.11752607609813381,
+          "ci95": [
+            -1.0696860858034474,
+            0.9049590749949387
+          ],
+          "negative_speakers": 39,
+          "positive_speakers": 39,
+          "ties": 3,
+          "sign_p": 1.0,
+          "words": 13614,
+          "utterances": 1209
+        },
+        "repeated": {
+          "a_wer": 14.908022483392948,
+          "b_wer": 13.336739908022484,
+          "delta_pp": 1.5712825753704642,
+          "ci95": [
+            0.49899418213708635,
+            2.672886609620707
+          ],
+          "negative_speakers": 24,
+          "positive_speakers": 40,
+          "ties": 17,
+          "sign_p": 0.05994118956699923,
+          "words": 7828,
+          "utterances": 484
+        },
+        "specific": {
+          "a_wer": 43.32872450743173,
+          "b_wer": 45.73107500864155,
+          "delta_pp": -2.402350501209817,
+          "ci95": [
+            -4.012747379259557,
+            -0.8101911800231678
+          ],
+          "negative_speakers": 47,
+          "positive_speakers": 28,
+          "ties": 6,
+          "sign_p": 0.03695490402736831,
+          "words": 5786,
+          "utterances": 725
+        }
+      },
+      "specific_minus_repeated": {
+        "delta_pp": -3.973633076580281,
+        "ci95": [
+          -5.78532897666453,
+          -2.210526110208411
+        ]
+      }
+    }
+  ],
+  "transform_effects": [
+    {
+      "protocol": "shared",
+      "model": "DNN",
+      "mode": "test_modal",
+      "subsets": {
+        "all": {
+          "a_wer": 19.01718818862935,
+          "b_wer": 13.801968561774643,
+          "delta_pp": 5.215219626854708,
+          "ci95": [
+            4.021245052822738,
+            6.528965569441806
+          ],
+          "negative_speakers": 7,
+          "positive_speakers": 72,
+          "ties": 2,
+          "sign_p": 1.059068672061396e-14,
+          "words": 13614,
+          "utterances": 1209
+        },
+        "repeated": {
+          "a_wer": 8.099131323454266,
+          "b_wer": 6.14460909555442,
+          "delta_pp": 1.9545222278998455,
+          "ci95": [
+            0.8272877688685245,
+            3.284464876595201
+          ],
+          "negative_speakers": 21,
+          "positive_speakers": 42,
+          "ties": 18,
+          "sign_p": 0.011141407415305074,
+          "words": 7828,
+          "utterances": 484
+        },
+        "specific": {
+          "a_wer": 33.78845489111649,
+          "b_wer": 24.161769789146216,
+          "delta_pp": 9.62668510197027,
+          "ci95": [
+            7.739332530473813,
+            11.588490898067807
+          ],
+          "negative_speakers": 5,
+          "positive_speakers": 72,
+          "ties": 4,
+          "sign_p": 2.8041083952368736e-16,
+          "words": 5786,
+          "utterances": 725
+        }
+      }
+    },
+    {
+      "protocol": "shared",
+      "model": "DNN",
+      "mode": "test_silent",
+      "subsets": {
+        "all": {
+          "a_wer": 39.841339797267516,
+          "b_wer": 27.493756427207288,
+          "delta_pp": 12.347583370060228,
+          "ci95": [
+            10.440522871328145,
+            14.26278049434624
+          ],
+          "negative_speakers": 5,
+          "positive_speakers": 76,
+          "ties": 0,
+          "sign_p": 2.2643223890053103e-17,
+          "words": 13614,
+          "utterances": 1209
+        },
+        "repeated": {
+          "a_wer": 24.795605518650998,
+          "b_wer": 15.48288196218702,
+          "delta_pp": 9.312723556463977,
+          "ci95": [
+            7.205231806994487,
+            11.404051127969968
+          ],
+          "negative_speakers": 12,
+          "positive_speakers": 67,
+          "ties": 2,
+          "sign_p": 2.048841172810755e-10,
+          "words": 7828,
+          "utterances": 484
+        },
+        "specific": {
+          "a_wer": 60.19702730729347,
+          "b_wer": 43.74351883857587,
+          "delta_pp": 16.453508468717594,
+          "ci95": [
+            13.919636133393224,
+            18.974997478061386
+          ],
+          "negative_speakers": 6,
+          "positive_speakers": 74,
+          "ties": 1,
+          "sign_p": 5.396645380673323e-16,
+          "words": 5786,
+          "utterances": 725
+        }
+      }
+    },
+    {
+      "protocol": "disjoint",
+      "model": "GMM",
+      "mode": "test_modal",
+      "subsets": {
+        "all": {
+          "a_wer": 22.557661231085646,
+          "b_wer": 17.893345085940943,
+          "delta_pp": 4.664316145144703,
+          "ci95": [
+            3.740719854658936,
+            5.661591819403248
+          ],
+          "negative_speakers": 8,
+          "positive_speakers": 69,
+          "ties": 4,
+          "sign_p": 3.137352112678877e-13,
+          "words": 13614,
+          "utterances": 1209
+        },
+        "repeated": {
+          "a_wer": 8.827286663260091,
+          "b_wer": 7.792539601430762,
+          "delta_pp": 1.0347470618293295,
+          "ci95": [
+            0.20397756246812865,
+            2.0270464157564017
+          ],
+          "negative_speakers": 26,
+          "positive_speakers": 33,
+          "ties": 22,
+          "sign_p": 0.4349928051221534,
+          "words": 7828,
+          "utterances": 484
+        },
+        "specific": {
+          "a_wer": 41.13377117179399,
+          "b_wer": 31.55893536121673,
+          "delta_pp": 9.574835810577259,
+          "ci95": [
+            7.732307290847473,
+            11.411511605712015
+          ],
+          "negative_speakers": 6,
+          "positive_speakers": 68,
+          "ties": 7,
+          "sign_p": 2.1448756331687684e-14,
+          "words": 5786,
+          "utterances": 725
+        }
+      }
+    },
+    {
+      "protocol": "disjoint",
+      "model": "GMM",
+      "mode": "test_silent",
+      "subsets": {
+        "all": {
+          "a_wer": 38.25473776994271,
+          "b_wer": 29.454972822094902,
+          "delta_pp": 8.799764947847805,
+          "ci95": [
+            7.440974821306423,
+            10.272608867348215
+          ],
+          "negative_speakers": 3,
+          "positive_speakers": 78,
+          "ties": 0,
+          "sign_p": 7.332294385792548e-20,
+          "words": 13614,
+          "utterances": 1209
+        },
+        "repeated": {
+          "a_wer": 21.244251405212058,
+          "b_wer": 15.955544200306592,
+          "delta_pp": 5.2887072049054655,
+          "ci95": [
+            3.9042498719918077,
+            6.833084669123197
+          ],
+          "negative_speakers": 14,
+          "positive_speakers": 61,
+          "ties": 6,
+          "sign_p": 3.807704084089984e-08,
+          "words": 7828,
+          "utterances": 484
+        },
+        "specific": {
+          "a_wer": 61.26857932941583,
+          "b_wer": 47.71863117870723,
+          "delta_pp": 13.549948150708602,
+          "ci95": [
+            11.18859962960473,
+            15.864938032623263
+          ],
+          "negative_speakers": 7,
+          "positive_speakers": 72,
+          "ties": 2,
+          "sign_p": 1.059068672061396e-14,
+          "words": 5786,
+          "utterances": 725
+        }
+      }
+    },
+    {
+      "protocol": "disjoint",
+      "model": "DNN",
+      "mode": "test_modal",
+      "subsets": {
+        "all": {
+          "a_wer": 20.802115469369767,
+          "b_wer": 14.756867930071985,
+          "delta_pp": 6.045247539297781,
+          "ci95": [
+            4.882206809304157,
+            7.321406437359332
+          ],
+          "negative_speakers": 7,
+          "positive_speakers": 73,
+          "ties": 1,
+          "sign_p": 5.79510097338583e-15,
+          "words": 13614,
+          "utterances": 1209
+        },
+        "repeated": {
+          "a_wer": 8.137455288707205,
+          "b_wer": 5.633622892181911,
+          "delta_pp": 2.5038323965252935,
+          "ci95": [
+            1.409836265878641,
+            3.7431017839698324
+          ],
+          "negative_speakers": 15,
+          "positive_speakers": 45,
+          "ties": 21,
+          "sign_p": 0.00013451408092849532,
+          "words": 7828,
+          "utterances": 484
+        },
+        "specific": {
+          "a_wer": 37.936398202557896,
+          "b_wer": 27.099896301417214,
+          "delta_pp": 10.836501901140682,
+          "ci95": [
+            8.824560802279857,
+            12.984468587531827
+          ],
+          "negative_speakers": 6,
+          "positive_speakers": 72,
+          "ties": 3,
+          "sign_p": 1.8493658649069896e-15,
+          "words": 5786,
+          "utterances": 725
+        }
+      }
+    },
+    {
+      "protocol": "disjoint",
+      "model": "DNN",
+      "mode": "test_silent",
+      "subsets": {
+        "all": {
+          "a_wer": 38.335536947260174,
+          "b_wer": 26.98692522403408,
+          "delta_pp": 11.348611723226092,
+          "ci95": [
+            9.590021601573941,
+            13.136041275903139
+          ],
+          "negative_speakers": 4,
+          "positive_speakers": 75,
+          "ties": 2,
+          "sign_p": 5.2434681244715905e-18,
+          "words": 13614,
+          "utterances": 1209
+        },
+        "repeated": {
+          "a_wer": 22.662238119570773,
+          "b_wer": 14.908022483392948,
+          "delta_pp": 7.754215636177825,
+          "ci95": [
+            5.649738704704018,
+            9.92067414263244
+          ],
+          "negative_speakers": 12,
+          "positive_speakers": 61,
+          "ties": 8,
+          "sign_p": 4.802196531399105e-09,
+          "words": 7828,
+          "utterances": 484
+        },
+        "specific": {
+          "a_wer": 59.54026961631524,
+          "b_wer": 43.32872450743173,
+          "delta_pp": 16.211545108883513,
+          "ci95": [
+            13.862965155102291,
+            18.582274099658765
+          ],
+          "negative_speakers": 2,
+          "positive_speakers": 79,
+          "ties": 0,
+          "sign_p": 2.747893994901158e-21,
+          "words": 5786,
+          "utterances": 725
+        }
+      }
+    }
+  ],
+  "feature_effects": [
+    {
+      "variant": "f_smooth_5tap_g",
+      "model": "GMM+fMLLR",
+      "mode": "test_modal",
+      "subsets": {
+        "all": {
+          "a_wer": 17.592184515939476,
+          "b_wer": 16.644630527398267,
+          "delta_pp": 0.947553988541209,
+          "ci95": [
+            0.20583661488829683,
+            1.7096771549544452
+          ],
+          "negative_speakers": 32,
+          "positive_speakers": 45,
+          "ties": 4,
+          "sign_p": 0.17106097355391156,
+          "words": 13614,
+          "utterances": 1209
+        },
+        "repeated": {
+          "a_wer": 7.779764946346448,
+          "b_wer": 7.192130812468063,
+          "delta_pp": 0.5876341338783853,
+          "ci95": [
+            -0.07696898320294951,
+            1.2982592103872004
+          ],
+          "negative_speakers": 27,
+          "positive_speakers": 39,
+          "ties": 15,
+          "sign_p": 0.1752857944430353,
+          "words": 7828,
+          "utterances": 484
+        },
+        "specific": {
+          "a_wer": 30.867611475976496,
+          "b_wer": 29.433114414103006,
+          "delta_pp": 1.4344970618734898,
+          "ci95": [
+            0.22398056683650067,
+            2.616986789272905
+          ],
+          "negative_speakers": 25,
+          "positive_speakers": 47,
+          "ties": 9,
+          "sign_p": 0.012774595538064903,
+          "words": 5786,
+          "utterances": 725
+        }
+      }
+    },
+    {
+      "variant": "f_smooth_5tap_g",
+      "model": "GMM+fMLLR",
+      "mode": "test_silent",
+      "subsets": {
+        "all": {
+          "a_wer": 29.572498898193036,
+          "b_wer": 28.492728074041427,
+          "delta_pp": 1.079770824151609,
+          "ci95": [
+            0.17631836755739275,
+            1.941288863394152
+          ],
+          "negative_speakers": 26,
+          "positive_speakers": 49,
+          "ties": 6,
+          "sign_p": 0.010582117051705276,
+          "words": 13614,
+          "utterances": 1209
+        },
+        "repeated": {
+          "a_wer": 15.815022994379152,
+          "b_wer": 15.304036791006643,
+          "delta_pp": 0.510986203372509,
+          "ci95": [
+            -0.40946896992962173,
+            1.3895971443141253
+          ],
+          "negative_speakers": 27,
+          "positive_speakers": 38,
+          "ties": 16,
+          "sign_p": 0.21453919400817845,
+          "words": 7828,
+          "utterances": 484
+        },
+        "specific": {
+          "a_wer": 48.18527480124438,
+          "b_wer": 46.33598340822675,
+          "delta_pp": 1.84929139301763,
+          "ci95": [
+            0.22404430410453577,
+            3.5290779447690537
+          ],
+          "negative_speakers": 33,
+          "positive_speakers": 42,
+          "ties": 6,
+          "sign_p": 0.3556992390814875,
+          "words": 5786,
+          "utterances": 725
+        }
+      }
+    },
+    {
+      "variant": "f_smooth_5tap_g",
+      "model": "DNN+fMLLR",
+      "mode": "test_modal",
+      "subsets": {
+        "all": {
+          "a_wer": 14.87439400617012,
+          "b_wer": 13.801968561774643,
+          "delta_pp": 1.072425444395476,
+          "ci95": [
+            0.33027159490072266,
+            1.811626916824845
+          ],
+          "negative_speakers": 23,
+          "positive_speakers": 49,
+          "ties": 9,
+          "sign_p": 0.002942760530124976,
+          "words": 13614,
+          "utterances": 1209
+        },
+        "repeated": {
+          "a_wer": 6.361778231987737,
+          "b_wer": 6.14460909555442,
+          "delta_pp": 0.21716913643331637,
+          "ci95": [
+            -0.5218276695939925,
+            0.91827953777601
+          ],
+          "negative_speakers": 25,
+          "positive_speakers": 40,
+          "ties": 16,
+          "sign_p": 0.08168153394154005,
+          "words": 7828,
+          "utterances": 484
+        },
+        "specific": {
+          "a_wer": 26.391289319045974,
+          "b_wer": 24.161769789146216,
+          "delta_pp": 2.2295195298997577,
+          "ci95": [
+            0.9681213335241113,
+            3.536762842739783
+          ],
+          "negative_speakers": 26,
+          "positive_speakers": 49,
+          "ties": 6,
+          "sign_p": 0.010582117051705276,
+          "words": 5786,
+          "utterances": 725
+        }
+      }
+    },
+    {
+      "variant": "f_smooth_5tap_g",
+      "model": "DNN+fMLLR",
+      "mode": "test_silent",
+      "subsets": {
+        "all": {
+          "a_wer": 28.896723960628766,
+          "b_wer": 27.493756427207288,
+          "delta_pp": 1.402967533421478,
+          "ci95": [
+            0.4626171879232449,
+            2.3522839405089915
+          ],
+          "negative_speakers": 30,
+          "positive_speakers": 45,
+          "ties": 6,
+          "sign_p": 0.10534226887460488,
+          "words": 13614,
+          "utterances": 1209
+        },
+        "repeated": {
+          "a_wer": 16.351558507920288,
+          "b_wer": 15.48288196218702,
+          "delta_pp": 0.8686765457332672,
+          "ci95": [
+            -0.0769876966104584,
+            1.7914267434420983
+          ],
+          "negative_speakers": 27,
+          "positive_speakers": 47,
+          "ties": 7,
+          "sign_p": 0.026516832550684835,
+          "words": 7828,
+          "utterances": 484
+        },
+        "specific": {
+          "a_wer": 45.8693397856896,
+          "b_wer": 43.74351883857587,
+          "delta_pp": 2.1258209471137235,
+          "ci95": [
+            0.2588784674538089,
+            4.064669967902338
+          ],
+          "negative_speakers": 37,
+          "positive_speakers": 42,
+          "ties": 2,
+          "sign_p": 0.6529643755164596,
+          "words": 5786,
+          "utterances": 725
+        }
+      }
+    },
+    {
+      "variant": "f_clean_ours_g",
+      "model": "GMM+fMLLR",
+      "mode": "test_modal",
+      "subsets": {
+        "all": {
+          "a_wer": 17.695019832525343,
+          "b_wer": 16.644630527398267,
+          "delta_pp": 1.0503893051270765,
+          "ci95": [
+            0.2942806096363595,
+            1.7961030725773892
+          ],
+          "negative_speakers": 28,
+          "positive_speakers": 48,
+          "ties": 5,
+          "sign_p": 0.02862665550873788,
+          "words": 13614,
+          "utterances": 1209
+        },
+        "repeated": {
+          "a_wer": 7.894736842105263,
+          "b_wer": 7.192130812468063,
+          "delta_pp": 0.7026060296371996,
+          "ci95": [
+            -0.025559105431309515,
+            1.4794031373549288
+          ],
+          "negative_speakers": 26,
+          "positive_speakers": 39,
+          "ties": 16,
+          "sign_p": 0.13603239487789212,
+          "words": 7828,
+          "utterances": 484
+        },
+        "specific": {
+          "a_wer": 30.954026961631524,
+          "b_wer": 29.433114414103006,
+          "delta_pp": 1.5209125475285177,
+          "ci95": [
+            0.1744173661113732,
+            2.823780550706645
+          ],
+          "negative_speakers": 26,
+          "positive_speakers": 49,
+          "ties": 6,
+          "sign_p": 0.010582117051705276,
+          "words": 5786,
+          "utterances": 725
+        }
+      }
+    },
+    {
+      "variant": "f_clean_ours_g",
+      "model": "GMM+fMLLR",
+      "mode": "test_silent",
+      "subsets": {
+        "all": {
+          "a_wer": 30.079330101366242,
+          "b_wer": 28.492728074041427,
+          "delta_pp": 1.5866020273248154,
+          "ci95": [
+            0.5363497151790534,
+            2.667960295287262
+          ],
+          "negative_speakers": 30,
+          "positive_speakers": 47,
+          "ties": 4,
+          "sign_p": 0.06754925145902678,
+          "words": 13614,
+          "utterances": 1209
+        },
+        "repeated": {
+          "a_wer": 16.619826264690854,
+          "b_wer": 15.304036791006643,
+          "delta_pp": 1.3157894736842106,
+          "ci95": [
+            0.35709730901670456,
+            2.278317633914795
+          ],
+          "negative_speakers": 29,
+          "positive_speakers": 43,
+          "ties": 9,
+          "sign_p": 0.12491820036864003,
+          "words": 7828,
+          "utterances": 484
+        },
+        "specific": {
+          "a_wer": 48.28897338403042,
+          "b_wer": 46.33598340822675,
+          "delta_pp": 1.9529899758036677,
+          "ci95": [
+            0.12059509250932854,
+            3.8269427531753593
+          ],
+          "negative_speakers": 34,
+          "positive_speakers": 43,
+          "ties": 4,
+          "sign_p": 0.36203179773966154,
+          "words": 5786,
+          "utterances": 725
+        }
+      }
+    },
+    {
+      "variant": "f_clean_ours_g",
+      "model": "DNN+fMLLR",
+      "mode": "test_modal",
+      "subsets": {
+        "all": {
+          "a_wer": 15.41795210812399,
+          "b_wer": 13.801968561774643,
+          "delta_pp": 1.6159835463493462,
+          "ci95": [
+            0.7317416733325925,
+            2.4903179814647243
+          ],
+          "negative_speakers": 26,
+          "positive_speakers": 53,
+          "ties": 2,
+          "sign_p": 0.0031830106288350717,
+          "words": 13614,
+          "utterances": 1209
+        },
+        "repeated": {
+          "a_wer": 6.923863055697496,
+          "b_wer": 6.14460909555442,
+          "delta_pp": 0.7792539601430759,
+          "ci95": [
+            -0.012748719595952127,
+            1.581496597194222
+          ],
+          "negative_speakers": 23,
+          "positive_speakers": 40,
+          "ties": 18,
+          "sign_p": 0.04295654552438921,
+          "words": 7828,
+          "utterances": 484
+        },
+        "specific": {
+          "a_wer": 26.90978223297615,
+          "b_wer": 24.161769789146216,
+          "delta_pp": 2.748012443829932,
+          "ci95": [
+            1.112594111994911,
+            4.397036860561141
+          ],
+          "negative_speakers": 26,
+          "positive_speakers": 49,
+          "ties": 6,
+          "sign_p": 0.010582117051705276,
+          "words": 5786,
+          "utterances": 725
+        }
+      }
+    },
+    {
+      "variant": "f_clean_ours_g",
+      "model": "DNN+fMLLR",
+      "mode": "test_silent",
+      "subsets": {
+        "all": {
+          "a_wer": 30.29234611429411,
+          "b_wer": 27.493756427207288,
+          "delta_pp": 2.798589687086821,
+          "ci95": [
+            1.8963833138340604,
+            3.6576384194929106
+          ],
+          "negative_speakers": 17,
+          "positive_speakers": 61,
+          "ties": 3,
+          "sign_p": 5.663739625418237e-07,
+          "words": 13614,
+          "utterances": 1209
+        },
+        "repeated": {
+          "a_wer": 17.78231987736331,
+          "b_wer": 15.48288196218702,
+          "delta_pp": 2.2994379151762896,
+          "ci95": [
+            1.3307316355251957,
+            3.2373951241900585
+          ],
+          "negative_speakers": 20,
+          "positive_speakers": 50,
+          "ties": 11,
+          "sign_p": 0.00044028500651396835,
+          "words": 7828,
+          "utterances": 484
+        },
+        "specific": {
+          "a_wer": 47.21742136190805,
+          "b_wer": 43.74351883857587,
+          "delta_pp": 3.4739025233321783,
+          "ci95": [
+            1.8834937078239644,
+            5.000927528062213
+          ],
+          "negative_speakers": 24,
+          "positive_speakers": 53,
+          "ties": 4,
+          "sign_p": 0.0012632268710478357,
+          "words": 5786,
+          "utterances": 725
+        }
+      }
+    },
+    {
+      "variant": "f_norm_mad_g",
+      "model": "GMM+fMLLR",
+      "mode": "test_modal",
+      "subsets": {
+        "all": {
+          "a_wer": 21.830468635228442,
+          "b_wer": 16.644630527398267,
+          "delta_pp": 5.185838107830175,
+          "ci95": [
+            4.243155940284116,
+            6.153139176899481
+          ],
+          "negative_speakers": 8,
+          "positive_speakers": 71,
+          "ties": 2,
+          "sign_p": 9.691123017072029e-14,
+          "words": 13614,
+          "utterances": 1209
+        },
+        "repeated": {
+          "a_wer": 10.015329586101176,
+          "b_wer": 7.192130812468063,
+          "delta_pp": 2.823198773633113,
+          "ci95": [
+            1.98954215023594,
+            3.653683758429903
+          ],
+          "negative_speakers": 12,
+          "positive_speakers": 63,
+          "ties": 6,
+          "sign_p": 1.693839376410126e-09,
+          "words": 7828,
+          "utterances": 484
+        },
+        "specific": {
+          "a_wer": 37.81541652264086,
+          "b_wer": 29.433114414103006,
+          "delta_pp": 8.382302108537854,
+          "ci95": [
+            6.7020602773602445,
+            10.077998840725018
+          ],
+          "negative_speakers": 8,
+          "positive_speakers": 69,
+          "ties": 4,
+          "sign_p": 3.137352112678877e-13,
+          "words": 5786,
+          "utterances": 725
+        }
+      }
+    },
+    {
+      "variant": "f_norm_mad_g",
+      "model": "GMM+fMLLR",
+      "mode": "test_silent",
+      "subsets": {
+        "all": {
+          "a_wer": 37.5495813133539,
+          "b_wer": 28.492728074041427,
+          "delta_pp": 9.05685323931247,
+          "ci95": [
+            7.693772208868692,
+            10.355265492228336
+          ],
+          "negative_speakers": 4,
+          "positive_speakers": 75,
+          "ties": 2,
+          "sign_p": 5.2434681244715905e-18,
+          "words": 13614,
+          "utterances": 1209
+        },
+        "repeated": {
+          "a_wer": 22.33009708737864,
+          "b_wer": 15.304036791006643,
+          "delta_pp": 7.0260602963719965,
+          "ci95": [
+            5.73359635119801,
+            8.338918783327314
+          ],
+          "negative_speakers": 8,
+          "positive_speakers": 68,
+          "ties": 5,
+          "sign_p": 5.632907524806409e-13,
+          "words": 7828,
+          "utterances": 484
+        },
+        "specific": {
+          "a_wer": 58.14033874870377,
+          "b_wer": 46.33598340822675,
+          "delta_pp": 11.804355340477017,
+          "ci95": [
+            9.56394295925188,
+            14.022749965926083
+          ],
+          "negative_speakers": 7,
+          "positive_speakers": 71,
+          "ties": 3,
+          "sign_p": 1.933200757632093e-14,
+          "words": 5786,
+          "utterances": 725
+        }
+      }
+    },
+    {
+      "variant": "f_norm_mad_g",
+      "model": "DNN+fMLLR",
+      "mode": "test_modal",
+      "subsets": {
+        "all": {
+          "a_wer": 15.888056412516526,
+          "b_wer": 13.801968561774643,
+          "delta_pp": 2.086087850741883,
+          "ci95": [
+            1.1656400921597663,
+            3.0312782857530842
+          ],
+          "negative_speakers": 23,
+          "positive_speakers": 54,
+          "ties": 4,
+          "sign_p": 0.0005387801699960487,
+          "words": 13614,
+          "utterances": 1209
+        },
+        "repeated": {
+          "a_wer": 6.617271333673991,
+          "b_wer": 6.14460909555442,
+          "delta_pp": 0.47266223811957087,
+          "ci95": [
+            -0.30599178219329126,
+            1.2561865506920558
+          ],
+          "negative_speakers": 27,
+          "positive_speakers": 37,
+          "ties": 17,
+          "sign_p": 0.2604354765766535,
+          "words": 7828,
+          "utterances": 484
+        },
+        "specific": {
+          "a_wer": 28.430694780504666,
+          "b_wer": 24.161769789146216,
+          "delta_pp": 4.26892499135845,
+          "ci95": [
+            2.615245002630428,
+            5.976944548086617
+          ],
+          "negative_speakers": 21,
+          "positive_speakers": 56,
+          "ties": 4,
+          "sign_p": 8.215921903007379e-05,
+          "words": 5786,
+          "utterances": 725
+        }
+      }
+    },
+    {
+      "variant": "f_norm_mad_g",
+      "model": "DNN+fMLLR",
+      "mode": "test_silent",
+      "subsets": {
+        "all": {
+          "a_wer": 31.085647127956516,
+          "b_wer": 27.493756427207288,
+          "delta_pp": 3.5918907007492287,
+          "ci95": [
+            2.39443862322982,
+            4.807557593500301
+          ],
+          "negative_speakers": 18,
+          "positive_speakers": 61,
+          "ties": 2,
+          "sign_p": 1.2696974368404285e-06,
+          "words": 13614,
+          "utterances": 1209
+        },
+        "repeated": {
+          "a_wer": 17.437404190086866,
+          "b_wer": 15.48288196218702,
+          "delta_pp": 1.9545222278998455,
+          "ci95": [
+            0.766479305058762,
+            3.207339459613757
+          ],
+          "negative_speakers": 25,
+          "positive_speakers": 50,
+          "ties": 6,
+          "sign_p": 0.0052282430040142824,
+          "words": 7828,
+          "utterances": 484
+        },
+        "specific": {
+          "a_wer": 49.55063947459385,
+          "b_wer": 43.74351883857587,
+          "delta_pp": 5.807120636017977,
+          "ci95": [
+            3.9047303125334625,
+            7.775647643808711
+          ],
+          "negative_speakers": 21,
+          "positive_speakers": 57,
+          "ties": 3,
+          "sign_p": 5.571116486469109e-05,
+          "words": 5786,
+          "utterances": 725
+        }
+      }
+    },
+    {
+      "variant": "f_nosync_g",
+      "model": "GMM+fMLLR",
+      "mode": "test_modal",
+      "subsets": {
+        "all": {
+          "a_wer": 38.768914352872045,
+          "b_wer": 16.644630527398267,
+          "delta_pp": 22.12428382547378,
+          "ci95": [
+            19.863395997070267,
+            24.587241220543884
+          ],
+          "negative_speakers": 1,
+          "positive_speakers": 80,
+          "ties": 0,
+          "sign_p": 6.782881022934827e-23,
+          "words": 13614,
+          "utterances": 1209
+        },
+        "repeated": {
+          "a_wer": 18.229432805314257,
+          "b_wer": 7.192130812468063,
+          "delta_pp": 11.037301992846194,
+          "ci95": [
+            8.104961547128648,
+            14.407534682448771
+          ],
+          "negative_speakers": 9,
+          "positive_speakers": 70,
+          "ties": 2,
+          "sign_p": 7.778844062771146e-13,
+          "words": 7828,
+          "utterances": 484
+        },
+        "specific": {
+          "a_wer": 66.55720705150362,
+          "b_wer": 29.433114414103006,
+          "delta_pp": 37.12409263740062,
+          "ci95": [
+            34.45148435061769,
+            39.92349322817714
+          ],
+          "negative_speakers": 0,
+          "positive_speakers": 81,
+          "ties": 0,
+          "sign_p": 8.271806125530277e-25,
+          "words": 5786,
+          "utterances": 725
+        }
+      }
+    },
+    {
+      "variant": "f_nosync_g",
+      "model": "GMM+fMLLR",
+      "mode": "test_silent",
+      "subsets": {
+        "all": {
+          "a_wer": 59.71059203760834,
+          "b_wer": 28.492728074041427,
+          "delta_pp": 31.217863963566916,
+          "ci95": [
+            28.772058823529406,
+            33.649212601929726
+          ],
+          "negative_speakers": 0,
+          "positive_speakers": 81,
+          "ties": 0,
+          "sign_p": 8.271806125530277e-25,
+          "words": 13614,
+          "utterances": 1209
+        },
+        "repeated": {
+          "a_wer": 41.262135922330096,
+          "b_wer": 15.304036791006643,
+          "delta_pp": 25.95809913132345,
+          "ci95": [
+            22.38098135582238,
+            29.721880779429878
+          ],
+          "negative_speakers": 2,
+          "positive_speakers": 78,
+          "ties": 1,
+          "sign_p": 5.3617847305687254e-21,
+          "words": 7828,
+          "utterances": 484
+        },
+        "specific": {
+          "a_wer": 84.66989284479779,
+          "b_wer": 46.33598340822675,
+          "delta_pp": 38.333909436571034,
+          "ci95": [
+            35.030065775671346,
+            41.48558214122439
+          ],
+          "negative_speakers": 0,
+          "positive_speakers": 80,
+          "ties": 1,
+          "sign_p": 1.6543612251060553e-24,
+          "words": 5786,
+          "utterances": 725
+        }
+      }
+    },
+    {
+      "variant": "f_nosync_g",
+      "model": "DNN+fMLLR",
+      "mode": "test_modal",
+      "subsets": {
+        "all": {
+          "a_wer": 34.21477890406934,
+          "b_wer": 13.801968561774643,
+          "delta_pp": 20.412810342294698,
+          "ci95": [
+            18.211702226046427,
+            22.824342070500126
+          ],
+          "negative_speakers": 1,
+          "positive_speakers": 80,
+          "ties": 0,
+          "sign_p": 6.782881022934827e-23,
+          "words": 13614,
+          "utterances": 1209
+        },
+        "repeated": {
+          "a_wer": 14.460909555442003,
+          "b_wer": 6.14460909555442,
+          "delta_pp": 8.316300459887582,
+          "ci95": [
+            5.647427531689791,
+            11.469696657391182
+          ],
+          "negative_speakers": 11,
+          "positive_speakers": 64,
+          "ties": 6,
+          "sign_p": 3.108521862394645e-10,
+          "words": 7828,
+          "utterances": 484
+        },
+        "specific": {
+          "a_wer": 60.940200483926716,
+          "b_wer": 24.161769789146216,
+          "delta_pp": 36.778430694780496,
+          "ci95": [
+            34.137452273516146,
+            39.4680154431471
+          ],
+          "negative_speakers": 0,
+          "positive_speakers": 81,
+          "ties": 0,
+          "sign_p": 8.271806125530277e-25,
+          "words": 5786,
+          "utterances": 725
+        }
+      }
+    },
+    {
+      "variant": "f_nosync_g",
+      "model": "DNN+fMLLR",
+      "mode": "test_silent",
+      "subsets": {
+        "all": {
+          "a_wer": 56.58146026149552,
+          "b_wer": 27.493756427207288,
+          "delta_pp": 29.087703834288234,
+          "ci95": [
+            26.577776580755952,
+            31.688043669996127
+          ],
+          "negative_speakers": 0,
+          "positive_speakers": 81,
+          "ties": 0,
+          "sign_p": 8.271806125530277e-25,
+          "words": 13614,
+          "utterances": 1209
+        },
+        "repeated": {
+          "a_wer": 37.876852324987226,
+          "b_wer": 15.48288196218702,
+          "delta_pp": 22.393970362800204,
+          "ci95": [
+            18.650793650793652,
+            26.22674394929823
+          ],
+          "negative_speakers": 3,
+          "positive_speakers": 77,
+          "ties": 1,
+          "sign_p": 1.4128410298528223e-19,
+          "words": 7828,
+          "utterances": 484
+        },
+        "specific": {
+          "a_wer": 81.88731420670584,
+          "b_wer": 43.74351883857587,
+          "delta_pp": 38.143795368129965,
+          "ci95": [
+            34.75469240381022,
+            41.5886510986474
+          ],
+          "negative_speakers": 0,
+          "positive_speakers": 81,
+          "ties": 0,
+          "sign_p": 8.271806125530277e-25,
+          "words": 5786,
+          "utterances": 725
+        }
+      }
+    },
+    {
+      "variant": "ours_full_g",
+      "model": "GMM+fMLLR",
+      "mode": "test_modal",
+      "subsets": {
+        "all": {
+          "a_wer": 24.68782136036433,
+          "b_wer": 16.644630527398267,
+          "delta_pp": 8.043190832966065,
+          "ci95": [
+            6.8043317150876685,
+            9.262680079384703
+          ],
+          "negative_speakers": 7,
+          "positive_speakers": 73,
+          "ties": 1,
+          "sign_p": 5.79510097338583e-15,
+          "words": 13614,
+          "utterances": 1209
+        },
+        "repeated": {
+          "a_wer": 11.216147164026571,
+          "b_wer": 7.192130812468063,
+          "delta_pp": 4.024016351558508,
+          "ci95": [
+            2.9508046789427675,
+            5.177910980742251
+          ],
+          "negative_speakers": 7,
+          "positive_speakers": 64,
+          "ties": 10,
+          "sign_p": 1.2596743309903347e-12,
+          "words": 7828,
+          "utterances": 484
+        },
+        "specific": {
+          "a_wer": 42.91393017628759,
+          "b_wer": 29.433114414103006,
+          "delta_pp": 13.480815762184587,
+          "ci95": [
+            11.263245381388613,
+            15.663100629239867
+          ],
+          "negative_speakers": 8,
+          "positive_speakers": 72,
+          "ties": 1,
+          "sign_p": 5.375095844566712e-14,
+          "words": 5786,
+          "utterances": 725
+        }
+      }
+    },
+    {
+      "variant": "ours_full_g",
+      "model": "GMM+fMLLR",
+      "mode": "test_silent",
+      "subsets": {
+        "all": {
+          "a_wer": 39.34919935360658,
+          "b_wer": 28.492728074041427,
+          "delta_pp": 10.856471279565152,
+          "ci95": [
+            9.438926174011222,
+            12.254682046448659
+          ],
+          "negative_speakers": 2,
+          "positive_speakers": 78,
+          "ties": 1,
+          "sign_p": 5.3617847305687254e-21,
+          "words": 13614,
+          "utterances": 1209
+        },
+        "repeated": {
+          "a_wer": 23.147675012774656,
+          "b_wer": 15.304036791006643,
+          "delta_pp": 7.843638221768012,
+          "ci95": [
+            6.329134320201876,
+            9.40575260310467
+          ],
+          "negative_speakers": 7,
+          "positive_speakers": 70,
+          "ties": 4,
+          "sign_p": 3.5245694262351566e-14,
+          "words": 7828,
+          "utterances": 484
+        },
+        "specific": {
+          "a_wer": 61.26857932941583,
+          "b_wer": 46.33598340822675,
+          "delta_pp": 14.932595921189076,
+          "ci95": [
+            12.517240785598936,
+            17.327397627928608
+          ],
+          "negative_speakers": 6,
+          "positive_speakers": 72,
+          "ties": 3,
+          "sign_p": 1.8493658649069896e-15,
+          "words": 5786,
+          "utterances": 725
+        }
+      }
+    },
+    {
+      "variant": "ours_full_g",
+      "model": "DNN+fMLLR",
+      "mode": "test_modal",
+      "subsets": {
+        "all": {
+          "a_wer": 17.86396356691641,
+          "b_wer": 13.801968561774643,
+          "delta_pp": 4.0619950051417675,
+          "ci95": [
+            3.1720126597752056,
+            4.9014830749586284
+          ],
+          "negative_speakers": 11,
+          "positive_speakers": 68,
+          "ties": 2,
+          "sign_p": 3.544560973532992e-11,
+          "words": 13614,
+          "utterances": 1209
+        },
+        "repeated": {
+          "a_wer": 6.923863055697496,
+          "b_wer": 6.14460909555442,
+          "delta_pp": 0.7792539601430759,
+          "ci95": [
+            -0.11540534102546358,
+            1.643976367839712
+          ],
+          "negative_speakers": 22,
+          "positive_speakers": 46,
+          "ties": 13,
+          "sign_p": 0.004903382516355933,
+          "words": 7828,
+          "utterances": 484
+        },
+        "specific": {
+          "a_wer": 32.66505357760111,
+          "b_wer": 24.161769789146216,
+          "delta_pp": 8.50328378845489,
+          "ci95": [
+            6.856311358371275,
+            10.068933496678568
+          ],
+          "negative_speakers": 9,
+          "positive_speakers": 69,
+          "ties": 3,
+          "sign_p": 1.3812783597891096e-12,
+          "words": 5786,
+          "utterances": 725
+        }
+      }
+    },
+    {
+      "variant": "ours_full_g",
+      "model": "DNN+fMLLR",
+      "mode": "test_silent",
+      "subsets": {
+        "all": {
+          "a_wer": 33.75936535918907,
+          "b_wer": 27.493756427207288,
+          "delta_pp": 6.265608931981781,
+          "ci95": [
+            5.1128039847641364,
+            7.415057079464547
+          ],
+          "negative_speakers": 10,
+          "positive_speakers": 70,
+          "ties": 1,
+          "sign_p": 3.161290522649495e-12,
+          "words": 13614,
+          "utterances": 1209
+        },
+        "repeated": {
+          "a_wer": 18.612672457843637,
+          "b_wer": 15.48288196218702,
+          "delta_pp": 3.129790495656616,
+          "ci95": [
+            1.8619895935283355,
+            4.306767183724806
+          ],
+          "negative_speakers": 19,
+          "positive_speakers": 54,
+          "ties": 8,
+          "sign_p": 5.0622659111780655e-05,
+          "words": 7828,
+          "utterances": 484
+        },
+        "specific": {
+          "a_wer": 54.25164189422745,
+          "b_wer": 43.74351883857587,
+          "delta_pp": 10.508123055651573,
+          "ci95": [
+            8.383591853933561,
+            12.594638327118348
+          ],
+          "negative_speakers": 11,
+          "positive_speakers": 68,
+          "ties": 2,
+          "sign_p": 3.544560973532992e-11,
+          "words": 5786,
+          "utterances": 725
+        }
+      }
+    }
+  ],
+  "unit_replicates": [
+    {
+      "seed": 1,
+      "jobs": 8,
+      "mode": "test_modal",
+      "subsets": {
+        "all": {
+          "a_wer": 13.801968561774643,
+          "b_wer": 14.404289701777582,
+          "delta_pp": -0.6023211400029389,
+          "ci95": [
+            -1.3490054429305178,
+            0.13963837867937223
+          ],
+          "negative_speakers": 48,
+          "positive_speakers": 28,
+          "ties": 5,
+          "sign_p": 0.02862665550873788,
+          "words": 13614,
+          "utterances": 1209
+        },
+        "repeated": {
+          "a_wer": 6.14460909555442,
+          "b_wer": 5.901890648952478,
+          "delta_pp": 0.24271844660194208,
+          "ci95": [
+            -0.5226925038245789,
+            1.0876623935025886
+          ],
+          "negative_speakers": 32,
+          "positive_speakers": 25,
+          "ties": 24,
+          "sign_p": 0.42704285650325524,
+          "words": 7828,
+          "utterances": 484
+        },
+        "specific": {
+          "a_wer": 24.161769789146216,
+          "b_wer": 25.90736259937781,
+          "delta_pp": -1.7455928102315923,
+          "ci95": [
+            -3.020889929394634,
+            -0.49834338034509407
+          ],
+          "negative_speakers": 49,
+          "positive_speakers": 28,
+          "ties": 4,
+          "sign_p": 0.02203345876482212,
+          "words": 5786,
+          "utterances": 725
+        }
+      }
+    },
+    {
+      "seed": 1,
+      "jobs": 8,
+      "mode": "test_silent",
+      "subsets": {
+        "all": {
+          "a_wer": 27.493756427207288,
+          "b_wer": 28.169531364771558,
+          "delta_pp": -0.6757749375642703,
+          "ci95": [
+            -1.5295308904853397,
+            0.2047682160050288
+          ],
+          "negative_speakers": 44,
+          "positive_speakers": 31,
+          "ties": 6,
+          "sign_p": 0.1654279417242567,
+          "words": 13614,
+          "utterances": 1209
+        },
+        "repeated": {
+          "a_wer": 15.48288196218702,
+          "b_wer": 14.9591211037302,
+          "delta_pp": 0.5237608584568214,
+          "ci95": [
+            -0.3200307357481695,
+            1.4278565947466473
+          ],
+          "negative_speakers": 34,
+          "positive_speakers": 37,
+          "ties": 10,
+          "sign_p": 0.8125886494061618,
+          "words": 7828,
+          "utterances": 484
+        },
+        "specific": {
+          "a_wer": 43.74351883857587,
+          "b_wer": 46.04217075699965,
+          "delta_pp": -2.2986519184237793,
+          "ci95": [
+            -3.920757138746578,
+            -0.727499514363297
+          ],
+          "negative_speakers": 51,
+          "positive_speakers": 25,
+          "ties": 5,
+          "sign_p": 0.0038362357516146246,
+          "words": 5786,
+          "utterances": 725
+        }
+      }
+    },
+    {
+      "seed": 2,
+      "jobs": 6,
+      "mode": "test_modal",
+      "subsets": {
+        "all": {
+          "a_wer": 14.756867930071985,
+          "b_wer": 15.542823563978258,
+          "delta_pp": -0.7859556339062728,
+          "ci95": [
+            -1.4639145073927662,
+            -0.10999204673161633
+          ],
+          "negative_speakers": 42,
+          "positive_speakers": 31,
+          "ties": 8,
+          "sign_p": 0.24164472314075197,
+          "words": 13614,
+          "utterances": 1209
+        },
+        "repeated": {
+          "a_wer": 7.332652018395503,
+          "b_wer": 7.54982115482882,
+          "delta_pp": -0.21716913643331637,
+          "ci95": [
+            -0.7789703655864321,
+            0.3698507843387322
+          ],
+          "negative_speakers": 36,
+          "positive_speakers": 29,
+          "ties": 16,
+          "sign_p": 0.4570207854105899,
+          "words": 7828,
+          "utterances": 484
+        },
+        "specific": {
+          "a_wer": 24.80124438299343,
+          "b_wer": 26.35672312478396,
+          "delta_pp": -1.5554787417905303,
+          "ci95": [
+            -2.877510832563768,
+            -0.27638267088753915
+          ],
+          "negative_speakers": 43,
+          "positive_speakers": 32,
+          "ties": 6,
+          "sign_p": 0.24804574189252795,
+          "words": 5786,
+          "utterances": 725
+        }
+      }
+    },
+    {
+      "seed": 2,
+      "jobs": 6,
+      "mode": "test_silent",
+      "subsets": {
+        "all": {
+          "a_wer": 30.10136624063464,
+          "b_wer": 30.475980608197442,
+          "delta_pp": -0.37461436756280264,
+          "ci95": [
+            -1.3254356069830107,
+            0.5191415512635137
+          ],
+          "negative_speakers": 41,
+          "positive_speakers": 36,
+          "ties": 4,
+          "sign_p": 0.6487911623106449,
+          "words": 13614,
+          "utterances": 1209
+        },
+        "repeated": {
+          "a_wer": 17.8717424629535,
+          "b_wer": 17.743995912110375,
+          "delta_pp": 0.12774655084312414,
+          "ci95": [
+            -0.8331544752393221,
+            1.0882320294386572
+          ],
+          "negative_speakers": 31,
+          "positive_speakers": 42,
+          "ties": 8,
+          "sign_p": 0.24164472314075197,
+          "words": 7828,
+          "utterances": 484
+        },
+        "specific": {
+          "a_wer": 46.64707915658486,
+          "b_wer": 47.70134808157622,
+          "delta_pp": -1.0542689249913622,
+          "ci95": [
+            -2.58037581129584,
+            0.44310002715947705
+          ],
+          "negative_speakers": 43,
+          "positive_speakers": 34,
+          "ties": 4,
+          "sign_p": 0.36203179773966154,
+          "words": 5786,
+          "utterances": 725
+        }
+      }
+    },
+    {
+      "seed": 3,
+      "jobs": 6,
+      "mode": "test_modal",
+      "subsets": {
+        "all": {
+          "a_wer": 14.499779638607317,
+          "b_wer": 14.830321727633319,
+          "delta_pp": -0.330542089026002,
+          "ci95": [
+            -1.0087959183280486,
+            0.3664816367444203
+          ],
+          "negative_speakers": 42,
+          "positive_speakers": 29,
+          "ties": 10,
+          "sign_p": 0.1539127693264563,
+          "words": 13614,
+          "utterances": 1209
+        },
+        "repeated": {
+          "a_wer": 6.7577925396014304,
+          "b_wer": 6.56617271333674,
+          "delta_pp": 0.19161982626469065,
+          "ci95": [
+            -0.38402826586126315,
+            0.7521672616012248
+          ],
+          "negative_speakers": 25,
+          "positive_speakers": 34,
+          "ties": 22,
+          "sign_p": 0.2975952082844287,
+          "words": 7828,
+          "utterances": 484
+        },
+        "specific": {
+          "a_wer": 24.97407535430349,
+          "b_wer": 26.011061182163843,
+          "delta_pp": -1.0369858278603523,
+          "ci95": [
+            -2.437877233171505,
+            0.33009464379523734
+          ],
+          "negative_speakers": 41,
+          "positive_speakers": 27,
+          "ties": 13,
+          "sign_p": 0.11425430684992328,
+          "words": 5786,
+          "utterances": 725
+        }
+      }
+    },
+    {
+      "seed": 3,
+      "jobs": 6,
+      "mode": "test_silent",
+      "subsets": {
+        "all": {
+          "a_wer": 28.45600117526076,
+          "b_wer": 29.91038636697517,
+          "delta_pp": -1.4543851917144117,
+          "ci95": [
+            -2.4145812102491453,
+            -0.4903051221830741
+          ],
+          "negative_speakers": 47,
+          "positive_speakers": 27,
+          "ties": 7,
+          "sign_p": 0.026516832550684835,
+          "words": 13614,
+          "utterances": 1209
+        },
+        "repeated": {
+          "a_wer": 16.69647419519673,
+          "b_wer": 17.59070005109862,
+          "delta_pp": -0.8942258559018903,
+          "ci95": [
+            -1.9259164109364848,
+            0.15335953836625352
+          ],
+          "negative_speakers": 43,
+          "positive_speakers": 28,
+          "ties": 10,
+          "sign_p": 0.09592363141082376,
+          "words": 7828,
+          "utterances": 484
+        },
+        "specific": {
+          "a_wer": 44.365710335292086,
+          "b_wer": 46.57794676806083,
+          "delta_pp": -2.212236432768748,
+          "ci95": [
+            -3.9959003363149534,
+            -0.40269393399866493
+          ],
+          "negative_speakers": 43,
+          "positive_speakers": 37,
+          "ties": 1,
+          "sign_p": 0.5764306261883931,
+          "words": 5786,
+          "utterances": 725
+        }
+      }
+    }
+  ],
+  "factor_replicates": [
+    {
+      "seed": 1,
+      "jobs": 8,
+      "variant": "f_smooth_5tap_g",
+      "mode": "test_modal",
+      "subsets": {
+        "all": {
+          "a_wer": 14.87439400617012,
+          "b_wer": 13.801968561774643,
+          "delta_pp": 1.072425444395476,
+          "ci95": [
+            0.33027159490072266,
+            1.811626916824845
+          ],
+          "negative_speakers": 23,
+          "positive_speakers": 49,
+          "ties": 9,
+          "sign_p": 0.002942760530124976,
+          "words": 13614,
+          "utterances": 1209
+        },
+        "repeated": {
+          "a_wer": 6.361778231987737,
+          "b_wer": 6.14460909555442,
+          "delta_pp": 0.21716913643331637,
+          "ci95": [
+            -0.5218276695939925,
+            0.91827953777601
+          ],
+          "negative_speakers": 25,
+          "positive_speakers": 40,
+          "ties": 16,
+          "sign_p": 0.08168153394154005,
+          "words": 7828,
+          "utterances": 484
+        },
+        "specific": {
+          "a_wer": 26.391289319045974,
+          "b_wer": 24.161769789146216,
+          "delta_pp": 2.2295195298997577,
+          "ci95": [
+            0.9681213335241113,
+            3.536762842739783
+          ],
+          "negative_speakers": 26,
+          "positive_speakers": 49,
+          "ties": 6,
+          "sign_p": 0.010582117051705276,
+          "words": 5786,
+          "utterances": 725
+        }
+      }
+    },
+    {
+      "seed": 1,
+      "jobs": 8,
+      "variant": "f_smooth_5tap_g",
+      "mode": "test_silent",
+      "subsets": {
+        "all": {
+          "a_wer": 28.896723960628766,
+          "b_wer": 27.493756427207288,
+          "delta_pp": 1.402967533421478,
+          "ci95": [
+            0.4626171879232449,
+            2.3522839405089915
+          ],
+          "negative_speakers": 30,
+          "positive_speakers": 45,
+          "ties": 6,
+          "sign_p": 0.10534226887460488,
+          "words": 13614,
+          "utterances": 1209
+        },
+        "repeated": {
+          "a_wer": 16.351558507920288,
+          "b_wer": 15.48288196218702,
+          "delta_pp": 0.8686765457332672,
+          "ci95": [
+            -0.0769876966104584,
+            1.7914267434420983
+          ],
+          "negative_speakers": 27,
+          "positive_speakers": 47,
+          "ties": 7,
+          "sign_p": 0.026516832550684835,
+          "words": 7828,
+          "utterances": 484
+        },
+        "specific": {
+          "a_wer": 45.8693397856896,
+          "b_wer": 43.74351883857587,
+          "delta_pp": 2.1258209471137235,
+          "ci95": [
+            0.2588784674538089,
+            4.064669967902338
+          ],
+          "negative_speakers": 37,
+          "positive_speakers": 42,
+          "ties": 2,
+          "sign_p": 0.6529643755164596,
+          "words": 5786,
+          "utterances": 725
+        }
+      }
+    },
+    {
+      "seed": 1,
+      "jobs": 8,
+      "variant": "f_clean_ours_g",
+      "mode": "test_modal",
+      "subsets": {
+        "all": {
+          "a_wer": 15.41795210812399,
+          "b_wer": 13.801968561774643,
+          "delta_pp": 1.6159835463493462,
+          "ci95": [
+            0.7317416733325925,
+            2.4903179814647243
+          ],
+          "negative_speakers": 26,
+          "positive_speakers": 53,
+          "ties": 2,
+          "sign_p": 0.0031830106288350717,
+          "words": 13614,
+          "utterances": 1209
+        },
+        "repeated": {
+          "a_wer": 6.923863055697496,
+          "b_wer": 6.14460909555442,
+          "delta_pp": 0.7792539601430759,
+          "ci95": [
+            -0.012748719595952127,
+            1.581496597194222
+          ],
+          "negative_speakers": 23,
+          "positive_speakers": 40,
+          "ties": 18,
+          "sign_p": 0.04295654552438921,
+          "words": 7828,
+          "utterances": 484
+        },
+        "specific": {
+          "a_wer": 26.90978223297615,
+          "b_wer": 24.161769789146216,
+          "delta_pp": 2.748012443829932,
+          "ci95": [
+            1.112594111994911,
+            4.397036860561141
+          ],
+          "negative_speakers": 26,
+          "positive_speakers": 49,
+          "ties": 6,
+          "sign_p": 0.010582117051705276,
+          "words": 5786,
+          "utterances": 725
+        }
+      }
+    },
+    {
+      "seed": 1,
+      "jobs": 8,
+      "variant": "f_clean_ours_g",
+      "mode": "test_silent",
+      "subsets": {
+        "all": {
+          "a_wer": 30.29234611429411,
+          "b_wer": 27.493756427207288,
+          "delta_pp": 2.798589687086821,
+          "ci95": [
+            1.8963833138340604,
+            3.6576384194929106
+          ],
+          "negative_speakers": 17,
+          "positive_speakers": 61,
+          "ties": 3,
+          "sign_p": 5.663739625418237e-07,
+          "words": 13614,
+          "utterances": 1209
+        },
+        "repeated": {
+          "a_wer": 17.78231987736331,
+          "b_wer": 15.48288196218702,
+          "delta_pp": 2.2994379151762896,
+          "ci95": [
+            1.3307316355251957,
+            3.2373951241900585
+          ],
+          "negative_speakers": 20,
+          "positive_speakers": 50,
+          "ties": 11,
+          "sign_p": 0.00044028500651396835,
+          "words": 7828,
+          "utterances": 484
+        },
+        "specific": {
+          "a_wer": 47.21742136190805,
+          "b_wer": 43.74351883857587,
+          "delta_pp": 3.4739025233321783,
+          "ci95": [
+            1.8834937078239644,
+            5.000927528062213
+          ],
+          "negative_speakers": 24,
+          "positive_speakers": 53,
+          "ties": 4,
+          "sign_p": 0.0012632268710478357,
+          "words": 5786,
+          "utterances": 725
+        }
+      }
+    },
+    {
+      "seed": 1,
+      "jobs": 8,
+      "variant": "f_norm_mad_g",
+      "mode": "test_modal",
+      "subsets": {
+        "all": {
+          "a_wer": 15.888056412516526,
+          "b_wer": 13.801968561774643,
+          "delta_pp": 2.086087850741883,
+          "ci95": [
+            1.1656400921597663,
+            3.0312782857530842
+          ],
+          "negative_speakers": 23,
+          "positive_speakers": 54,
+          "ties": 4,
+          "sign_p": 0.0005387801699960487,
+          "words": 13614,
+          "utterances": 1209
+        },
+        "repeated": {
+          "a_wer": 6.617271333673991,
+          "b_wer": 6.14460909555442,
+          "delta_pp": 0.47266223811957087,
+          "ci95": [
+            -0.30599178219329126,
+            1.2561865506920558
+          ],
+          "negative_speakers": 27,
+          "positive_speakers": 37,
+          "ties": 17,
+          "sign_p": 0.2604354765766535,
+          "words": 7828,
+          "utterances": 484
+        },
+        "specific": {
+          "a_wer": 28.430694780504666,
+          "b_wer": 24.161769789146216,
+          "delta_pp": 4.26892499135845,
+          "ci95": [
+            2.615245002630428,
+            5.976944548086617
+          ],
+          "negative_speakers": 21,
+          "positive_speakers": 56,
+          "ties": 4,
+          "sign_p": 8.215921903007379e-05,
+          "words": 5786,
+          "utterances": 725
+        }
+      }
+    },
+    {
+      "seed": 1,
+      "jobs": 8,
+      "variant": "f_norm_mad_g",
+      "mode": "test_silent",
+      "subsets": {
+        "all": {
+          "a_wer": 31.085647127956516,
+          "b_wer": 27.493756427207288,
+          "delta_pp": 3.5918907007492287,
+          "ci95": [
+            2.39443862322982,
+            4.807557593500301
+          ],
+          "negative_speakers": 18,
+          "positive_speakers": 61,
+          "ties": 2,
+          "sign_p": 1.2696974368404285e-06,
+          "words": 13614,
+          "utterances": 1209
+        },
+        "repeated": {
+          "a_wer": 17.437404190086866,
+          "b_wer": 15.48288196218702,
+          "delta_pp": 1.9545222278998455,
+          "ci95": [
+            0.766479305058762,
+            3.207339459613757
+          ],
+          "negative_speakers": 25,
+          "positive_speakers": 50,
+          "ties": 6,
+          "sign_p": 0.0052282430040142824,
+          "words": 7828,
+          "utterances": 484
+        },
+        "specific": {
+          "a_wer": 49.55063947459385,
+          "b_wer": 43.74351883857587,
+          "delta_pp": 5.807120636017977,
+          "ci95": [
+            3.9047303125334625,
+            7.775647643808711
+          ],
+          "negative_speakers": 21,
+          "positive_speakers": 57,
+          "ties": 3,
+          "sign_p": 5.571116486469109e-05,
+          "words": 5786,
+          "utterances": 725
+        }
+      }
+    },
+    {
+      "seed": 2,
+      "jobs": 6,
+      "variant": "f_smooth_5tap_g",
+      "mode": "test_modal",
+      "subsets": {
+        "all": {
+          "a_wer": 16.402232995445864,
+          "b_wer": 14.756867930071985,
+          "delta_pp": 1.6453650653738787,
+          "ci95": [
+            0.7534402594379189,
+            2.553599444256324
+          ],
+          "negative_speakers": 25,
+          "positive_speakers": 50,
+          "ties": 6,
+          "sign_p": 0.0052282430040142824,
+          "words": 13614,
+          "utterances": 1209
+        },
+        "repeated": {
+          "a_wer": 8.354624425140521,
+          "b_wer": 7.332652018395503,
+          "delta_pp": 1.021972406745018,
+          "ci95": [
+            0.19200247722343852,
+            1.8995592197968787
+          ],
+          "negative_speakers": 25,
+          "positive_speakers": 38,
+          "ties": 18,
+          "sign_p": 0.1299179230225525,
+          "words": 7828,
+          "utterances": 484
+        },
+        "specific": {
+          "a_wer": 27.29001036985828,
+          "b_wer": 24.80124438299343,
+          "delta_pp": 2.4887659868648484,
+          "ci95": [
+            1.0383791755140535,
+            3.9571759145626046
+          ],
+          "negative_speakers": 27,
+          "positive_speakers": 49,
+          "ties": 5,
+          "sign_p": 0.015440262020906361,
+          "words": 5786,
+          "utterances": 725
+        }
+      }
+    },
+    {
+      "seed": 2,
+      "jobs": 6,
+      "variant": "f_smooth_5tap_g",
+      "mode": "test_silent",
+      "subsets": {
+        "all": {
+          "a_wer": 31.717349786983988,
+          "b_wer": 30.10136624063464,
+          "delta_pp": 1.615983546349348,
+          "ci95": [
+            0.7271433208479644,
+            2.543257700251799
+          ],
+          "negative_speakers": 29,
+          "positive_speakers": 47,
+          "ties": 5,
+          "sign_p": 0.05045241024721763,
+          "words": 13614,
+          "utterances": 1209
+        },
+        "repeated": {
+          "a_wer": 19.430250383239652,
+          "b_wer": 17.8717424629535,
+          "delta_pp": 1.5585079202861536,
+          "ci95": [
+            0.5226925038245789,
+            2.665561436044251
+          ],
+          "negative_speakers": 29,
+          "positive_speakers": 47,
+          "ties": 5,
+          "sign_p": 0.05045241024721763,
+          "words": 7828,
+          "utterances": 484
+        },
+        "specific": {
+          "a_wer": 48.34082267542344,
+          "b_wer": 46.64707915658486,
+          "delta_pp": 1.6937435188385805,
+          "ci95": [
+            0.05169739789763747,
+            3.328964930115941
+          ],
+          "negative_speakers": 31,
+          "positive_speakers": 46,
+          "ties": 4,
+          "sign_p": 0.11001559898513336,
+          "words": 5786,
+          "utterances": 725
+        }
+      }
+    },
+    {
+      "seed": 2,
+      "jobs": 6,
+      "variant": "f_clean_ours_g",
+      "mode": "test_modal",
+      "subsets": {
+        "all": {
+          "a_wer": 16.6079036286176,
+          "b_wer": 14.756867930071985,
+          "delta_pp": 1.8510356985456138,
+          "ci95": [
+            1.050925807396113,
+            2.673926387536947
+          ],
+          "negative_speakers": 24,
+          "positive_speakers": 53,
+          "ties": 4,
+          "sign_p": 0.0012632268710478357,
+          "words": 13614,
+          "utterances": 1209
+        },
+        "repeated": {
+          "a_wer": 8.86561062851303,
+          "b_wer": 7.332652018395503,
+          "delta_pp": 1.532958610117527,
+          "ci95": [
+            0.7904130545639987,
+            2.3329933707292194
+          ],
+          "negative_speakers": 21,
+          "positive_speakers": 46,
+          "ties": 14,
+          "sign_p": 0.003065317669608741,
+          "words": 7828,
+          "utterances": 484
+        },
+        "specific": {
+          "a_wer": 27.082613204286208,
+          "b_wer": 24.80124438299343,
+          "delta_pp": 2.2813688212927765,
+          "ci95": [
+            0.7625919930781017,
+            3.7808450851086017
+          ],
+          "negative_speakers": 31,
+          "positive_speakers": 44,
+          "ties": 6,
+          "sign_p": 0.1654279417242567,
+          "words": 5786,
+          "utterances": 725
+        }
+      }
+    },
+    {
+      "seed": 2,
+      "jobs": 6,
+      "variant": "f_clean_ours_g",
+      "mode": "test_silent",
+      "subsets": {
+        "all": {
+          "a_wer": 33.80343763772587,
+          "b_wer": 30.10136624063464,
+          "delta_pp": 3.702071397091231,
+          "ci95": [
+            2.5727639390344827,
+            4.874323440167551
+          ],
+          "negative_speakers": 16,
+          "positive_speakers": 62,
+          "ties": 3,
+          "sign_p": 1.5129781377543385e-07,
+          "words": 13614,
+          "utterances": 1209
+        },
+        "repeated": {
+          "a_wer": 21.320899335717936,
+          "b_wer": 17.8717424629535,
+          "delta_pp": 3.449156872764437,
+          "ci95": [
+            2.223620949895304,
+            4.744277000819053
+          ],
+          "negative_speakers": 20,
+          "positive_speakers": 54,
+          "ties": 7,
+          "sign_p": 9.612986582365393e-05,
+          "words": 7828,
+          "utterances": 484
+        },
+        "specific": {
+          "a_wer": 50.69132388524024,
+          "b_wer": 46.64707915658486,
+          "delta_pp": 4.044244728655379,
+          "ci95": [
+            2.1406898905752074,
+            5.9955645021787705
+          ],
+          "negative_speakers": 20,
+          "positive_speakers": 51,
+          "ties": 10,
+          "sign_p": 0.00030316341355849296,
+          "words": 5786,
+          "utterances": 725
+        }
+      }
+    },
+    {
+      "seed": 2,
+      "jobs": 6,
+      "variant": "f_norm_mad_g",
+      "mode": "test_modal",
+      "subsets": {
+        "all": {
+          "a_wer": 16.703393565447335,
+          "b_wer": 14.756867930071985,
+          "delta_pp": 1.94652563537535,
+          "ci95": [
+            1.0408802230989207,
+            2.935358160057326
+          ],
+          "negative_speakers": 22,
+          "positive_speakers": 52,
+          "ties": 7,
+          "sign_p": 0.0006428073490507031,
+          "words": 13614,
+          "utterances": 1209
+        },
+        "repeated": {
+          "a_wer": 7.537046499744507,
+          "b_wer": 7.332652018395503,
+          "delta_pp": 0.20439448134900395,
+          "ci95": [
+            -0.483669829810984,
+            0.9613104722855264
+          ],
+          "negative_speakers": 32,
+          "positive_speakers": 34,
+          "ties": 15,
+          "sign_p": 0.9021585000966993,
+          "words": 7828,
+          "utterances": 484
+        },
+        "specific": {
+          "a_wer": 29.104735568613897,
+          "b_wer": 24.80124438299343,
+          "delta_pp": 4.303491185620466,
+          "ci95": [
+            2.6809100118752363,
+            6.004610401272394
+          ],
+          "negative_speakers": 22,
+          "positive_speakers": 58,
+          "ties": 1,
+          "sign_p": 7.010573979919961e-05,
+          "words": 5786,
+          "utterances": 725
+        }
+      }
+    },
+    {
+      "seed": 2,
+      "jobs": 6,
+      "variant": "f_norm_mad_g",
+      "mode": "test_silent",
+      "subsets": {
+        "all": {
+          "a_wer": 32.606140737476125,
+          "b_wer": 30.10136624063464,
+          "delta_pp": 2.5047744968414847,
+          "ci95": [
+            1.2511296020618674,
+            3.69366239844796
+          ],
+          "negative_speakers": 19,
+          "positive_speakers": 59,
+          "ties": 3,
+          "sign_p": 6.41506390670917e-06,
+          "words": 13614,
+          "utterances": 1209
+        },
+        "repeated": {
+          "a_wer": 19.110884006131833,
+          "b_wer": 17.8717424629535,
+          "delta_pp": 1.2391415431783344,
+          "ci95": [
+            0.1792097496543031,
+            2.2648752399232253
+          ],
+          "negative_speakers": 28,
+          "positive_speakers": 45,
+          "ties": 8,
+          "sign_p": 0.060370037339928545,
+          "words": 7828,
+          "utterances": 484
+        },
+        "specific": {
+          "a_wer": 50.86415485655029,
+          "b_wer": 46.64707915658486,
+          "delta_pp": 4.217075699965434,
+          "ci95": [
+            2.0108764970728217,
+            6.362414352083353
+          ],
+          "negative_speakers": 25,
+          "positive_speakers": 51,
+          "ties": 5,
+          "sign_p": 0.0038362357516146246,
+          "words": 5786,
+          "utterances": 725
+        }
+      }
+    },
+    {
+      "seed": 3,
+      "jobs": 6,
+      "variant": "f_smooth_5tap_g",
+      "mode": "test_modal",
+      "subsets": {
+        "all": {
+          "a_wer": 16.490377552519465,
+          "b_wer": 14.499779638607317,
+          "delta_pp": 1.9905979139121488,
+          "ci95": [
+            1.2520893268642246,
+            2.7486654422232815
+          ],
+          "negative_speakers": 18,
+          "positive_speakers": 57,
+          "ties": 6,
+          "sign_p": 7.2441565137744585e-06,
+          "words": 13614,
+          "utterances": 1209
+        },
+        "repeated": {
+          "a_wer": 8.188553909044456,
+          "b_wer": 6.7577925396014304,
+          "delta_pp": 1.430761369443026,
+          "ci95": [
+            0.7636502481863316,
+            2.1035186129525747
+          ],
+          "negative_speakers": 17,
+          "positive_speakers": 43,
+          "ties": 21,
+          "sign_p": 0.0010657657791434353,
+          "words": 7828,
+          "utterances": 484
+        },
+        "specific": {
+          "a_wer": 27.722087798133426,
+          "b_wer": 24.97407535430349,
+          "delta_pp": 2.7480124438299356,
+          "ci95": [
+            1.3648575463166503,
+            4.211502363361221
+          ],
+          "negative_speakers": 22,
+          "positive_speakers": 53,
+          "ties": 6,
+          "sign_p": 0.0004496479716438124,
+          "words": 5786,
+          "utterances": 725
+        }
+      }
+    },
+    {
+      "seed": 3,
+      "jobs": 6,
+      "variant": "f_smooth_5tap_g",
+      "mode": "test_silent",
+      "subsets": {
+        "all": {
+          "a_wer": 33.1276627001616,
+          "b_wer": 28.45600117526076,
+          "delta_pp": 4.671661524900841,
+          "ci95": [
+            3.6791109252930583,
+            5.692111152804378
+          ],
+          "negative_speakers": 14,
+          "positive_speakers": 65,
+          "ties": 2,
+          "sign_p": 5.194941262584352e-09,
+          "words": 13614,
+          "utterances": 1209
+        },
+        "repeated": {
+          "a_wer": 21.078180889115995,
+          "b_wer": 16.69647419519673,
+          "delta_pp": 4.381706693919266,
+          "ci95": [
+            3.191356638216198,
+            5.594170459756698
+          ],
+          "negative_speakers": 12,
+          "positive_speakers": 64,
+          "ties": 5,
+          "sign_p": 1.0023457813247953e-09,
+          "words": 7828,
+          "utterances": 484
+        },
+        "specific": {
+          "a_wer": 49.42965779467681,
+          "b_wer": 44.365710335292086,
+          "delta_pp": 5.063947459384721,
+          "ci95": [
+            3.4135902578651187,
+            6.717888220433496
+          ],
+          "negative_speakers": 15,
+          "positive_speakers": 54,
+          "ties": 12,
+          "sign_p": 2.612848003590018e-06,
+          "words": 5786,
+          "utterances": 725
+        }
+      }
+    },
+    {
+      "seed": 3,
+      "jobs": 6,
+      "variant": "f_clean_ours_g",
+      "mode": "test_modal",
+      "subsets": {
+        "all": {
+          "a_wer": 16.578522109593067,
+          "b_wer": 14.499779638607317,
+          "delta_pp": 2.07874247098575,
+          "ci95": [
+            1.4271910171154207,
+            2.727237925598118
+          ],
+          "negative_speakers": 17,
+          "positive_speakers": 57,
+          "ties": 7,
+          "sign_p": 3.3971668169915196e-06,
+          "words": 13614,
+          "utterances": 1209
+        },
+        "repeated": {
+          "a_wer": 8.405723045477773,
+          "b_wer": 6.7577925396014304,
+          "delta_pp": 1.6479305058763423,
+          "ci95": [
+            1.0202682704264854,
+            2.3407798267789612
+          ],
+          "negative_speakers": 13,
+          "positive_speakers": 46,
+          "ties": 22,
+          "sign_p": 1.9167786796225883e-05,
+          "words": 7828,
+          "utterances": 484
+        },
+        "specific": {
+          "a_wer": 27.635672312478395,
+          "b_wer": 24.97407535430349,
+          "delta_pp": 2.661596958174904,
+          "ci95": [
+            1.3746242631325363,
+            3.9314651840176693
+          ],
+          "negative_speakers": 25,
+          "positive_speakers": 49,
+          "ties": 7,
+          "sign_p": 0.007084252673880493,
+          "words": 5786,
+          "utterances": 725
+        }
+      }
+    },
+    {
+      "seed": 3,
+      "jobs": 6,
+      "variant": "f_clean_ours_g",
+      "mode": "test_silent",
+      "subsets": {
+        "all": {
+          "a_wer": 32.87057440869693,
+          "b_wer": 28.45600117526076,
+          "delta_pp": 4.4145732334361725,
+          "ci95": [
+            3.392618411474081,
+            5.422830922960456
+          ],
+          "negative_speakers": 14,
+          "positive_speakers": 63,
+          "ties": 4,
+          "sign_p": 1.414072408794608e-08,
+          "words": 13614,
+          "utterances": 1209
+        },
+        "repeated": {
+          "a_wer": 21.10373019928462,
+          "b_wer": 16.69647419519673,
+          "delta_pp": 4.407256004087891,
+          "ci95": [
+            3.417788876172931,
+            5.416453755748593
+          ],
+          "negative_speakers": 10,
+          "positive_speakers": 65,
+          "ties": 6,
+          "sign_p": 5.154208808246549e-11,
+          "words": 7828,
+          "utterances": 484
+        },
+        "specific": {
+          "a_wer": 48.79018320082959,
+          "b_wer": 44.365710335292086,
+          "delta_pp": 4.424472865537503,
+          "ci95": [
+            2.6942757593081907,
+            6.121482366640401
+          ],
+          "negative_speakers": 24,
+          "positive_speakers": 53,
+          "ties": 4,
+          "sign_p": 0.0012632268710478357,
+          "words": 5786,
+          "utterances": 725
+        }
+      }
+    },
+    {
+      "seed": 3,
+      "jobs": 6,
+      "variant": "f_norm_mad_g",
+      "mode": "test_modal",
+      "subsets": {
+        "all": {
+          "a_wer": 16.189216982517998,
+          "b_wer": 14.499779638607317,
+          "delta_pp": 1.6894373439106811,
+          "ci95": [
+            0.7693815624691217,
+            2.6528723087675607
+          ],
+          "negative_speakers": 22,
+          "positive_speakers": 55,
+          "ties": 4,
+          "sign_p": 0.00021680385841747665,
+          "words": 13614,
+          "utterances": 1209
+        },
+        "repeated": {
+          "a_wer": 6.56617271333674,
+          "b_wer": 6.7577925396014304,
+          "delta_pp": -0.19161982626469065,
+          "ci95": [
+            -0.9561448240693521,
+            0.5760368663594466
+          ],
+          "negative_speakers": 32,
+          "positive_speakers": 28,
+          "ties": 21,
+          "sign_p": 0.6988834276200057,
+          "words": 7828,
+          "utterances": 484
+        },
+        "specific": {
+          "a_wer": 29.20843415139993,
+          "b_wer": 24.97407535430349,
+          "delta_pp": 4.234358797096441,
+          "ci95": [
+            2.5252372418635605,
+            5.946136152653517
+          ],
+          "negative_speakers": 17,
+          "positive_speakers": 57,
+          "ties": 7,
+          "sign_p": 3.3971668169915196e-06,
+          "words": 5786,
+          "utterances": 725
+        }
+      }
+    },
+    {
+      "seed": 3,
+      "jobs": 6,
+      "variant": "f_norm_mad_g",
+      "mode": "test_silent",
+      "subsets": {
+        "all": {
+          "a_wer": 31.952401939180255,
+          "b_wer": 28.45600117526076,
+          "delta_pp": 3.496400763919496,
+          "ci95": [
+            2.373831051835697,
+            4.591743352898105
+          ],
+          "negative_speakers": 17,
+          "positive_speakers": 59,
+          "ties": 5,
+          "sign_p": 1.3968718113140024e-06,
+          "words": 13614,
+          "utterances": 1209
+        },
+        "repeated": {
+          "a_wer": 18.191108840061318,
+          "b_wer": 16.69647419519673,
+          "delta_pp": 1.4946346448645897,
+          "ci95": [
+            0.42240949043742,
+            2.5635517804810593
+          ],
+          "negative_speakers": 27,
+          "positive_speakers": 47,
+          "ties": 7,
+          "sign_p": 0.026516832550684835,
+          "words": 7828,
+          "utterances": 484
+        },
+        "specific": {
+          "a_wer": 50.57034220532319,
+          "b_wer": 44.365710335292086,
+          "delta_pp": 6.204631870031108,
+          "ci95": [
+            4.0676700106735675,
+            8.31033081842188
+          ],
+          "negative_speakers": 21,
+          "positive_speakers": 59,
+          "ties": 1,
+          "sign_p": 2.52911025646706e-05,
+          "words": 5786,
+          "utterances": 725
+        }
+      }
+    }
+  ],
+  "validation": {
+    "independently_recomputed_utterance_errors": 99138,
+    "reference_consistency": "passed",
+    "stored_aggregate_reproduction": "passed"
+  }
+}
