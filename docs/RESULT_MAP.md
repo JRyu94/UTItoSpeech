@@ -44,8 +44,16 @@ The full JSON preserves additional statistics not flattened into CSV. Inspect it
 keys rather than interpreting a missing CSV column as a missing analysis.
 
 `python -m lavu records --output generated/records` expands exact split IDs,
-reference texts, lexicons, LM/configuration records and speaker groupings. Raw
+reference texts, model/decoder configuration records and speaker groupings. Raw
 trajectories, pronunciation source dictionaries, Kaldi binaries, model weights,
 lattices, and all prerequisite raw-data processing are not supplied. The recipes
 document those dependencies and provide configurable components, rather than
 claiming independently reproduced end-to-end training.
+
+Historical auxiliary tables (modality ablations, frame probes, Conformer
+configuration/report, rescoring, TaL1 inventory results, runtime, and selection
+sensitivity) are in `data/historical_auxiliary.json.gz`. They retain legacy S
+labels and pre-guard values, and are not recomputed by `reproduce`. See
+[historical record scope](HISTORICAL_AUXILIARY.md). The lexical-ambiguity count
+requires the external pronunciation resources and generated 32/40 lexicons;
+these resources are not silently treated as bundled prediction inputs.

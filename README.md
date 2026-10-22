@@ -57,7 +57,7 @@ These records describe the original runs; historical `archived-runs/` values are
 - The corpus LM contains evaluation sentences. The training-only LM retains the lexical vocabulary, changes smoothing, and supplies different first-pass fMLLR hypotheses.
 - The vocabulary comprises 9,900 lexical words. The lexicon has 9,902 entries including `!SIL` and `<UNK>`; each ARPA model has 9,902 unigrams including sentence boundaries. These counts describe different symbol sets.
 - Matched filtering uses 40 phones in both arms and paired seed/job settings 1/8, 2/6, 3/6. SAT alignment succeeds for 11,616 primary and 11,615 public-filter training utterances. This is a recipe comparison including feature-specific alignment support.
-- Historical exploratory diagnostics and unrelated experiments are outside this paper-scoped release.
+- Historical auxiliary diagnostics cited in the manuscript are retained as explicitly marked frozen records in `data/historical_auxiliary.json.gz`; they are outside the corrected statistical verification. Unrelated experiments are excluded.
 
 ## Citation and release
 
